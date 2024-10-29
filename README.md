@@ -24,17 +24,20 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## Deploy to Cloudfront
 
-To learn more about Next.js, take a look at the following resources:
+This has been bootstrapped using https://github.com/awslabs/cloudfront-hosting-toolkit
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+1. Install the toolkit
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+npm install -g @aws/cloudfront-hosting-toolkit
+```
 
-## Deploy on Vercel
+2. Modify the Config to your hosted zone. The `cloudfront-hosting-toolkit init` command does not have to be run again.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. Deploy the infrastructure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+```
+cloudfront-hosting-toolkit deploy
+```
