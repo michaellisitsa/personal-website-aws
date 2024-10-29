@@ -3,7 +3,7 @@ version: 0.2
 phases:
   build:
     commands:
-      - n install 18.17.0
+      - n install 18.18.0 # 18.18.0 React for nextjs v15
       - npx npm install
       - npx next build
       - cd out
