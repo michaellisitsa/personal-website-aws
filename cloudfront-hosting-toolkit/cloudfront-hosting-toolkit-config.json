@@ -1,0 +1,7 @@
+{
+  "repoUrl": "git@github.com:michaellisitsa/personal-website-aws.git",
+  "branchName": "master",
+  "framework": "nextjs",
+  "domainName": "lisitsa.dev",
+  "hostedZoneId": "Z01807632JYBXJ5AM5W44"
+}
