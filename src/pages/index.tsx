@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import localFont from "next/font/local";
 import styles from "@/styles/Home.module.css";
+import { useEffect } from "react";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -15,6 +16,14 @@ const geistMono = localFont({
 });
 
 export default function Home() {
+  useEffect(() => {
+    fetch("https://w9953wkvc9.execute-api.ap-southeast-2.amazonaws.com/prod/")
+      .then((res) => res.json())
+      .catch((error) => {
+        console.error("Error fetching data:", error);
+      });
+  }, []);
+
   return (
     <>
       <Head>
