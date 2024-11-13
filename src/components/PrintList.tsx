@@ -5,6 +5,7 @@ import styles from "./PrintList.module.css";
 
 type ExportConfirmation = {
   message: string;
+  messageId: string;
   jobId: string;
 };
 
@@ -14,7 +15,6 @@ const PrintList: React.FC = () => {
     { id: number; message: string; isPrinted: boolean }[]
   >([{ id: 1, message: "", isPrinted: false }]);
   const [wsResponses, setWsResponses] = useState<ExportConfirmation[]>([]);
-  console.log("messages", messages);
   const handleAddMessage = () => {
     setMessages((prevMessages) => [
       ...prevMessages,
@@ -34,7 +34,7 @@ const PrintList: React.FC = () => {
       socket.send(
         JSON.stringify({
           action: "generatePDF",
-          data: { value: messageToPrint.message },
+          data: { value: messageToPrint.message, messageId: id },
         })
       );
       setMessages((prevMessages) =>
