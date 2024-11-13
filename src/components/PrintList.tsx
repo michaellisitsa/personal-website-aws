@@ -1,14 +1,49 @@
 import { useSocket } from "@/utils/useSocket";
 import React, { useCallback, useEffect, useState } from "react";
+import MessageBox from "./MessageBox";
+import styles from "./PrintList.module.css";
 
 type ExportConfirmation = {
   message: string;
   jobId: string;
 };
 
-function PrintList() {
+const PrintList: React.FC = () => {
   const socket = useSocket();
+  const [messages, setMessages] = useState<
+    { id: number; message: string; isPrinted: boolean }[]
+  >([{ id: 1, message: "", isPrinted: false }]);
   const [wsResponses, setWsResponses] = useState<ExportConfirmation[]>([]);
+  console.log("messages", messages);
+  const handleAddMessage = () => {
+    setMessages((prevMessages) => [
+      ...prevMessages,
+      { id: prevMessages.length + 1, message: "", isPrinted: false },
+    ]);
+  };
+
+  const handleMessageChange = (id: number, message: string) => {
+    setMessages((prevMessages) =>
+      prevMessages.map((msg) => (msg.id === id ? { ...msg, message } : msg))
+    );
+  };
+
+  const handlePrint = (id: number) => {
+    const messageToPrint = messages.find((msg) => msg.id === id);
+    if (messageToPrint) {
+      socket.send(
+        JSON.stringify({
+          action: "generatePDF",
+          data: { value: messageToPrint.message },
+        })
+      );
+      setMessages((prevMessages) =>
+        prevMessages.map((msg) =>
+          msg.id === id ? { ...msg, isPrinted: true } : msg
+        )
+      );
+    }
+  };
 
   const onMessage = useCallback((message: any) => {
     const data = JSON.parse(message?.data);
@@ -25,33 +60,27 @@ function PrintList() {
   }, [socket, onMessage]);
 
   return (
-    <>
-      <header>
-        <h1> Print List</h1>
-      </header>
-      <div>
-        <button
-          onClick={() => {
-            socket.send(
-              JSON.stringify({
-                action: "generatePDF",
-                data: { value: "Hello from lisitsa.dev" },
-              })
-            );
-          }}
-        >
-          Send Print Message
-        </button>
-        <ul>
-          {wsResponses.map((exportConfirmation, idx) => (
-            <div key={idx}>
-              {exportConfirmation.jobId}: {exportConfirmation.message}
-            </div>
+    <div className={styles.page}>
+      <h1 className={styles.heading}>Motivation Message Generator</h1>
+      <div className={styles.container}>
+        <div className={styles.messageList}>
+          {messages.map((msg) => (
+            <MessageBox
+              key={msg.id}
+              id={msg.id}
+              message={msg.message}
+              onMessageChange={handleMessageChange}
+              onPrint={handlePrint}
+              isPrinted={msg.isPrinted}
+            />
           ))}
-        </ul>
+        </div>
+        <button onClick={handleAddMessage} className={styles.addButton}>
+          +
+        </button>
       </div>
-    </>
+    </div>
   );
-}
+};
 
 export default PrintList;
