@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./MessageBox.module.css";
 import Link from "next/link";
 
@@ -15,7 +15,7 @@ type MessageBoxProps = {
 
 const MessageBox: React.FC<MessageBoxProps> = ({
   id,
-  message,
+  message: initialMessage,
   onMessageChange,
   onPrint,
   isPrinted,
@@ -23,6 +23,23 @@ const MessageBox: React.FC<MessageBoxProps> = ({
   status,
   pdfUrl,
 }) => {
+  const [message, setMessage] = useState(initialMessage);
+
+  // CORS ISSUE
+  // const fetchMessage = async () => {
+  //   try {
+  //     const response = await fetch(
+  //       "https://1siea3opv8.execute-api.ap-southeast-2.amazonaws.com/prod/"
+  //     );
+  //     const data = await response.json();
+  //     console.log("data", data);
+  //     setMessage(data);
+  //     onMessageChange(id, data);
+  //   } catch (error) {
+  //     console.error("Error fetching message:", error);
+  //   }
+  // };
+
   return (
     <form
       className={styles.row}
@@ -34,13 +51,24 @@ const MessageBox: React.FC<MessageBoxProps> = ({
       <input
         type="text"
         value={message}
-        onChange={(e) => onMessageChange(id, e.target.value)}
+        onChange={(e) => {
+          setMessage(e.target.value);
+          onMessageChange(id, e.target.value);
+        }}
         disabled={isPrinted}
         className={styles.textBox}
       />
       <button type="submit" disabled={isPrinted} className={styles.button}>
         Print
       </button>
+      {/* <button
+        type="button"
+        onClick={fetchMessage}
+        disabled={isPrinted}
+        className={styles.button}
+      >
+        Fetch Message
+      </button> */}
       <div className={styles.status}>
         {status === "success" && pdfUrl && (
           <Link href={pdfUrl} passHref legacyBehavior>
