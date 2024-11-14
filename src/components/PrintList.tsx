@@ -3,18 +3,28 @@ import React, { useCallback, useEffect, useState } from "react";
 import MessageBox from "./MessageBox";
 import styles from "./PrintList.module.css";
 
-type ExportConfirmation = {
-  message: string;
-  messageId: string;
+type WsResponseData = {
   jobId: string;
+  messageId: number;
+  status: "errored" | "success" | "started";
+  error?: string;
+  pdfUrl?: string;
+};
+
+type Message = {
+  id: number;
+  message: string;
+  isPrinted: boolean;
+  status?: "errored" | "success" | "started";
+  error?: string;
+  pdfUrl?: string;
 };
 
 const PrintList: React.FC = () => {
   const socket = useSocket();
-  const [messages, setMessages] = useState<
-    { id: number; message: string; isPrinted: boolean }[]
-  >([{ id: 1, message: "", isPrinted: false }]);
-  const [wsResponses, setWsResponses] = useState<ExportConfirmation[]>([]);
+  const [messages, setMessages] = useState<Message[]>([
+    { id: 1, message: "", isPrinted: false },
+  ]);
   const handleAddMessage = () => {
     setMessages((prevMessages) => [
       ...prevMessages,
@@ -46,9 +56,20 @@ const PrintList: React.FC = () => {
   };
 
   const onMessage = useCallback((message: any) => {
-    const data = JSON.parse(message?.data);
+    const data: WsResponseData = JSON.parse(message?.data);
     // Use a callback so we are not affected by stale state
-    setWsResponses((prevResponses) => [...prevResponses, data]);
+    setMessages((prevMessages) =>
+      prevMessages.map((msg) =>
+        msg.id === data.messageId
+          ? {
+              ...msg,
+              status: data.status,
+              error: data.error,
+              pdfUrl: data.pdfUrl,
+            }
+          : msg
+      )
+    );
   }, []);
 
   useEffect(() => {
@@ -58,7 +79,7 @@ const PrintList: React.FC = () => {
       socket.removeEventListener("message", onMessage);
     };
   }, [socket, onMessage]);
-
+  console.log("messages ", messages);
   return (
     <div className={styles.page}>
       <h1 className={styles.heading}>Motivation Message Generator</h1>
@@ -69,6 +90,9 @@ const PrintList: React.FC = () => {
               key={msg.id}
               id={msg.id}
               message={msg.message}
+              status={msg.status}
+              error={msg.error}
+              pdfUrl={msg.pdfUrl}
               onMessageChange={handleMessageChange}
               onPrint={handlePrint}
               isPrinted={msg.isPrinted}

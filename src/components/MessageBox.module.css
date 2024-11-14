@@ -39,3 +39,18 @@
   border: none;
   font-style: italic;
 }
+
+.link {
+  color: blue;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.error {
+  color: red;
+  max-width: 100px;
+  word-wrap: break-word;
+}

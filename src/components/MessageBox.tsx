@@ -1,5 +1,6 @@
-import React, { useCallback, useEffect, useState } from "react";
+import React from "react";
 import styles from "./MessageBox.module.css";
+import Link from "next/link";
 
 type MessageBoxProps = {
   id: number;
@@ -7,6 +8,9 @@ type MessageBoxProps = {
   onMessageChange: (id: number, message: string) => void;
   onPrint: (id: number) => void;
   isPrinted: boolean;
+  error?: string;
+  status?: "errored" | "success" | "started";
+  pdfUrl?: string;
 };
 
 const MessageBox: React.FC<MessageBoxProps> = ({
@@ -15,6 +19,9 @@ const MessageBox: React.FC<MessageBoxProps> = ({
   onMessageChange,
   onPrint,
   isPrinted,
+  error,
+  status,
+  pdfUrl,
 }) => {
   return (
     <form
@@ -34,6 +41,21 @@ const MessageBox: React.FC<MessageBoxProps> = ({
       <button type="submit" disabled={isPrinted} className={styles.button}>
         Print
       </button>
+      <div className={styles.status}>
+        {status === "success" && pdfUrl && (
+          <Link href={pdfUrl} passHref legacyBehavior>
+            <a
+              className={styles.link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View PDF
+            </a>
+          </Link>
+        )}
+        {status === "started" && <span className={styles.spinner}>🔄</span>}
+        {status === "errored" && <p className={styles.error}>❗ {error}</p>}
+      </div>
     </form>
   );
 };
