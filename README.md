@@ -1,28 +1,8 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Michael Lisitsa's Personal Website
 
-## Getting Started
+Explore developer projects that Michael is interested in.
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- [x] See a serverless API for printing motivational posters
 
 ## Deploy to Cloudfront
 
@@ -45,5 +25,7 @@ cloudfront-hosting-toolkit deploy
 ### Changes from default hosting-toolkit
 
 - NextJS v15 requires Node >= 18.18.0. Modify in cloudfront-hosting-toolkit-build.yml
+
 - NextJS v15 doesn't support `export` command, updated next.config.ts with output: "export",
+
 - NextJS v15 exporting doesn't support image optimization and fails the build. Updated next.config.ts with `unoptimized: true`

@@ -25,20 +25,19 @@ const MessageBox: React.FC<MessageBoxProps> = ({
 }) => {
   const [message, setMessage] = useState(initialMessage);
 
-  // CORS ISSUE
-  // const fetchMessage = async () => {
-  //   try {
-  //     const response = await fetch(
-  //       "https://1siea3opv8.execute-api.ap-southeast-2.amazonaws.com/prod/"
-  //     );
-  //     const data = await response.json();
-  //     console.log("data", data);
-  //     setMessage(data);
-  //     onMessageChange(id, data);
-  //   } catch (error) {
-  //     console.error("Error fetching message:", error);
-  //   }
-  // };
+  const fetchMessage = async () => {
+    try {
+      const response = await fetch(
+        "https://1siea3opv8.execute-api.ap-southeast-2.amazonaws.com/prod/"
+      );
+      const data = await response.text();
+      console.log("data", data);
+      setMessage(data);
+      onMessageChange(id, data);
+    } catch (error) {
+      console.error("Error fetching message:", error);
+    }
+  };
 
   return (
     <form
@@ -61,14 +60,14 @@ const MessageBox: React.FC<MessageBoxProps> = ({
       <button type="submit" disabled={isPrinted} className={styles.button}>
         Print
       </button>
-      {/* <button
+      <button
         type="button"
         onClick={fetchMessage}
         disabled={isPrinted}
         className={styles.button}
       >
-        Fetch Message
-      </button> */}
+        Random...
+      </button>
       <div className={styles.status}>
         {status === "success" && pdfUrl && (
           <Link href={pdfUrl} passHref legacyBehavior>
