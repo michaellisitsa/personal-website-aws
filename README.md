@@ -1,8 +1,12 @@
 # Michael Lisitsa's Personal Website
 
+[**https://lisitsa.dev**](https://lisitsa.dev) 💻🌐👨‍💻
+
 Explore developer projects that Michael is interested in.
 
-- [x] See a serverless API for printing motivational posters
+- [x] Connect to a serverless API for generating motivational posters
+
+  [**michaellisitsa/serverless-print-job**](https://github.com/michaellisitsa/serverless-print-job)
 
 ## Deploy to Cloudfront
 
