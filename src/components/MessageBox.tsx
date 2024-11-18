@@ -28,7 +28,7 @@ const MessageBox: React.FC<MessageBoxProps> = ({
   const fetchMessage = async () => {
     try {
       const response = await fetch(
-        "https://1siea3opv8.execute-api.ap-southeast-2.amazonaws.com/prod/"
+        "https://s9cg48z2mi.execute-api.ap-southeast-2.amazonaws.com/prod/"
       );
       const data = await response.text();
       console.log("data", data);

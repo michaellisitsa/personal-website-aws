@@ -1,7 +1,7 @@
 import { useEffect, useState, createContext, ReactChild } from "react";
 
 const ws = new WebSocket(
-  "wss://e25xnjrssf.execute-api.ap-southeast-2.amazonaws.com/prod"
+  "wss://ickxrsk9i3.execute-api.ap-southeast-2.amazonaws.com/prod"
 );
 
 export const SocketContext = createContext(ws);
