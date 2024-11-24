@@ -1,3 +1,5 @@
+"use client";
+
 import { useSocket } from "@/utils/useSocket";
 import React, { useCallback, useEffect, useState } from "react";
 import MessageBox from "./MessageBox";
