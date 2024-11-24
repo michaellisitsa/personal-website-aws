@@ -15,7 +15,7 @@ const navigation: NavigationItem[] = [
 export default function Navigation() {
   return (
     <nav className={styles.navbar}>
-      <ul>
+      <ul className={styles.ul}>
         {navigation.map(({ href, name }) => (
           <li key={href}>
             <Link href={href}>

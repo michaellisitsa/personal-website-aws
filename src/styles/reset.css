@@ -1,0 +1,5 @@
+/* Remove bullets and indents */
+ul {
+  padding: 0;
+  list-style-type: none;
+}
