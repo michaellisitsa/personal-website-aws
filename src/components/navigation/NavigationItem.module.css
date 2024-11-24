@@ -1,0 +1,19 @@
+.list-item {
+  color: red;
+  height: 100%;
+  padding: 0 1em;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.link:visited {
+  color: white;
+}
+
+.active {
+  background: green;
+  border: 0;
+}

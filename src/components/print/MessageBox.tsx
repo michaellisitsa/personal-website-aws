@@ -49,9 +49,9 @@ const MessageBox: React.FC<MessageBoxProps> = ({
         onPrint(id);
       }}
     >
-      <input
-        type="text"
+      <textarea
         value={message}
+        placeholder="Enter Text Here"
         onChange={(e) => {
           setMessage(e.target.value);
           onMessageChange(id, e.target.value);
@@ -59,31 +59,33 @@ const MessageBox: React.FC<MessageBoxProps> = ({
         disabled={isPrinted}
         className={styles.textBox}
       />
-      <button type="submit" disabled={isPrinted} className={styles.button}>
-        Print
-      </button>
-      <button
-        type="button"
-        onClick={fetchMessage}
-        disabled={isPrinted}
-        className={styles.button}
-      >
-        Random...
-      </button>
-      <div className={styles.status}>
-        {status === "success" && pdfUrl && (
-          <Link href={pdfUrl} passHref legacyBehavior>
-            <a
-              className={styles.link}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              View PDF
-            </a>
-          </Link>
-        )}
-        {status === "started" && <span className={styles.spinner}>🔄</span>}
-        {status === "errored" && <p className={styles.error}>❗ {error}</p>}
+      <div className={styles["controls-container"]}>
+        <button type="submit" disabled={isPrinted} className={styles.button}>
+          Print
+        </button>
+        <button
+          type="button"
+          onClick={fetchMessage}
+          disabled={isPrinted}
+          className={styles.button}
+        >
+          Random...
+        </button>
+        <div className={styles.status}>
+          {status === "success" && pdfUrl && (
+            <Link href={pdfUrl} passHref legacyBehavior>
+              <a
+                className={styles.link}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View PDF
+              </a>
+            </Link>
+          )}
+          {status === "started" && <span className={styles.spinner}>🔄</span>}
+          {status === "errored" && <p className={styles.error}>❗ {error}</p>}
+        </div>
       </div>
     </form>
   );

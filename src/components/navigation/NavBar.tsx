@@ -1,6 +1,7 @@
 import styles from "./NavBar.module.css";
 
 import Link from "next/link";
+import NavigationItem from "./NavigationItem";
 
 type NavigationItem = {
   href: string;
@@ -9,7 +10,7 @@ type NavigationItem = {
 
 const navigation: NavigationItem[] = [
   { href: "/", name: "Home" },
-  { href: "/print", name: "Print" },
+  { href: "/projects", name: "Projects" },
 ];
 
 export default function Navigation() {
@@ -17,11 +18,7 @@ export default function Navigation() {
     <nav className={styles.navbar}>
       <ul className={styles.ul}>
         {navigation.map(({ href, name }) => (
-          <li key={href}>
-            <Link href={href}>
-              <span>{name}</span>
-            </Link>
-          </li>
+          <NavigationItem key={href} href={href} name={name} />
         ))}
       </ul>
     </nav>

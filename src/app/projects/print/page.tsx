@@ -5,7 +5,7 @@ import PrintList from "@/components/print/PrintList";
 import FullPage from "@/components/navigation/FullPage";
 import PrintPage from "@/components/print/PrintPage";
 
-export default function Home() {
+export default function Print() {
   return (
     <FullPage>
       <PrintPage>

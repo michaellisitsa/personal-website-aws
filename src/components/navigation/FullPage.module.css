@@ -1,3 +1,9 @@
 .main {
-  margin-top: 3em;
+  margin-top: 3rem;
+}
+
+@media only screen and (max-device-width: 768px) {
+  .main {
+    margin-top: 4rem;
+  }
 }

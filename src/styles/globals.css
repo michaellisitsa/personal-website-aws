@@ -4,5 +4,14 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
 }
