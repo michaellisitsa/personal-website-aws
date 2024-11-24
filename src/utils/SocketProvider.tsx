@@ -1,3 +1,5 @@
+"use client";
+
 import { useEffect, useState, createContext, ReactChild } from "react";
 
 const ws = new WebSocket(

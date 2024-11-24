@@ -81,31 +81,26 @@ const PrintList: React.FC = () => {
       socket.removeEventListener("message", onMessage);
     };
   }, [socket, onMessage]);
-  console.log("messages ", messages);
+
   return (
-    <div className={styles.page}>
-      <h1 className={styles.heading}>Motivation Message Generator</h1>
-      <div className={styles.container}>
-        <div className={styles.messageList}>
-          {messages.map((msg) => (
-            <MessageBox
-              key={msg.id}
-              id={msg.id}
-              message={msg.message}
-              status={msg.status}
-              error={msg.error}
-              pdfUrl={msg.pdfUrl}
-              onMessageChange={handleMessageChange}
-              onPrint={handlePrint}
-              isPrinted={msg.isPrinted}
-            />
-          ))}
-        </div>
-        <button onClick={handleAddMessage} className={styles.addButton}>
-          +
-        </button>
-      </div>
-    </div>
+    <>
+      {messages.map((msg) => (
+        <MessageBox
+          key={msg.id}
+          id={msg.id}
+          message={msg.message}
+          status={msg.status}
+          error={msg.error}
+          pdfUrl={msg.pdfUrl}
+          onMessageChange={handleMessageChange}
+          onPrint={handlePrint}
+          isPrinted={msg.isPrinted}
+        />
+      ))}
+      <button onClick={handleAddMessage} className={styles.addButton}>
+        +
+      </button>
+    </>
   );
 };
 

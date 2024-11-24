@@ -1,16 +1,18 @@
 "use client";
-import Head from "next/head";
+
 import { SocketProvider } from "@/utils/SocketProvider";
-import PrintList from "@/components/PrintList";
+import PrintList from "@/components/print/PrintList";
+import FullPage from "@/components/navigation/FullPage";
+import PrintPage from "@/components/print/PrintPage";
 
 export default function Home() {
   return (
-    <div>
-      <main>
+    <FullPage>
+      <PrintPage>
         <SocketProvider>
           <PrintList />
         </SocketProvider>
-      </main>
-    </div>
+      </PrintPage>
+    </FullPage>
   );
 }

@@ -1,9 +1,9 @@
-"use client";
+import FullPage from "@/components/navigation/FullPage";
 
 export default function Home() {
   return (
-    <div>
+    <FullPage>
       <h1>Home Page</h1>
-    </div>
+    </FullPage>
   );
 }
