@@ -1,9 +1,10 @@
 import FullPage from "@/components/navigation/FullPage";
+import HomePage from "@/components/home/Home";
 
-export default function Home() {
+export default function Root() {
   return (
     <FullPage>
-      <h1>Home Page</h1>
+      <HomePage />
     </FullPage>
   );
 }

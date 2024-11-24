@@ -12,6 +12,9 @@ export default function PrintPage({
   return (
     <div className={styles.page}>
       <header className={styles.header}>
+        <Link href="/projects">
+          <span>Back</span>
+        </Link>
         <h1 className={styles.h1}>Serverless Printing</h1>
         <Link
           href="https://github.com/michaellisitsa/serverless-print-job"

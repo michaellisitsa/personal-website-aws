@@ -51,6 +51,7 @@ const MessageBox: React.FC<MessageBoxProps> = ({
     >
       <textarea
         value={message}
+        rows={4}
         placeholder="Enter Text Here"
         onChange={(e) => {
           setMessage(e.target.value);

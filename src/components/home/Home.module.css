@@ -1,0 +1,9 @@
+.root {
+  padding: 1em;
+}
+
+.socials img {
+  height: 24px;
+  width: auto;
+  margin-right: 0.5em;
+}
