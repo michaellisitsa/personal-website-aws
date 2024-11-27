@@ -9,6 +9,7 @@
   background: black;
   color: white;
   height: 3em;
+  z-index: 2;
 }
 
 .ul {
