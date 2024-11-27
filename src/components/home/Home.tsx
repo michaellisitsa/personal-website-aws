@@ -1,9 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import githubIcon from "@/assets/github-mark.svg";
+// import githubIcon from "@/assets/github-mark.svg";
 import linkedinIcon from "@/assets/linkedin-mark.png";
 import styles from "./Home.module.css";
+import GitHubLink from "@/icons/GitHub";
 
 export default function Home() {
   return (
@@ -16,14 +17,7 @@ export default function Home() {
         </span>
       </p>
       <p className={styles.socials}>
-        Find me on{" "}
-        <Link
-          href="https://github.com/michaellisitsa/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image priority src={githubIcon} alt="Link to GitHub" />
-        </Link>
+        Find me on <GitHubLink url="https://github.com/michaellisitsa/" />
         <Link
           href="https://www.linkedin.com/in/michaellisitsa/"
           target="_blank"
