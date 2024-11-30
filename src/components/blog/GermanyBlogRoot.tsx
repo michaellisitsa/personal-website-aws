@@ -47,11 +47,10 @@ import styles from "./GermanyBlogRoot.module.css";
 // with some modifications to make it work with Next.js
 // Inline styles and links have been removed so it doesn't break or redirect you away.
 // Page CSS has not been transferred.
-
 export default function GermanyBlogRoot() {
   return (
     <div className="blog-posts hfeed">
-      <div className="date-outer">
+      <div id="20110724_germany_blog" className="date-outer">
         <h2 className="date-header">
           <span>Sunday, July 24, 2011</span>
         </h2>
@@ -401,7 +400,7 @@ export default function GermanyBlogRoot() {
         </div>
       </div>
 
-      <div className="date-outer">
+      <div id="20110702_germany_blog" className="date-outer">
         <h2 className="date-header">
           <span>Saturday, July 2, 2011</span>
         </h2>
@@ -667,7 +666,7 @@ export default function GermanyBlogRoot() {
         </div>
       </div>
 
-      <div className="date-outer">
+      <div id="20110606_germany_blog" className="date-outer">
         <h2 className="date-header">
           <span>Monday, June 6, 2011</span>
         </h2>
@@ -963,7 +962,7 @@ export default function GermanyBlogRoot() {
         </div>
       </div>
 
-      <div className="date-outer">
+      <div id="20110515_germany_blog" className="date-outer">
         <h2 className="date-header">
           <span>Sunday, May 15, 2011</span>
         </h2>
@@ -1245,7 +1244,7 @@ export default function GermanyBlogRoot() {
         </div>
       </div>
 
-      <div className="date-outer">
+      <div id="20110417_germany_blog" className="date-outer">
         <h2 className="date-header">
           <span>Sunday, April 17, 2011</span>
         </h2>
@@ -1533,7 +1532,7 @@ export default function GermanyBlogRoot() {
         </div>
       </div>
 
-      <div className="date-outer">
+      <div id="20110320_germany_blog" className="date-outer">
         <h2 className="date-header">
           <span>Sunday, March 20, 2011</span>
         </h2>
@@ -1765,7 +1764,7 @@ export default function GermanyBlogRoot() {
         </div>
       </div>
 
-      <div className="date-outer">
+      <div id="20110308_germany_blog" className="date-outer">
         <h2 className="date-header">
           <span>Tuesday, March 8, 2011</span>
         </h2>
