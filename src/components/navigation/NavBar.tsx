@@ -11,6 +11,7 @@ type NavigationItem = {
 const navigation: NavigationItem[] = [
   { href: "/", name: "Home" },
   { href: "/projects", name: "Projects" },
+  { href: "/blog", name: "Blog" },
 ];
 
 export default function Navigation() {
