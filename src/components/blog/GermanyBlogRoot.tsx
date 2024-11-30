@@ -1,5 +1,4 @@
 import Link from "next/link";
-import styles from "./GermanyBlogRoot.module.css";
 import Image from "next/image";
 import DSCF4991 from "@/assets/germany/DSCF4991.jpg";
 import DSCF4993 from "@/assets/germany/DSCF4993.jpg";
@@ -42,6 +41,11 @@ import DSC04426 from "@/assets/germany/DSC04426.jpg";
 import Fahrt_Suedbayern_130 from "@/assets/germany/Fahrt_Suedbayern_130.jpg";
 import DSC04332 from "@/assets/germany/DSC04332.jpg";
 import DSCF4951 from "@/assets/germany/DSCF4951.jpg";
+
+// Markup imported from https://web.archive.org/web/20150912090005/http://michael-goes-to-germany.blogspot.com/
+// with some modifications to make it work with Next.js
+// Inline styles and links have been removed so it doesn't break or redirect you away.
+// Page CSS has not been transferred.
 
 export default function GermanyBlogRoot() {
   return (
