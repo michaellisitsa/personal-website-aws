@@ -1,5 +1,46 @@
 import Link from "next/link";
 import styles from "./GermanyBlogRoot.module.css";
+import Image from "next/image";
+import DSCF4991 from "@/assets/germany/DSCF4991.jpg";
+import DSCF4993 from "@/assets/germany/DSCF4993.jpg";
+import DSCF5001 from "@/assets/germany/DSCF5001.jpg";
+import DSCF5017 from "@/assets/germany/DSCF5017.jpg";
+import DSCF5047 from "@/assets/germany/DSCF5047.jpg";
+import DSCF4957 from "@/assets/germany/DSCF4957.jpg";
+import DSCF4958 from "@/assets/germany/DSCF4958.jpg";
+import Ian_Thorpe from "@/assets/germany/Ian_Thorpe.jpg";
+import latte_macchiato from "@/assets/germany/latte-macchiato.jpg";
+import CIMG7393 from "@/assets/germany/CIMG7393.jpg";
+import CIMG7377 from "@/assets/germany/CIMG7377.jpg";
+import greenpeace from "@/assets/germany/greenpeace.jpg";
+import DSCF4953 from "@/assets/germany/DSCF4953.jpg";
+import DSCF4862 from "@/assets/germany/DSCF4862.jpg";
+import DSCF4880 from "@/assets/germany/DSCF4880.jpg";
+import DSCF4869 from "@/assets/germany/DSCF4869.jpg";
+import DSCF4940 from "@/assets/germany/DSCF4940.jpg";
+import DSCF4950 from "@/assets/germany/DSCF4950.jpg";
+import gps_etrex from "@/assets/germany/gps_etrex.jpg";
+import Sunday_Picnic from "@/assets/germany/Sunday_Picnic.jpg";
+import DSCF4815 from "@/assets/germany/DSCF4815.jpg";
+import DSCF4824 from "@/assets/germany/DSCF4824.jpg";
+import DSCF4823 from "@/assets/germany/DSCF4823.jpg";
+import DSCF4827 from "@/assets/germany/DSCF4827.jpg";
+import DSCF4829 from "@/assets/germany/DSCF4829.jpg";
+import DSCF4830 from "@/assets/germany/DSCF4830.jpg";
+import DSCF4770 from "@/assets/germany/DSCF4770.jpg";
+import DSCF4780 from "@/assets/germany/DSCF4780.jpg";
+import Zwinger_Bar from "@/assets/germany/Zwinger_Bar.jpg";
+import Ich_und_Dries_Olympisches_Stadion from "@/assets/germany/Ich_und_Dries_Olympisches_Stadion.jpg";
+import Radweg_Pegnitz from "@/assets/germany/Radweg_Pegnitz.jpg";
+import Bridge_sheep_Pegnitz_River from "@/assets/germany/Bridge_sheep_Pegnitz_River.jpg";
+import DSCF4761 from "@/assets/germany/DSCF4761.jpg";
+import DSCF4758 from "@/assets/germany/DSCF4758.jpg";
+import Tiergarten from "@/assets/germany/Tiergarten.jpg";
+import DSCF4762 from "@/assets/germany/DSCF4762.jpg";
+import DSCF5052 from "@/assets/germany/DSCF5052.jpg";
+import DSC04426 from "@/assets/germany/DSC04426.jpg";
+import Fahrt_Suedbayern_130 from "@/assets/germany/Fahrt_Suedbayern_130.jpg";
+import DSC04332 from "@/assets/germany/DSC04332.jpg";
 
 export default function GermanyBlogRoot() {
   return (
@@ -55,36 +96,21 @@ export default function GermanyBlogRoot() {
                     imageanchor="1"
                     style={{}}
                   >
-                    <img
-                      border="0"
-                      height="240"
-                      src="DSCF4991.JPG"
-                      width="320"
-                    />
+                    <Image src={DSCF4991} height="240" width="320" />
                   </a>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://2.bp.blogspot.com/-q0tCOywLFdE/TivtLIYS1DI/AAAAAAAAD1U/o_1N72Lu_o4/s1600/DSCF4993.JPG"
                     imageanchor="1"
                     style={{}}
                   >
-                    <img
-                      border="0"
-                      height="320"
-                      src="DSCF4993.JPG"
-                      width="240"
-                    />
+                    <Image border="0" height="320" src={DSCF4993} width="240" />
                   </a>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://2.bp.blogspot.com/-VZg3p3RG_Yw/TivtMe6oZoI/AAAAAAAAD1Y/tNJLZ9damhg/s1600/DSCF5001.JPG"
                     imageanchor="1"
                     style={{}}
                   >
-                    <img
-                      border="0"
-                      height="240"
-                      src="DSCF5001.JPG"
-                      width="320"
-                    />
+                    <Image border="0" height="240" src={DSCF5001} width="320" />
                   </a>
                 </div>
                 <br />
@@ -109,12 +135,7 @@ export default function GermanyBlogRoot() {
                     imageanchor="1"
                     style={{}}
                   >
-                    <img
-                      border="0"
-                      height="240"
-                      src="DSCF5017.JPG"
-                      width="320"
-                    />
+                    <Image border="0" height="240" src={DSCF5017} width="320" />
                   </a>
                 </div>
                 <br />
@@ -130,7 +151,7 @@ export default function GermanyBlogRoot() {
                   imageanchor="1"
                   style={{}}
                 >
-                  <img border="0" height="240" src="DSCF5047.JPG" width="320" />
+                  <Image border="0" height="240" src={DSCF5047} width="320" />
                 </a>
                 <a
                   href="https://web.archive.org/web/20150912090005/http://1.bp.blogspot.com/-SfVvJZAcAF0/TivwPRHA5wI/AAAAAAAAD1g/jRTtDwOO3PY/s1600/DSCF5031.JPG"
@@ -163,12 +184,7 @@ export default function GermanyBlogRoot() {
                     imageanchor="1"
                     style={{}}
                   >
-                    <img
-                      border="0"
-                      height="480"
-                      src="DSCF5052.JPG"
-                      width="640"
-                    />
+                    <Image border="0" height="480" src={DSCF5052} width="640" />
                   </a>
                 </div>
                 <br />
@@ -366,7 +382,7 @@ export default function GermanyBlogRoot() {
                         href="https://web.archive.org/web/20150912090005/https://www.blogger.com/post-edit.g?blogID=5080106610184894814&amp;postID=7217063188421251176&amp;from=pencil"
                         title="Edit Post"
                       >
-                        <img
+                        <Image
                           alt=""
                           className="icon-action"
                           height="18"
@@ -514,7 +530,7 @@ export default function GermanyBlogRoot() {
                   imageanchor="1"
                   style={{}}
                 >
-                  <img border="0" height="131" src="DSC04426.JPG" width="200" />
+                  <Image border="0" height="131" src={DSC04426} width="200" />
                 </a>
                 Well first the group of exchange students went to visit some
                 castles in southern bavaria. The most famous, and supposedly an
@@ -534,10 +550,10 @@ export default function GermanyBlogRoot() {
                     imageanchor="1"
                     style={{}}
                   >
-                    <img
+                    <Image
                       border="0"
                       height="240"
-                      src="2011_06_18-19+Fahrt+S%25C3%25BCdbayern_130.JPG"
+                      src={Fahrt_Suedbayern_130}
                       width="320"
                     />
                   </a>
@@ -549,7 +565,7 @@ export default function GermanyBlogRoot() {
                   imageanchor="1"
                   style={{}}
                 >
-                  <img border="0" height="132" src="DSC04332.JPG" width="200" />
+                  <Image border="0" height="132" src={DSC04332} width="200" />
                 </a>
                 That weekend we also went to a typical bavarian restaurants,
                 they love their beer so much they even made a beer liquor served
@@ -579,12 +595,7 @@ export default function GermanyBlogRoot() {
                     imageanchor="1"
                     style={{}}
                   >
-                    <img
-                      border="0"
-                      height="240"
-                      src="DSCF4957.JPG"
-                      width="320"
-                    />
+                    <Image border="0" height="240" src={DSCF4957} width="320" />
                   </a>
                 </div>
                 <br />
@@ -599,12 +610,7 @@ export default function GermanyBlogRoot() {
                     imageanchor="1"
                     style={{}}
                   >
-                    <img
-                      border="0"
-                      height="240"
-                      src="DSCF4958.JPG"
-                      width="320"
-                    />
+                    <Image border="0" height="240" src={DSCF4958} width="320" />
                   </a>
                 </div>
                 <br />
@@ -629,10 +635,10 @@ export default function GermanyBlogRoot() {
                     imageanchor="1"
                     style={{}}
                   >
-                    <img
+                    <Image
                       border="0"
                       height="320"
-                      src="Ian_Thorpe.jpg"
+                      src={Ian_Thorpe}
                       width="220"
                     />
                   </a>
@@ -733,7 +739,7 @@ export default function GermanyBlogRoot() {
                         href="https://web.archive.org/web/20150912090005/https://www.blogger.com/post-edit.g?blogID=5080106610184894814&amp;postID=3222043699094469806&amp;from=pencil"
                         title="Edit Post"
                       >
-                        <img
+                        <Image
                           alt=""
                           className="icon-action"
                           height="18"
@@ -892,10 +898,10 @@ export default function GermanyBlogRoot() {
                           imageanchor="1"
                           style={{}}
                         >
-                          <img
+                          <Image
                             border="0"
                             height="200"
-                            src="latte-macchiato.jpg"
+                            src={latte_macchiato}
                             width="181"
                           />
                         </a>
@@ -913,7 +919,12 @@ export default function GermanyBlogRoot() {
                   imageanchor="1"
                   style={{}}
                 >
-                  <img border="0" height="240" src="DSCF4951.JPG" width="320" />
+                  <Image
+                    border="0"
+                    height="240"
+                    src="DSCF4951.JPG"
+                    width="320"
+                  />
                 </a>
                 <br />
                 <br />
@@ -937,24 +948,14 @@ export default function GermanyBlogRoot() {
                     imageanchor="1"
                     style={{}}
                   >
-                    <img
-                      border="0"
-                      height="320"
-                      src="CIMG7393.JPG"
-                      width="240"
-                    />
+                    <Image border="0" height="320" src={CIMG7393} width="240" />
                   </a>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://2.bp.blogspot.com/-JhKh9-Vjeyw/Te0ujF50JtI/AAAAAAAADrg/d6m0-pONwhM/s1600/CIMG7377.JPG"
                     imageanchor="1"
                     style={{}}
                   >
-                    <img
-                      border="0"
-                      height="240"
-                      src="CIMG7377.JPG"
-                      width="320"
-                    />
+                    <Image border="0" height="240" src={CIMG7377} width="320" />
                   </a>
                 </div>
                 <br />
@@ -994,10 +995,10 @@ export default function GermanyBlogRoot() {
                           imageanchor="1"
                           style={{}}
                         >
-                          <img
+                          <Image
                             border="0"
                             height="213"
-                            src="greenpeace.jpg"
+                            src={greenpeace}
                             width="320"
                           />
                         </a>
@@ -1035,12 +1036,7 @@ export default function GermanyBlogRoot() {
                     imageanchor="1"
                     style={{}}
                   >
-                    <img
-                      border="0"
-                      height="240"
-                      src="DSCF4953.JPG"
-                      width="320"
-                    />
+                    <Image border="0" height="240" src={DSCF4953} width="320" />
                   </a>
                 </div>
                 <br />
@@ -1130,7 +1126,7 @@ export default function GermanyBlogRoot() {
                         href="https://web.archive.org/web/20150912090005/https://www.blogger.com/post-edit.g?blogID=5080106610184894814&amp;postID=8421426090360901819&amp;from=pencil"
                         title="Edit Post"
                       >
-                        <img
+                        <Image
                           alt=""
                           className="icon-action"
                           height="18"
@@ -1289,36 +1285,21 @@ export default function GermanyBlogRoot() {
                     imageanchor="1"
                     style={{}}
                   >
-                    <img
-                      border="0"
-                      height="320"
-                      src="DSCF4862.JPG"
-                      width="158"
-                    />
+                    <Image border="0" height="320" src={DSCF4862} width="158" />
                   </a>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://4.bp.blogspot.com/-zmlyLNzdMfA/TdAjQBUOj1I/AAAAAAAADmY/-VLyAK07r_c/s1600/DSCF4880.JPG"
                     imageanchor="1"
                     style={{}}
                   >
-                    <img
-                      border="0"
-                      height="320"
-                      src="DSCF4880.JPG"
-                      width="133"
-                    />
+                    <Image border="0" height="320" src={DSCF4880} width="133" />
                   </a>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://2.bp.blogspot.com/-5A4EMUVoAKc/TdAjJXWyMZI/AAAAAAAADmU/4vJU-uGAeI4/s1600/DSCF4869.JPG"
                     imageanchor="1"
                     style={{}}
                   >
-                    <img
-                      border="0"
-                      height="320"
-                      src="DSCF4869.JPG"
-                      width="222"
-                    />
+                    <Image border="0" height="320" src={DSCF4869} width="222" />
                   </a>
                 </div>
                 <br />
@@ -1356,12 +1337,7 @@ export default function GermanyBlogRoot() {
                     imageanchor="1"
                     style={{}}
                   >
-                    <img
-                      border="0"
-                      height="240"
-                      src="DSCF4940.JPG"
-                      width="320"
-                    />
+                    <Image border="0" height="240" src={DSCF4940} width="320" />
                     &nbsp;
                   </a>
                 </div>
@@ -1392,12 +1368,7 @@ export default function GermanyBlogRoot() {
                     imageanchor="1"
                     style={{}}
                   >
-                    <img
-                      border="0"
-                      height="300"
-                      src="DSCF4950.JPG"
-                      width="400"
-                    />
+                    <Image border="0" height="300" src={DSCF4950} width="400" />
                   </a>
                 </div>
                 <blockquote>
@@ -1416,10 +1387,10 @@ export default function GermanyBlogRoot() {
                             imageanchor="1"
                             style={{}}
                           >
-                            <img
+                            <Image
                               border="0"
                               height="200"
-                              src="309395039_87f9f9212a.jpg"
+                              src={gps_etrex}
                               width="150"
                             />
                           </a>
@@ -1525,7 +1496,7 @@ export default function GermanyBlogRoot() {
                         href="https://web.archive.org/web/20150912090005/https://www.blogger.com/post-edit.g?blogID=5080106610184894814&amp;postID=2204064564192524757&amp;from=pencil"
                         title="Edit Post"
                       >
-                        <img
+                        <Image
                           alt=""
                           className="icon-action"
                           height="18"
@@ -1674,10 +1645,10 @@ export default function GermanyBlogRoot() {
                     imageanchor="1"
                     style={{}}
                   >
-                    <img
+                    <Image
                       border="0"
                       height="240"
-                      src="Sunday+Picnic.JPG"
+                      src={Sunday_Picnic}
                       width="320"
                     />
                   </a>
@@ -1707,12 +1678,7 @@ export default function GermanyBlogRoot() {
                     imageanchor="1"
                     style={{}}
                   >
-                    <img
-                      border="0"
-                      height="240"
-                      src="DSCF4815.JPG"
-                      width="320"
-                    />
+                    <Image border="0" height="240" src={DSCF4815} width="320" />
                   </a>
                 </div>
                 <br />
@@ -1737,12 +1703,7 @@ export default function GermanyBlogRoot() {
                     imageanchor="1"
                     style={{}}
                   >
-                    <img
-                      border="0"
-                      height="240"
-                      src="DSCF4824.JPG"
-                      width="320"
-                    />
+                    <Image border="0" height="240" src={DSCF4824} width="320" />
                   </a>
                 </div>
                 <br />
@@ -1759,12 +1720,7 @@ export default function GermanyBlogRoot() {
                     imageanchor="1"
                     style={{}}
                   >
-                    <img
-                      border="0"
-                      height="240"
-                      src="DSCF4823.JPG"
-                      width="320"
-                    />
+                    <Image border="0" height="240" src={DSCF4823} width="320" />
                   </a>
                 </div>
                 <br />
@@ -1780,12 +1736,7 @@ export default function GermanyBlogRoot() {
                     imageanchor="1"
                     style={{}}
                   >
-                    <img
-                      border="0"
-                      height="320"
-                      src="DSCF4827.JPG"
-                      width="240"
-                    />
+                    <Image border="0" height="320" src={DSCF4827} width="240" />
                   </a>
                 </div>
                 but all was well, he only liked his boys young (don't they
@@ -1797,12 +1748,7 @@ export default function GermanyBlogRoot() {
                     imageanchor="1"
                     style={{}}
                   >
-                    <img
-                      border="0"
-                      height="240"
-                      src="DSCF4829.JPG"
-                      width="320"
-                    />
+                    <Image border="0" height="240" src={DSCF4829} width="320" />
                   </a>
                 </div>
                 <br />
@@ -1825,12 +1771,7 @@ export default function GermanyBlogRoot() {
                     imageanchor="1"
                     style={{}}
                   >
-                    <img
-                      border="0"
-                      height="240"
-                      src="DSCF4830.JPG"
-                      width="320"
-                    />
+                    <Image border="0" height="240" src={DSCF4830} width="320" />
                   </a>
                 </div>
                 <br />
@@ -1933,7 +1874,7 @@ export default function GermanyBlogRoot() {
                         href="https://web.archive.org/web/20150912090005/https://www.blogger.com/post-edit.g?blogID=5080106610184894814&amp;postID=1132070132490502322&amp;from=pencil"
                         title="Edit Post"
                       >
-                        <img
+                        <Image
                           alt=""
                           className="icon-action"
                           height="18"
@@ -2083,12 +2024,7 @@ export default function GermanyBlogRoot() {
                     imageanchor="1"
                     style={{}}
                   >
-                    <img
-                      border="0"
-                      height="240"
-                      src="DSCF4770.JPG"
-                      width="320"
-                    />
+                    <Image border="0" height="240" src={DSCF4770} width="320" />
                   </a>
                 </div>
                 or go to a bar...
@@ -2099,12 +2035,7 @@ export default function GermanyBlogRoot() {
                     imageanchor="1"
                     style={{}}
                   >
-                    <img
-                      border="0"
-                      height="240"
-                      src="DSCF4780.JPG"
-                      width="320"
-                    />
+                    <Image border="0" height="240" src={DSCF4780} width="320" />
                   </a>
                 </div>
                 <div className="separator" style={{}}>
@@ -2113,10 +2044,10 @@ export default function GermanyBlogRoot() {
                     imageanchor="1"
                     style={{}}
                   >
-                    <img
+                    <Image
                       border="0"
                       height="240"
-                      src="Zwinger+Bar.JPG"
+                      src={Zwinger_Bar}
                       width="320"
                     />
                   </a>
@@ -2145,10 +2076,10 @@ export default function GermanyBlogRoot() {
                     imageanchor="1"
                     style={{}}
                   >
-                    <img
+                    <Image
                       border="0"
                       height="240"
-                      src="Ich+und+Dries+Olympisches+Stadion.jpg"
+                      src={Ich_und_Dries_Olympisches_Stadion}
                       width="320"
                     />
                   </a>
@@ -2179,10 +2110,10 @@ export default function GermanyBlogRoot() {
                     imageanchor="1"
                     style={{}}
                   >
-                    <img
+                    <Image
                       border="0"
                       height="240"
-                      src="Radweg+Pegnitz.JPG"
+                      src={Radweg_Pegnitz}
                       width="320"
                     />
                   </a>
@@ -2194,10 +2125,10 @@ export default function GermanyBlogRoot() {
                     imageanchor="1"
                     style={{}}
                   >
-                    <img
+                    <Image
                       border="0"
                       height="240"
-                      src="Bridge+sheep+Pegnitz+River.JPG"
+                      src={Bridge_sheep_Pegnitz_River}
                       width="320"
                     />
                   </a>
@@ -2268,7 +2199,7 @@ export default function GermanyBlogRoot() {
                         href="https://web.archive.org/web/20150912090005/https://www.blogger.com/post-edit.g?blogID=5080106610184894814&amp;postID=6988702251404724673&amp;from=pencil"
                         title="Edit Post"
                       >
-                        <img
+                        <Image
                           alt=""
                           className="icon-action"
                           height="18"
@@ -2421,12 +2352,7 @@ export default function GermanyBlogRoot() {
                     imageanchor="1"
                     style={{}}
                   >
-                    <img
-                      border="0"
-                      height="400"
-                      src="DSCF4761.JPG"
-                      width="298"
-                    />
+                    <Image border="0" height="400" src={DSCF4761} width="298" />
                   </a>
                 </div>
                 <br />
@@ -2454,12 +2380,7 @@ export default function GermanyBlogRoot() {
                     imageanchor="1"
                     style={{}}
                   >
-                    <img
-                      border="0"
-                      height="300"
-                      src="DSCF4758.JPG"
-                      width="400"
-                    />
+                    <Image border="0" height="300" src={DSCF4758} width="400" />
                   </a>
                 </div>
                 <br />
@@ -2486,10 +2407,10 @@ export default function GermanyBlogRoot() {
                     imageanchor="1"
                     style={{}}
                   >
-                    <img
+                    <Image
                       border="0"
                       height="240"
-                      src="Tiergarten.JPG"
+                      src={Tiergarten}
                       width="320"
                     />
                   </a>
@@ -2515,12 +2436,7 @@ export default function GermanyBlogRoot() {
                     imageanchor="1"
                     style={{}}
                   >
-                    <img
-                      border="0"
-                      height="300"
-                      src="DSCF4762.JPG"
-                      width="400"
-                    />
+                    <Image border="0" height="300" src={DSCF4762} width="400" />
                   </a>
                 </div>
                 Auf Wiedersehen!
@@ -2589,7 +2505,7 @@ export default function GermanyBlogRoot() {
                         href="https://web.archive.org/web/20150912090005/https://www.blogger.com/post-edit.g?blogID=5080106610184894814&amp;postID=1295821072245321432&amp;from=pencil"
                         title="Edit Post"
                       >
-                        <img
+                        <Image
                           alt=""
                           className="icon-action"
                           height="18"
