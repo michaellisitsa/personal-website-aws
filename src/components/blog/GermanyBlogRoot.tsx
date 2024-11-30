@@ -49,14 +49,11 @@ export default function GermanyBlogRoot() {
                 squeeze every last penny from the unwitting tourists and home of
                 Franz Kafka.
                 <br />
-                <div
-                  className="separator"
-                  style="clear: both; text-align: center"
-                >
+                <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://4.bp.blogspot.com/-s-bqS-1FZ60/Tivs6fd6zHI/AAAAAAAAD1M/3Sj7U9_eN1E/s1600/DSCF4991.JPG"
                     imageanchor="1"
-                    style="margin-left: 1em; margin-right: 1em"
+                    style={{}}
                   >
                     <img
                       border="0"
@@ -68,7 +65,7 @@ export default function GermanyBlogRoot() {
                   <a
                     href="https://web.archive.org/web/20150912090005/http://2.bp.blogspot.com/-q0tCOywLFdE/TivtLIYS1DI/AAAAAAAAD1U/o_1N72Lu_o4/s1600/DSCF4993.JPG"
                     imageanchor="1"
-                    style="margin-left: 1em; margin-right: 1em"
+                    style={{}}
                   >
                     <img
                       border="0"
@@ -80,7 +77,7 @@ export default function GermanyBlogRoot() {
                   <a
                     href="https://web.archive.org/web/20150912090005/http://2.bp.blogspot.com/-VZg3p3RG_Yw/TivtMe6oZoI/AAAAAAAAD1Y/tNJLZ9damhg/s1600/DSCF5001.JPG"
                     imageanchor="1"
-                    style="margin-left: 1em; margin-right: 1em"
+                    style={{}}
                   >
                     <img
                       border="0"
@@ -106,14 +103,11 @@ export default function GermanyBlogRoot() {
                 way:
                 <br />
                 <br />
-                <div
-                  className="separator"
-                  style="clear: both; text-align: center"
-                >
+                <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://2.bp.blogspot.com/-TwK-okci_n8/TivvWc83A-I/AAAAAAAAD1c/Uj-SBzAjWDE/s1600/DSCF5017.JPG"
                     imageanchor="1"
-                    style="margin-left: 1em; margin-right: 1em"
+                    style={{}}
                   >
                     <img
                       border="0"
@@ -134,12 +128,7 @@ export default function GermanyBlogRoot() {
                 <a
                   href="https://web.archive.org/web/20150912090005/http://2.bp.blogspot.com/-oJY6BuXnjmk/TivxUJigC3I/AAAAAAAAD1k/KZTha3cOfXI/s1600/DSCF5047.JPG"
                   imageanchor="1"
-                  style="
-                clear: left;
-                float: left;
-                margin-bottom: 1em;
-                margin-right: 1em;
-              "
+                  style={{}}
                 >
                   <img
                     border="0"
@@ -151,12 +140,7 @@ export default function GermanyBlogRoot() {
                 <a
                   href="https://web.archive.org/web/20150912090005/http://1.bp.blogspot.com/-SfVvJZAcAF0/TivwPRHA5wI/AAAAAAAAD1g/jRTtDwOO3PY/s1600/DSCF5031.JPG"
                   imageanchor="1"
-                  style="
-                clear: right;
-                float: right;
-                margin-bottom: 1em;
-                margin-left: 1em;
-              "
+                  style={{}}
                 ></a>
                 That night it rained cats, dogs and I'm pretty sure a few cows.
                 I was accordingly soaked, not helped by my lazy tent set-up
@@ -178,14 +162,11 @@ export default function GermanyBlogRoot() {
                 <br />
                 <br />
                 <br />
-                <div
-                  className="separator"
-                  style="clear: both; text-align: center"
-                >
+                <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://1.bp.blogspot.com/-uVsOXvW7PAw/TivyfGkrLFI/AAAAAAAAD1o/k5r9Kyt5FIw/s1600/DSCF5052.JPG"
                     imageanchor="1"
-                    style="margin-left: 1em; margin-right: 1em"
+                    style={{}}
                   >
                     <img
                       border="0"
@@ -234,7 +215,7 @@ export default function GermanyBlogRoot() {
                     <tr>
                       <td align="left">
                         Computergestützte Strömungsmechanik
-                        <span style="color: #38761d">(Fluid Mechanics)</span>
+                        <span style={{}}>(Fluid Mechanics)</span>
                       </td>
                       <td align="center"></td>
                       <td align="center">
@@ -251,7 +232,7 @@ export default function GermanyBlogRoot() {
                     <tr className="highlighted">
                       <td align="left">
                         Erneuerbare Energie
-                        <span style="color: #38761d">(Renewable Energy)</span>
+                        <span style={{}}>(Renewable Energy)</span>
                       </td>
                       <td align="center"></td>
                       <td align="center">
@@ -264,7 +245,7 @@ export default function GermanyBlogRoot() {
                     <tr>
                       <td align="left">
                         Kulturelle Bildung
-                        <span style="color: #38761d">(Cultural Education)</span>
+                        <span style={{}}>(Cultural Education)</span>
                       </td>
                       <td align="center"></td>
                       <td align="center">
@@ -277,9 +258,7 @@ export default function GermanyBlogRoot() {
                     <tr className="highlighted">
                       <td align="left">
                         Recycling und Altlasten
-                        <span style="color: #38761d">
-                          (Recycling and Waste)
-                        </span>
+                        <span style={{}}>(Recycling and Waste)</span>
                       </td>
                       <td align="center"></td>
                       <td align="center">
@@ -292,9 +271,7 @@ export default function GermanyBlogRoot() {
                     <tr>
                       <td align="left">
                         Sprachkompetenz und Sprachbewusstsein mit Übungen
-                        <span style="color: #38761d">
-                          (Language Competence)
-                        </span>
+                        <span style={{}}>(Language Competence)</span>
                       </td>
                       <td align="center"></td>
                       <td align="center">
@@ -307,9 +284,7 @@ export default function GermanyBlogRoot() {
                     <tr className="highlighted">
                       <td align="left">
                         Stahlbetonbau 3
-                        <span style="color: #38761d">
-                          (Reinforced Concrete)
-                        </span>
+                        <span style={{}}>(Reinforced Concrete)</span>
                       </td>
                       <td align="center"></td>
                       <td align="center">
@@ -322,9 +297,7 @@ export default function GermanyBlogRoot() {
                     <tr>
                       <td align="left">
                         Straßenverkehrswesen / Schienenverkehrswesen
-                        <span style="color: #38761d">
-                          (Road and Rail Design)
-                        </span>
+                        <span style={{}}>(Road and Rail Design)</span>
                       </td>
                       <td align="center"></td>
                       <td align="center">
@@ -333,7 +306,7 @@ export default function GermanyBlogRoot() {
                     </tr>
                   </tbody>
                 </table>
-                <div style="clear: both"></div>
+                <div style={{}}></div>
               </div>
               <div className="post-footer">
                 <div className="post-footer-line post-footer-line-1">
@@ -458,23 +431,14 @@ export default function GermanyBlogRoot() {
                       </span>
                     </a>
                     <div className="goog-inline-block dummy-container">
-                      <div
-                        style="position: absolute; width: 450px; left: -10000px"
-                        id="___plusone_0"
-                      >
+                      <div style={{}} id="___plusone_0">
                         <iframe
                           frameborder="0"
                           hspace="0"
                           marginheight="0"
                           marginwidth="0"
                           scrolling="no"
-                          style="
-                        position: absolute;
-                        top: -10000px;
-                        width: 450px;
-                        margin: 0px;
-                        border-style: none;
-                      "
+                          style={{}}
                           tabindex="0"
                           vspace="0"
                           width="100%"
@@ -553,12 +517,7 @@ export default function GermanyBlogRoot() {
                 <a
                   href="https://web.archive.org/web/20150912090005/http://1.bp.blogspot.com/-Jn4al5pxfcY/Tg8bIdbXgHI/AAAAAAAADyU/7OBcnTxse1I/s1600/DSC04426.JPG"
                   imageanchor="1"
-                  style="
-                clear: right;
-                float: right;
-                margin-bottom: 1em;
-                margin-left: 1em;
-              "
+                  style={{}}
                 >
                   <img
                     border="0"
@@ -578,18 +537,12 @@ export default function GermanyBlogRoot() {
                 cause they were just way too grand and ambitious.
                 <br />
                 <br />
-                <div
-                  className="separator"
-                  style="clear: both; text-align: center"
-                ></div>
-                <div
-                  className="separator"
-                  style="clear: both; text-align: center"
-                >
+                <div className="separator" style={{}}></div>
+                <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://1.bp.blogspot.com/-CQq_D8vGcL4/Tg8bGaWu8II/AAAAAAAADyQ/8crql-oADvw/s1600/2011_06_18-19+Fahrt+S%25C3%25BCdbayern_130.JPG"
                     imageanchor="1"
-                    style="margin-left: 1em; margin-right: 1em"
+                    style={{}}
                   >
                     <img
                       border="0"
@@ -600,19 +553,11 @@ export default function GermanyBlogRoot() {
                   </a>
                 </div>
                 <br />
-                <div
-                  className="separator"
-                  style="clear: both; text-align: center"
-                ></div>
+                <div className="separator" style={{}}></div>
                 <a
                   href="https://web.archive.org/web/20150912090005/http://2.bp.blogspot.com/-eZcUkWc1Ug4/Tg8bj-QilvI/AAAAAAAADyY/ewDoZ_UbsVg/s1600/DSC04332.JPG"
                   imageanchor="1"
-                  style="
-                clear: left;
-                float: left;
-                margin-bottom: 1em;
-                margin-right: 1em;
-              "
+                  style={{}}
                 >
                   <img
                     border="0"
@@ -643,14 +588,11 @@ export default function GermanyBlogRoot() {
                 pint glasses (no such thing as a pot here), and foams up at the
                 top heaps when first poured. Quite good actually:
                 <br />
-                <div
-                  className="separator"
-                  style="clear: both; text-align: center"
-                >
+                <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://3.bp.blogspot.com/-xzG6TAOeHMI/Tg8dJRdVqDI/AAAAAAAADyc/FcSR-2FjzWc/s1600/DSCF4957.JPG"
                     imageanchor="1"
-                    style="margin-left: 1em; margin-right: 1em"
+                    style={{}}
                   >
                     <img
                       border="0"
@@ -666,14 +608,11 @@ export default function GermanyBlogRoot() {
                 concentration camps spread all over. The black ones are
                 extermination camps, the other ones are labour camps:
                 <br />
-                <div
-                  className="separator"
-                  style="clear: both; text-align: center"
-                >
+                <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://1.bp.blogspot.com/-CniX4oXA9Fw/Tg8fuTtBv5I/AAAAAAAADyg/PuvPnpdhgLc/s1600/DSCF4958.JPG"
                     imageanchor="1"
-                    style="margin-left: 1em; margin-right: 1em"
+                    style={{}}
                   >
                     <img
                       border="0"
@@ -697,22 +636,13 @@ export default function GermanyBlogRoot() {
                 motivated by Ian Thorpe's return to the sport and wishing I
                 could have a body like his: <br />
                 <br />
-                <div
-                  className="separator"
-                  style="clear: both; text-align: center"
-                ></div>
-                <div
-                  className="separator"
-                  style="clear: both; text-align: center"
-                ></div>
-                <div
-                  className="separator"
-                  style="clear: both; text-align: center"
-                >
+                <div className="separator" style={{}}></div>
+                <div className="separator" style={{}}></div>
+                <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://3.bp.blogspot.com/-DAyubHO41rY/Tg8hEDddn4I/AAAAAAAADyk/6cJzSKkj9e4/s1600/Ian_Thorpe.jpg"
                     imageanchor="1"
-                    style="margin-left: 1em; margin-right: 1em"
+                    style={{}}
                   >
                     <img
                       border="0"
@@ -753,7 +683,7 @@ export default function GermanyBlogRoot() {
                 <br />
                 <br />
                 see everyone soon. only 4 weeks to go.
-                <div style="clear: both"></div>
+                <div style={{}}></div>
               </div>
               <div className="post-footer">
                 <div className="post-footer-line post-footer-line-1">
@@ -878,23 +808,14 @@ export default function GermanyBlogRoot() {
                       </span>
                     </a>
                     <div className="goog-inline-block dummy-container">
-                      <div
-                        style="position: absolute; width: 450px; left: -10000px"
-                        id="___plusone_1"
-                      >
+                      <div style={{}} id="___plusone_1">
                         <iframe
                           frameborder="0"
                           hspace="0"
                           marginheight="0"
                           marginwidth="0"
                           scrolling="no"
-                          style="
-                        position: absolute;
-                        top: -10000px;
-                        width: 450px;
-                        margin: 0px;
-                        border-style: none;
-                      "
+                          style={{}}
                           tabindex="0"
                           vspace="0"
                           width="100%"
@@ -970,29 +891,21 @@ export default function GermanyBlogRoot() {
                 catching up.
                 <br />
                 <br />
-                <div
-                  className="separator"
-                  style="clear: both; text-align: center"
-                ></div>
+                <div className="separator" style={{}}></div>
                 <br />
                 <table
                   cellpadding="0"
                   cellspacing="0"
                   className="tr-caption-container"
-                  style="float: right; margin-left: 1em; text-align: right"
+                  style={{}}
                 >
                   <tbody>
                     <tr>
-                      <td style="text-align: center">
+                      <td style={{}}>
                         <a
                           href="https://web.archive.org/web/20150912090005/http://4.bp.blogspot.com/-050v2hi7uAM/TfljiJSn-JI/AAAAAAAADr0/rgmsbHX1-uA/s1600/latte-macchiato.jpg"
                           imageanchor="1"
-                          style="
-                        clear: right;
-                        margin-bottom: 1em;
-                        margin-left: auto;
-                        margin-right: auto;
-                      "
+                          style={{}}
                         >
                           <img
                             border="0"
@@ -1004,7 +917,7 @@ export default function GermanyBlogRoot() {
                       </td>
                     </tr>
                     <tr>
-                      <td className="tr-caption" style="text-align: center">
+                      <td className="tr-caption" style={{}}>
                         german latte
                       </td>
                     </tr>
@@ -1013,7 +926,7 @@ export default function GermanyBlogRoot() {
                 <a
                   href="https://web.archive.org/web/20150912090005/http://2.bp.blogspot.com/-K2xPAId7Xug/Te0uyhO9JuI/AAAAAAAADro/cAvKZLeQOIM/s1600/DSCF4951.JPG"
                   imageanchor="1"
-                  style="margin-left: 1em; margin-right: 1em"
+                  style={{}}
                 >
                   <img
                     border="0"
@@ -1038,19 +951,11 @@ export default function GermanyBlogRoot() {
                 I was in Berlin again and now with my good friend Dries. It was
                 wonderful! Really a city that is open to different people,
                 different cultures. some pics: <br />
-                <div
-                  className="separator"
-                  style="clear: both; text-align: center"
-                >
+                <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://3.bp.blogspot.com/-ph_5gKmKLFw/Te0unuXD7yI/AAAAAAAADrk/J9BzPQ44ERo/s1600/CIMG7393.JPG"
                     imageanchor="1"
-                    style="
-                  clear: right;
-                  float: right;
-                  margin-bottom: 1em;
-                  margin-left: 1em;
-                "
+                    style={{}}
                   >
                     <img
                       border="0"
@@ -1062,7 +967,7 @@ export default function GermanyBlogRoot() {
                   <a
                     href="https://web.archive.org/web/20150912090005/http://2.bp.blogspot.com/-JhKh9-Vjeyw/Te0ujF50JtI/AAAAAAAADrg/d6m0-pONwhM/s1600/CIMG7377.JPG"
                     imageanchor="1"
-                    style="margin-left: 1em; margin-right: 1em"
+                    style={{}}
                   >
                     <img
                       border="0"
@@ -1099,15 +1004,15 @@ export default function GermanyBlogRoot() {
                   cellpadding="0"
                   cellspacing="0"
                   className="tr-caption-container"
-                  style="margin-left: auto; margin-right: auto; text-align: center"
+                  style={{}}
                 >
                   <tbody>
                     <tr>
-                      <td style="text-align: center">
+                      <td style={{}}>
                         <a
                           href="https://web.archive.org/web/20150912090005/http://2.bp.blogspot.com/-FXRE93mmAvY/Te0u_WPFo7I/AAAAAAAADrw/3QRwJJxFf34/s1600/greenpeace.jpg"
                           imageanchor="1"
-                          style="margin-left: auto; margin-right: auto"
+                          style={{}}
                         >
                           <img
                             border="0"
@@ -1119,7 +1024,7 @@ export default function GermanyBlogRoot() {
                       </td>
                     </tr>
                     <tr>
-                      <td className="tr-caption" style="text-align: center">
+                      <td className="tr-caption" style={{}}>
                         Every day Nuclear is one day too much!
                       </td>
                     </tr>
@@ -1144,14 +1049,11 @@ export default function GermanyBlogRoot() {
                 </ul>
                 Here was my first attempt at making Dal:
                 <br />
-                <div
-                  className="separator"
-                  style="clear: both; text-align: center"
-                >
+                <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://2.bp.blogspot.com/--sL_Jl0SqMA/Te0u-PQ2VuI/AAAAAAAADrs/5yEZgpx2BW4/s1600/DSCF4953.JPG"
                     imageanchor="1"
-                    style="margin-left: 1em; margin-right: 1em"
+                    style={{}}
                   >
                     <img
                       border="0"
@@ -1183,7 +1085,7 @@ export default function GermanyBlogRoot() {
                 <br />
                 <br />
                 see you (everyone) soon
-                <div style="clear: both"></div>
+                <div style={{}}></div>
               </div>
               <div className="post-footer">
                 <div className="post-footer-line post-footer-line-1">
@@ -1308,23 +1210,14 @@ export default function GermanyBlogRoot() {
                       </span>
                     </a>
                     <div className="goog-inline-block dummy-container">
-                      <div
-                        style="position: absolute; width: 450px; left: -10000px"
-                        id="___plusone_2"
-                      >
+                      <div style={{}} id="___plusone_2">
                         <iframe
                           frameborder="0"
                           hspace="0"
                           marginheight="0"
                           marginwidth="0"
                           scrolling="no"
-                          style="
-                        position: absolute;
-                        top: -10000px;
-                        width: 450px;
-                        margin: 0px;
-                        border-style: none;
-                      "
+                          style={{}}
                           tabindex="0"
                           vspace="0"
                           width="100%"
@@ -1410,19 +1303,11 @@ export default function GermanyBlogRoot() {
                 alternative culture didn't dissappoint in fashion sense:
                 <br />
                 <br />
-                <div
-                  className="separator"
-                  style="clear: both; text-align: center"
-                >
+                <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://2.bp.blogspot.com/-hVs8Lk9cng4/TdAjB3bRKPI/AAAAAAAADmQ/zBoXyKl-XYU/s1600/DSCF4862.JPG"
                     imageanchor="1"
-                    style="
-                  clear: left;
-                  float: left;
-                  margin-bottom: 1em;
-                  margin-right: 1em;
-                "
+                    style={{}}
                   >
                     <img
                       border="0"
@@ -1434,7 +1319,7 @@ export default function GermanyBlogRoot() {
                   <a
                     href="https://web.archive.org/web/20150912090005/http://4.bp.blogspot.com/-zmlyLNzdMfA/TdAjQBUOj1I/AAAAAAAADmY/-VLyAK07r_c/s1600/DSCF4880.JPG"
                     imageanchor="1"
-                    style="margin-left: 1em; margin-right: 1em"
+                    style={{}}
                   >
                     <img
                       border="0"
@@ -1446,7 +1331,7 @@ export default function GermanyBlogRoot() {
                   <a
                     href="https://web.archive.org/web/20150912090005/http://2.bp.blogspot.com/-5A4EMUVoAKc/TdAjJXWyMZI/AAAAAAAADmU/4vJU-uGAeI4/s1600/DSCF4869.JPG"
                     imageanchor="1"
-                    style="margin-left: 1em; margin-right: 1em"
+                    style={{}}
                   >
                     <img
                       border="0"
@@ -1485,14 +1370,11 @@ export default function GermanyBlogRoot() {
                 Auschwitz 14 or younger were gassed. She succumbed to Typhus
                 though and died while in captivity <br />
                 <br />
-                <div
-                  className="separator"
-                  style="clear: both; text-align: center"
-                >
+                <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://4.bp.blogspot.com/-PXWWYClHytc/TdAqrwOStlI/AAAAAAAADmg/pfYaQ4M5h-g/s1600/DSCF4940.JPG"
                     imageanchor="1"
-                    style="margin-left: 1em; margin-right: 1em"
+                    style={{}}
                   >
                     <img
                       border="0"
@@ -1503,16 +1385,10 @@ export default function GermanyBlogRoot() {
                     &nbsp;
                   </a>
                 </div>
-                <div
-                  className="separator"
-                  style="clear: both; text-align: center"
-                >
+                <div className="separator" style={{}}>
                   <br />
                 </div>
-                <div
-                  className="separator"
-                  style="clear: both; text-align: center"
-                >
+                <div className="separator" style={{}}>
                   Well it's not gonna be a long post today. Noteworthy is my
                   trip hiking this weekend. I rode to Forchheim along the
                   Main-Danube-Canal and found a pretty isolated walking route.
@@ -1527,25 +1403,14 @@ export default function GermanyBlogRoot() {
                   first time I tried walking consistently north and unknowingly
                   did a 180 after around 10 minutes. How crazy is that!
                 </div>
-                <div
-                  className="separator"
-                  style="clear: both; text-align: center"
-                >
+                <div className="separator" style={{}}>
                   <br />
                 </div>
-                <div
-                  className="separator"
-                  style="clear: both; text-align: center"
-                >
+                <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://3.bp.blogspot.com/-EeHYmWDrWKg/TdAtP3MBHyI/AAAAAAAADmk/PHqRdPHaKKI/s1600/DSCF4950.JPG"
                     imageanchor="1"
-                    style="
-                  clear: left;
-                  float: left;
-                  margin-bottom: 1em;
-                  margin-right: 1em;
-                "
+                    style={{}}
                   >
                     <img
                       border="0"
@@ -1561,19 +1426,15 @@ export default function GermanyBlogRoot() {
                     cellpadding="0"
                     cellspacing="0"
                     className="tr-caption-container"
-                    style="
-                  margin-left: auto;
-                  margin-right: auto;
-                  text-align: center;
-                "
+                    style={{}}
                   >
                     <tbody>
                       <tr>
-                        <td style="text-align: center">
+                        <td style={{}}>
                           <a
                             href="https://web.archive.org/web/20150912090005/http://1.bp.blogspot.com/-qzGOamaosT4/TdAtUI1H3mI/AAAAAAAADmo/uTFzDDaG6GI/s1600/309395039_87f9f9212a.jpg"
                             imageanchor="1"
-                            style="margin-left: auto; margin-right: auto"
+                            style={{}}
                           >
                             <img
                               border="0"
@@ -1585,7 +1446,7 @@ export default function GermanyBlogRoot() {
                         </td>
                       </tr>
                       <tr>
-                        <td className="tr-caption" style="text-align: center">
+                        <td className="tr-caption" style={{}}>
                           tool of trade when in a bush
                         </td>
                       </tr>
@@ -1593,16 +1454,10 @@ export default function GermanyBlogRoot() {
                   </table>
                 </blockquote>
                 <br />
-                <div
-                  className="separator"
-                  style="clear: both; text-align: center"
-                >
+                <div className="separator" style={{}}>
                   <br />
                 </div>
-                <div
-                  className="separator"
-                  style="clear: both; text-align: center"
-                >
+                <div className="separator" style={{}}>
                   <br />
                 </div>
                 New CD's:
@@ -1625,7 +1480,7 @@ export default function GermanyBlogRoot() {
                 <br />
                 <br />
                 :):):):):):):):):):)
-                <div style="clear: both"></div>
+                <div style={{}}></div>
               </div>
               <div className="post-footer">
                 <div className="post-footer-line post-footer-line-1">
@@ -1750,23 +1605,14 @@ export default function GermanyBlogRoot() {
                       </span>
                     </a>
                     <div className="goog-inline-block dummy-container">
-                      <div
-                        style="position: absolute; width: 450px; left: -10000px"
-                        id="___plusone_3"
-                      >
+                      <div style={{}} id="___plusone_3">
                         <iframe
                           frameborder="0"
                           hspace="0"
                           marginheight="0"
                           marginwidth="0"
                           scrolling="no"
-                          style="
-                        position: absolute;
-                        top: -10000px;
-                        width: 450px;
-                        margin: 0px;
-                        border-style: none;
-                      "
+                          style={{}}
                           tabindex="0"
                           vspace="0"
                           width="100%"
@@ -1842,14 +1688,11 @@ export default function GermanyBlogRoot() {
                 There's heaps to report on. Europe is getting warmer and warmer.
                 That means... picnic!
                 <br />
-                <div
-                  className="separator"
-                  style="clear: both; text-align: center"
-                >
+                <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://1.bp.blogspot.com/-Q6iiOnhzRo4/TarhgxAlMKI/AAAAAAAADfI/lzWu-Feyn_A/s1600/Sunday+Picnic.JPG"
                     imageanchor="1"
-                    style="margin-left: 1em; margin-right: 1em"
+                    style={{}}
                   >
                     <img
                       border="0"
@@ -1878,14 +1721,11 @@ export default function GermanyBlogRoot() {
                 <br />
                 Me and Edmund !!! met in Heidelberg, Germany:
                 <br />
-                <div
-                  className="separator"
-                  style="clear: both; text-align: center"
-                >
+                <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://2.bp.blogspot.com/-mFYy7vV4zrs/TarjhZoumgI/AAAAAAAADfM/yaYz2m8K59g/s1600/DSCF4815.JPG"
                     imageanchor="1"
-                    style="margin-left: 1em; margin-right: 1em"
+                    style={{}}
                   >
                     <img
                       border="0"
@@ -1896,10 +1736,7 @@ export default function GermanyBlogRoot() {
                   </a>
                 </div>
                 <br />
-                <div
-                  className="separator"
-                  style="clear: both; text-align: center"
-                ></div>
+                <div className="separator" style={{}}></div>
                 <br />
                 He was over to visit Ina and he treated me to a pleasant
                 weekend. We went bike riding to Mannheim, we ate Kebabs (I
@@ -1914,14 +1751,11 @@ export default function GermanyBlogRoot() {
                 Ed, his girlfriend, her sister, below, and me perused the city
                 like Night-Owls:
                 <br />
-                <div
-                  className="separator"
-                  style="clear: both; text-align: center"
-                >
+                <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://2.bp.blogspot.com/-Byeh99bFJGI/TarlLqhpnWI/AAAAAAAADfU/cq0yP-OwxZQ/s1600/DSCF4824.JPG"
                     imageanchor="1"
-                    style="margin-left: 1em; margin-right: 1em"
+                    style={{}}
                   >
                     <img
                       border="0"
@@ -1939,14 +1773,11 @@ export default function GermanyBlogRoot() {
                 <br />
                 I went to a church...
                 <br />
-                <div
-                  className="separator"
-                  style="clear: both; text-align: center"
-                >
+                <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://4.bp.blogspot.com/-8SDUY30drhE/TarltaYyKbI/AAAAAAAADfY/eHQyD9mHK58/s1600/DSCF4823.JPG"
                     imageanchor="1"
-                    style="margin-left: 1em; margin-right: 1em"
+                    style={{}}
                   >
                     <img
                       border="0"
@@ -1962,18 +1793,12 @@ export default function GermanyBlogRoot() {
                 <br />
                 ...and got kidnapped by a sadistic priest
                 <br />
-                <div
-                  className="separator"
-                  style="clear: both; text-align: center"
-                ></div>
-                <div
-                  className="separator"
-                  style="clear: both; text-align: center"
-                >
+                <div className="separator" style={{}}></div>
+                <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://3.bp.blogspot.com/-519VBA-yciw/TarmGQxiQvI/AAAAAAAADfc/ZaDG72oKPsk/s1600/DSCF4827.JPG"
                     imageanchor="1"
-                    style="margin-left: 1em; margin-right: 1em"
+                    style={{}}
                   >
                     <img
                       border="0"
@@ -1986,14 +1811,11 @@ export default function GermanyBlogRoot() {
                 but all was well, he only liked his boys young (don't they
                 all!). Freedom...
                 <br />
-                <div
-                  className="separator"
-                  style="clear: both; text-align: center"
-                >
+                <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://3.bp.blogspot.com/-MuuXnHn019g/TarmkEvrbxI/AAAAAAAADfg/aZ2x97U7PXA/s1600/DSCF4829.JPG"
                     imageanchor="1"
-                    style="margin-left: 1em; margin-right: 1em"
+                    style={{}}
                   >
                     <img
                       border="0"
@@ -2017,14 +1839,11 @@ export default function GermanyBlogRoot() {
                 <br />
                 ...
                 <br />
-                <div
-                  className="separator"
-                  style="clear: both; text-align: center"
-                >
+                <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://4.bp.blogspot.com/-56d_SjNoqI0/TaroPHNGzRI/AAAAAAAADfk/RfF2Z5htA0o/s1600/DSCF4830.JPG"
                     imageanchor="1"
-                    style="margin-left: 1em; margin-right: 1em"
+                    style={{}}
                   >
                     <img
                       border="0"
@@ -2069,7 +1888,7 @@ export default function GermanyBlogRoot() {
                 <br />
                 <br />
                 see youu.....
-                <div style="clear: both"></div>
+                <div style={{}}></div>
               </div>
               <div className="post-footer">
                 <div className="post-footer-line post-footer-line-1">
@@ -2194,23 +2013,14 @@ export default function GermanyBlogRoot() {
                       </span>
                     </a>
                     <div className="goog-inline-block dummy-container">
-                      <div
-                        style="position: absolute; width: 450px; left: -10000px"
-                        id="___plusone_4"
-                      >
+                      <div style={{}} id="___plusone_4">
                         <iframe
                           frameborder="0"
                           hspace="0"
                           marginheight="0"
                           marginwidth="0"
                           scrolling="no"
-                          style="
-                        position: absolute;
-                        top: -10000px;
-                        width: 450px;
-                        margin: 0px;
-                        border-style: none;
-                      "
+                          style={{}}
                           tabindex="0"
                           vspace="0"
                           width="100%"
@@ -2287,14 +2097,11 @@ export default function GermanyBlogRoot() {
                 <br />
                 <br />
                 Like... the BMW exhibition <br />
-                <div
-                  className="separator"
-                  style="clear: both; text-align: center"
-                >
+                <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/https://lh6.googleusercontent.com/-tMR5WG4UEng/TYXdqB_8PGI/AAAAAAAADeY/qYXRJxGxoLg/s1600/DSCF4770.JPG"
                     imageanchor="1"
-                    style="margin-left: 1em; margin-right: 1em"
+                    style={{}}
                   >
                     <img
                       border="0"
@@ -2306,14 +2113,11 @@ export default function GermanyBlogRoot() {
                 </div>
                 or go to a bar...
                 <br />
-                <div
-                  className="separator"
-                  style="clear: both; text-align: center"
-                >
+                <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/https://lh6.googleusercontent.com/-2X2TvA8R8BA/TYXeaJCo6kI/AAAAAAAADeg/EIsvbhBoSeI/s1600/DSCF4780.JPG"
                     imageanchor="1"
-                    style="margin-left: 1em; margin-right: 1em"
+                    style={{}}
                   >
                     <img
                       border="0"
@@ -2323,14 +2127,11 @@ export default function GermanyBlogRoot() {
                     />
                   </a>
                 </div>
-                <div
-                  className="separator"
-                  style="clear: both; text-align: center"
-                >
+                <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/https://lh4.googleusercontent.com/-byMN2kvHlVE/TYXeTJE6KRI/AAAAAAAADec/LazWFigCsDc/s1600/Zwinger+Bar.JPG"
                     imageanchor="1"
-                    style="margin-left: 1em; margin-right: 1em"
+                    style={{}}
                   >
                     <img
                       border="0"
@@ -2358,14 +2159,11 @@ export default function GermanyBlogRoot() {
                 <br />
                 What else... Munich
                 <br />
-                <div
-                  className="separator"
-                  style="clear: both; text-align: center"
-                >
+                <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/https://lh6.googleusercontent.com/-5W2HIjuBYBw/TYXhKQdfTwI/AAAAAAAADek/C43fBgVAC9c/s1600/Ich+und+Dries+Olympisches+Stadion.jpg"
                     imageanchor="1"
-                    style="margin-left: 1em; margin-right: 1em"
+                    style={{}}
                   >
                     <img
                       border="0"
@@ -2395,14 +2193,11 @@ export default function GermanyBlogRoot() {
                 anti-depressant. Here's some pictures from the Pegnitz River
                 bike path:
                 <br />
-                <div
-                  className="separator"
-                  style="clear: both; text-align: center"
-                >
+                <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/https://lh4.googleusercontent.com/-sVn8LVNJAgs/TYXjPm44QOI/AAAAAAAADeo/SCWZ0eWuTS0/s1600/Radweg+Pegnitz.JPG"
                     imageanchor="1"
-                    style="margin-left: 1em; margin-right: 1em"
+                    style={{}}
                   >
                     <img
                       border="0"
@@ -2413,14 +2208,11 @@ export default function GermanyBlogRoot() {
                   </a>
                 </div>
                 <br />
-                <div
-                  className="separator"
-                  style="clear: both; text-align: center"
-                >
+                <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/https://lh5.googleusercontent.com/-0_P7NF4ZnmI/TYXjdl8xbEI/AAAAAAAADes/I2c8btoJgEQ/s1600/Bridge+sheep+Pegnitz+River.JPG"
                     imageanchor="1"
-                    style="margin-left: 1em; margin-right: 1em"
+                    style={{}}
                   >
                     <img
                       border="0"
@@ -2431,7 +2223,7 @@ export default function GermanyBlogRoot() {
                   </a>
                 </div>
                 Ok, well good wishes for everyone in australia.
-                <div style="clear: both"></div>
+                <div style={{}}></div>
               </div>
               <div className="post-footer">
                 <div className="post-footer-line post-footer-line-1">
@@ -2556,23 +2348,14 @@ export default function GermanyBlogRoot() {
                       </span>
                     </a>
                     <div className="goog-inline-block dummy-container">
-                      <div
-                        style="position: absolute; width: 450px; left: -10000px"
-                        id="___plusone_5"
-                      >
+                      <div style={{}} id="___plusone_5">
                         <iframe
                           frameborder="0"
                           hspace="0"
                           marginheight="0"
                           marginwidth="0"
                           scrolling="no"
-                          style="
-                        position: absolute;
-                        top: -10000px;
-                        width: 450px;
-                        margin: 0px;
-                        border-style: none;
-                      "
+                          style={{}}
                           tabindex="0"
                           vspace="0"
                           width="100%"
@@ -2652,14 +2435,11 @@ export default function GermanyBlogRoot() {
                 fairly special place:
                 <br />
                 <br />
-                <div
-                  className="separator"
-                  style="clear: both; text-align: center"
-                >
+                <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/https://lh4.googleusercontent.com/-opKNGt-NVUQ/TXYRBEyxw4I/AAAAAAAADeI/MhuVNUahj3s/s1600/DSCF4761.JPG"
                     imageanchor="1"
-                    style="margin-left: 1em; margin-right: 1em"
+                    style={{}}
                   >
                     <img
                       border="0"
@@ -2688,14 +2468,11 @@ export default function GermanyBlogRoot() {
                 the really strong winter weather is luckily over and you see
                 heaps of people hanging out in parks and on the streets:
                 <br />
-                <div
-                  className="separator"
-                  style="clear: both; text-align: center"
-                >
+                <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/https://lh4.googleusercontent.com/-_vQrOo2RRfw/TXYS5PLhKzI/AAAAAAAADeM/t9fkOEW8iJ0/s1600/DSCF4758.JPG"
                     imageanchor="1"
-                    style="margin-left: 1em; margin-right: 1em"
+                    style={{}}
                   >
                     <img
                       border="0"
@@ -2720,20 +2497,14 @@ export default function GermanyBlogRoot() {
                 Other highlights involve going to the zoo and visiting our
                 primeape friend:
                 <br />
-                <div
-                  className="separator"
-                  style="clear: both; text-align: center"
-                >
+                <div className="separator" style={{}}>
                   <br />
                 </div>
-                <div
-                  className="separator"
-                  style="clear: both; text-align: center"
-                >
+                <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://2.bp.blogspot.com/-aAmL2Tgb8DM/TdUIek7kzFI/AAAAAAAADms/w0MKk4_8Vyc/s1600/Tiergarten.JPG"
                     imageanchor="1"
-                    style="margin-left: 1em; margin-right: 1em"
+                    style={{}}
                   >
                     <img
                       border="0"
@@ -2743,10 +2514,7 @@ export default function GermanyBlogRoot() {
                     />
                   </a>
                 </div>
-                <div
-                  className="separator"
-                  style="clear: both; text-align: center"
-                >
+                <div className="separator" style={{}}>
                   <br />
                 </div>
                 She's female but sorry boys, she's taken, namely by a 195kg
@@ -2761,14 +2529,11 @@ export default function GermanyBlogRoot() {
                 another view of Nuremberg and I wish the best to all friends at
                 home and feel free to ask any q's per facebook or otherwise{" "}
                 <br />
-                <div
-                  className="separator"
-                  style="clear: both; text-align: center"
-                >
+                <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/https://lh6.googleusercontent.com/-vkNv_ieJvMM/TXYUzS-yqOI/AAAAAAAADeU/TJD-WQUHN30/s1600/DSCF4762.JPG"
                     imageanchor="1"
-                    style="margin-left: 1em; margin-right: 1em"
+                    style={{}}
                   >
                     <img
                       border="0"
@@ -2779,7 +2544,7 @@ export default function GermanyBlogRoot() {
                   </a>
                 </div>
                 Auf Wiedersehen!
-                <div style="clear: both"></div>
+                <div style={{}}></div>
               </div>
               <div className="post-footer">
                 <div className="post-footer-line post-footer-line-1">
@@ -2904,23 +2669,14 @@ export default function GermanyBlogRoot() {
                       </span>
                     </a>
                     <div className="goog-inline-block dummy-container">
-                      <div
-                        style="position: absolute; width: 450px; left: -10000px"
-                        id="___plusone_6"
-                      >
+                      <div style={{}} id="___plusone_6">
                         <iframe
                           frameborder="0"
                           hspace="0"
                           marginheight="0"
                           marginwidth="0"
                           scrolling="no"
-                          style="
-                        position: absolute;
-                        top: -10000px;
-                        width: 450px;
-                        margin: 0px;
-                        border-style: none;
-                      "
+                          style={{}}
                           tabindex="0"
                           vspace="0"
                           width="100%"
