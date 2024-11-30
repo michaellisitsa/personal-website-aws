@@ -41,6 +41,7 @@ import DSCF5052 from "@/assets/germany/DSCF5052.jpg";
 import DSC04426 from "@/assets/germany/DSC04426.jpg";
 import Fahrt_Suedbayern_130 from "@/assets/germany/Fahrt_Suedbayern_130.jpg";
 import DSC04332 from "@/assets/germany/DSC04332.jpg";
+import DSCF4951 from "@/assets/germany/DSCF4951.jpg";
 
 export default function GermanyBlogRoot() {
   return (
@@ -54,18 +55,17 @@ export default function GermanyBlogRoot() {
           <div className="post-outer">
             <div
               className="post hentry"
-              itemprop="blogPost"
-              itemscope="itemscope"
-              itemtype="http://schema.org/BlogPosting"
+              itemProp="blogPost"
+              itemType="http://schema.org/BlogPosting"
             >
               <meta
                 content="http://4.bp.blogspot.com/-s-bqS-1FZ60/Tivs6fd6zHI/AAAAAAAAD1M/3Sj7U9_eN1E/s320/DSCF4991.JPG"
-                itemprop="image_url"
+                itemProp="image_url"
               />
-              <meta content="5080106610184894814" itemprop="blogId" />
-              <meta content="7217063188421251176" itemprop="postId" />
-              <a name="7217063188421251176"></a>
-              <h3 className="post-title entry-title" itemprop="name">
+              <meta content="5080106610184894814" itemProp="blogId" />
+              <meta content="7217063188421251176" itemProp="postId" />
+              <a id="7217063188421251176"></a>
+              <h3 className="post-title entry-title" itemProp="name">
                 <a href="https://web.archive.org/web/20150912090005/http://michael-goes-to-germany.blogspot.com/2011/07/bavarian-bike-tour-prague-and-goodbye.html">
                   Bavarian Bike Tour, Prague and Goodbye
                 </a>
@@ -76,7 +76,7 @@ export default function GermanyBlogRoot() {
               <div
                 className="post-body entry-content"
                 id="post-body-7217063188421251176"
-                itemprop="description articleBody"
+                itemProp="description articleBody"
               >
                 July is my last month here. I spent the first 2 weeks doing
                 exams on various subjects from renewable energy (easier) to
@@ -93,24 +93,21 @@ export default function GermanyBlogRoot() {
                 <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://4.bp.blogspot.com/-s-bqS-1FZ60/Tivs6fd6zHI/AAAAAAAAD1M/3Sj7U9_eN1E/s1600/DSCF4991.JPG"
-                    imageanchor="1"
                     style={{}}
                   >
-                    <Image src={DSCF4991} height="240" width="320" />
+                    <Image alt="" src={DSCF4991} height="240" width="320" />
                   </a>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://2.bp.blogspot.com/-q0tCOywLFdE/TivtLIYS1DI/AAAAAAAAD1U/o_1N72Lu_o4/s1600/DSCF4993.JPG"
-                    imageanchor="1"
                     style={{}}
                   >
-                    <Image border="0" height="320" src={DSCF4993} width="240" />
+                    <Image alt="" height="320" src={DSCF4993} width="240" />
                   </a>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://2.bp.blogspot.com/-VZg3p3RG_Yw/TivtMe6oZoI/AAAAAAAAD1Y/tNJLZ9damhg/s1600/DSCF5001.JPG"
-                    imageanchor="1"
                     style={{}}
                   >
-                    <Image border="0" height="240" src={DSCF5001} width="320" />
+                    <Image alt="" height="240" src={DSCF5001} width="320" />
                   </a>
                 </div>
                 <br />
@@ -132,10 +129,9 @@ export default function GermanyBlogRoot() {
                 <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://2.bp.blogspot.com/-TwK-okci_n8/TivvWc83A-I/AAAAAAAAD1c/Uj-SBzAjWDE/s1600/DSCF5017.JPG"
-                    imageanchor="1"
                     style={{}}
                   >
-                    <Image border="0" height="240" src={DSCF5017} width="320" />
+                    <Image alt="" height="240" src={DSCF5017} width="320" />
                   </a>
                 </div>
                 <br />
@@ -148,14 +144,12 @@ export default function GermanyBlogRoot() {
                 <br />
                 <a
                   href="https://web.archive.org/web/20150912090005/http://2.bp.blogspot.com/-oJY6BuXnjmk/TivxUJigC3I/AAAAAAAAD1k/KZTha3cOfXI/s1600/DSCF5047.JPG"
-                  imageanchor="1"
                   style={{}}
                 >
-                  <Image border="0" height="240" src={DSCF5047} width="320" />
+                  <Image alt="" height="240" src={DSCF5047} width="320" />
                 </a>
                 <a
                   href="https://web.archive.org/web/20150912090005/http://1.bp.blogspot.com/-SfVvJZAcAF0/TivwPRHA5wI/AAAAAAAAD1g/jRTtDwOO3PY/s1600/DSCF5031.JPG"
-                  imageanchor="1"
                   style={{}}
                 ></a>
                 That night it rained cats, dogs and I'm pretty sure a few cows.
@@ -181,10 +175,9 @@ export default function GermanyBlogRoot() {
                 <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://1.bp.blogspot.com/-uVsOXvW7PAw/TivyfGkrLFI/AAAAAAAAD1o/k5r9Kyt5FIw/s1600/DSCF5052.JPG"
-                    imageanchor="1"
                     style={{}}
                   >
-                    <Image border="0" height="480" src={DSCF5052} width="640" />
+                    <Image alt="" height="480" src={DSCF5052} width="640" />
                   </a>
                 </div>
                 <br />
@@ -217,9 +210,8 @@ export default function GermanyBlogRoot() {
                 <br />
                 <table
                   align="center"
-                  border="0"
-                  cellpadding="1"
-                  cellspacing="1"
+                  cellPadding="1"
+                  cellSpacing="1"
                   className="foreground"
                 >
                   <tbody>
@@ -325,13 +317,12 @@ export default function GermanyBlogRoot() {
                     Posted by
                     <span
                       className="fn"
-                      itemprop="author"
-                      itemscope="itemscope"
-                      itemtype="http://schema.org/Person"
+                      itemProp="author"
+                      itemType="http://schema.org/Person"
                     >
                       <meta
                         content="https://web.archive.org/web/20150912090005/https://www.blogger.com/profile/10626167252079488413"
-                        itemprop="url"
+                        itemProp="url"
                       />
                       <a
                         className="g-profile"
@@ -342,7 +333,7 @@ export default function GermanyBlogRoot() {
                         data-onload="true"
                         data-gapiattached="true"
                       >
-                        <span itemprop="name">Michael Lisitsa</span>
+                        <span itemProp="name">Michael Lisitsa</span>
                       </a>
                     </span>
                   </span>
@@ -350,7 +341,7 @@ export default function GermanyBlogRoot() {
                     at
                     <meta
                       content="https://web.archive.org/web/20150912090005/http://michael-goes-to-germany.blogspot.com/2011/07/bavarian-bike-tour-prague-and-goodbye.html"
-                      itemprop="url"
+                      itemProp="url"
                     />
                     <a
                       className="timestamp-link"
@@ -360,7 +351,7 @@ export default function GermanyBlogRoot() {
                     >
                       <abbr
                         className="published"
-                        itemprop="datePublished"
+                        itemProp="datePublished"
                         title="2011-07-24T03:32:00-07:00"
                       >
                         3:32 AM
@@ -371,7 +362,6 @@ export default function GermanyBlogRoot() {
                     <a
                       className="comment-link"
                       href="https://web.archive.org/web/20150912090005/http://michael-goes-to-germany.blogspot.com/2011/07/bavarian-bike-tour-prague-and-goodbye.html#comment-form"
-                      onclick=""
                     >
                       No comments:
                     </a>
@@ -404,7 +394,6 @@ export default function GermanyBlogRoot() {
                     <a
                       className="goog-inline-block share-button sb-blog"
                       href="https://web.archive.org/web/20150912090005/https://www.blogger.com/share-post.g?blogID=5080106610184894814&amp;postID=7217063188421251176&amp;target=blog"
-                      onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;'
                       target="_blank"
                       title="BlogThis!"
                     >
@@ -423,7 +412,6 @@ export default function GermanyBlogRoot() {
                     <a
                       className="goog-inline-block share-button sb-facebook"
                       href="https://web.archive.org/web/20150912090005/https://www.blogger.com/share-post.g?blogID=5080106610184894814&amp;postID=7217063188421251176&amp;target=facebook"
-                      onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;'
                       target="_blank"
                       title="Share to Facebook"
                     >
@@ -442,31 +430,8 @@ export default function GermanyBlogRoot() {
                       </span>
                     </a>
                     <div className="goog-inline-block dummy-container">
-                      <div style={{}} id="___plusone_0">
-                        <iframe
-                          frameborder="0"
-                          hspace="0"
-                          marginheight="0"
-                          marginwidth="0"
-                          scrolling="no"
-                          style={{}}
-                          tabindex="0"
-                          vspace="0"
-                          width="100%"
-                          id="I0_1442048406018"
-                          name="I0_1442048406018"
-                          src="https://web.archive.org/web/20150912090005if_/https://apis.google.com/se/0/_/+1/fastbutton?usegapi=1&amp;source=blogger%3Ablog%3Aplusone&amp;size=medium&amp;width=300&amp;annotation=inline&amp;hl=en&amp;origin=http%3A%2F%2Fmichael-goes-to-germany.blogspot.com&amp;url=http%3A%2F%2Fmichael-goes-to-germany.blogspot.com%2F2011%2F07%2Fbavarian-bike-tour-prague-and-goodbye.html&amp;gsrc=3p&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en_US.EDsVhF0HdB4.O%2Fm%3D__features__%2Fam%3DAQ%2Frt%3Dj%2Fd%3D1%2Ft%3Dzcms%2Frs%3DAGLTcCOdhdZCMI-bFdxJTKANQpsOZVWhZQ#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh&amp;id=I0_1442048406018&amp;parent=http%3A%2F%2Fmichael-goes-to-germany.blogspot.com&amp;pfname=&amp;rpctoken=20422083"
-                          allow="autoplay 'self'; fullscreen 'self'"
-                          data-ruffle-polyfilled=""
-                          data-gapiattached="true"
-                        ></iframe>
-                      </div>
                       <Link
-                        source="blogger:blog:plusone"
                         href="http://michael-goes-to-germany.blogspot.com/2011/07/bavarian-bike-tour-prague-and-goodbye.html"
-                        size="medium"
-                        width="300"
-                        annotation="inline"
                         data-gapiscan="true"
                         data-onload="true"
                         data-gapistub="true"
@@ -495,18 +460,17 @@ export default function GermanyBlogRoot() {
           <div className="post-outer">
             <div
               className="post hentry"
-              itemprop="blogPost"
-              itemscope="itemscope"
-              itemtype="http://schema.org/BlogPosting"
+              itemProp="blogPost"
+              itemType="http://schema.org/BlogPosting"
             >
               <meta
                 content="http://1.bp.blogspot.com/-Jn4al5pxfcY/Tg8bIdbXgHI/AAAAAAAADyU/7OBcnTxse1I/s200/DSC04426.JPG"
-                itemprop="image_url"
+                itemProp="image_url"
               />
-              <meta content="5080106610184894814" itemprop="blogId" />
-              <meta content="3222043699094469806" itemprop="postId" />
-              <a name="3222043699094469806"></a>
-              <h3 className="post-title entry-title" itemprop="name">
+              <meta content="5080106610184894814" itemProp="blogId" />
+              <meta content="3222043699094469806" itemProp="postId" />
+              <a id="3222043699094469806"></a>
+              <h3 className="post-title entry-title" itemProp="name">
                 <a href="https://web.archive.org/web/20150912090005/http://michael-goes-to-germany.blogspot.com/2011/07/swimming-through-month-of-june.html">
                   Swimming through the month of June
                 </a>
@@ -517,7 +481,7 @@ export default function GermanyBlogRoot() {
               <div
                 className="post-body entry-content"
                 id="post-body-3222043699094469806"
-                itemprop="description articleBody"
+                itemProp="description articleBody"
               >
                 This month I've been cruising like Thorpie through the various
                 events and challenges served onto my plate. Now I've got a
@@ -527,10 +491,9 @@ export default function GermanyBlogRoot() {
                 <br />
                 <a
                   href="https://web.archive.org/web/20150912090005/http://1.bp.blogspot.com/-Jn4al5pxfcY/Tg8bIdbXgHI/AAAAAAAADyU/7OBcnTxse1I/s1600/DSC04426.JPG"
-                  imageanchor="1"
                   style={{}}
                 >
-                  <Image border="0" height="131" src={DSC04426} width="200" />
+                  <Image alt="" height="131" src={DSC04426} width="200" />
                 </a>
                 Well first the group of exchange students went to visit some
                 castles in southern bavaria. The most famous, and supposedly an
@@ -547,11 +510,10 @@ export default function GermanyBlogRoot() {
                 <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://1.bp.blogspot.com/-CQq_D8vGcL4/Tg8bGaWu8II/AAAAAAAADyQ/8crql-oADvw/s1600/2011_06_18-19+Fahrt+S%25C3%25BCdbayern_130.JPG"
-                    imageanchor="1"
                     style={{}}
                   >
                     <Image
-                      border="0"
+                      alt=""
                       height="240"
                       src={Fahrt_Suedbayern_130}
                       width="320"
@@ -562,10 +524,9 @@ export default function GermanyBlogRoot() {
                 <div className="separator" style={{}}></div>
                 <a
                   href="https://web.archive.org/web/20150912090005/http://2.bp.blogspot.com/-eZcUkWc1Ug4/Tg8bj-QilvI/AAAAAAAADyY/ewDoZ_UbsVg/s1600/DSC04332.JPG"
-                  imageanchor="1"
                   style={{}}
                 >
-                  <Image border="0" height="132" src={DSC04332} width="200" />
+                  <Image alt="" height="132" src={DSC04332} width="200" />
                 </a>
                 That weekend we also went to a typical bavarian restaurants,
                 they love their beer so much they even made a beer liquor served
@@ -592,10 +553,9 @@ export default function GermanyBlogRoot() {
                 <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://3.bp.blogspot.com/-xzG6TAOeHMI/Tg8dJRdVqDI/AAAAAAAADyc/FcSR-2FjzWc/s1600/DSCF4957.JPG"
-                    imageanchor="1"
                     style={{}}
                   >
-                    <Image border="0" height="240" src={DSCF4957} width="320" />
+                    <Image alt="" height="240" src={DSCF4957} width="320" />
                   </a>
                 </div>
                 <br />
@@ -607,10 +567,9 @@ export default function GermanyBlogRoot() {
                 <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://1.bp.blogspot.com/-CniX4oXA9Fw/Tg8fuTtBv5I/AAAAAAAADyg/PuvPnpdhgLc/s1600/DSCF4958.JPG"
-                    imageanchor="1"
                     style={{}}
                   >
-                    <Image border="0" height="240" src={DSCF4958} width="320" />
+                    <Image alt="" height="240" src={DSCF4958} width="320" />
                   </a>
                 </div>
                 <br />
@@ -632,15 +591,9 @@ export default function GermanyBlogRoot() {
                 <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://3.bp.blogspot.com/-DAyubHO41rY/Tg8hEDddn4I/AAAAAAAADyk/6cJzSKkj9e4/s1600/Ian_Thorpe.jpg"
-                    imageanchor="1"
                     style={{}}
                   >
-                    <Image
-                      border="0"
-                      height="320"
-                      src={Ian_Thorpe}
-                      width="220"
-                    />
+                    <Image alt="" height="320" src={Ian_Thorpe} width="220" />
                   </a>
                 </div>
                 Actually, mine's better ;).
@@ -682,13 +635,12 @@ export default function GermanyBlogRoot() {
                     Posted by
                     <span
                       className="fn"
-                      itemprop="author"
-                      itemscope="itemscope"
-                      itemtype="http://schema.org/Person"
+                      itemProp="author"
+                      itemType="http://schema.org/Person"
                     >
                       <meta
                         content="https://web.archive.org/web/20150912090005/https://www.blogger.com/profile/10626167252079488413"
-                        itemprop="url"
+                        itemProp="url"
                       />
                       <a
                         className="g-profile"
@@ -699,7 +651,7 @@ export default function GermanyBlogRoot() {
                         data-onload="true"
                         data-gapiattached="true"
                       >
-                        <span itemprop="name">Michael Lisitsa</span>
+                        <span itemProp="name">Michael Lisitsa</span>
                       </a>
                     </span>
                   </span>
@@ -707,7 +659,7 @@ export default function GermanyBlogRoot() {
                     at
                     <meta
                       content="https://web.archive.org/web/20150912090005/http://michael-goes-to-germany.blogspot.com/2011/07/swimming-through-month-of-june.html"
-                      itemprop="url"
+                      itemProp="url"
                     />
                     <a
                       className="timestamp-link"
@@ -717,7 +669,7 @@ export default function GermanyBlogRoot() {
                     >
                       <abbr
                         className="published"
-                        itemprop="datePublished"
+                        itemProp="datePublished"
                         title="2011-07-02T06:58:00-07:00"
                       >
                         6:58 AM
@@ -728,7 +680,6 @@ export default function GermanyBlogRoot() {
                     <a
                       className="comment-link"
                       href="https://web.archive.org/web/20150912090005/http://michael-goes-to-germany.blogspot.com/2011/07/swimming-through-month-of-june.html#comment-form"
-                      onclick=""
                     >
                       No comments:
                     </a>
@@ -761,7 +712,6 @@ export default function GermanyBlogRoot() {
                     <a
                       className="goog-inline-block share-button sb-blog"
                       href="https://web.archive.org/web/20150912090005/https://www.blogger.com/share-post.g?blogID=5080106610184894814&amp;postID=3222043699094469806&amp;target=blog"
-                      onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;'
                       target="_blank"
                       title="BlogThis!"
                     >
@@ -780,7 +730,6 @@ export default function GermanyBlogRoot() {
                     <a
                       className="goog-inline-block share-button sb-facebook"
                       href="https://web.archive.org/web/20150912090005/https://www.blogger.com/share-post.g?blogID=5080106610184894814&amp;postID=3222043699094469806&amp;target=facebook"
-                      onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;'
                       target="_blank"
                       title="Share to Facebook"
                     >
@@ -799,31 +748,8 @@ export default function GermanyBlogRoot() {
                       </span>
                     </a>
                     <div className="goog-inline-block dummy-container">
-                      <div style={{}} id="___plusone_1">
-                        <iframe
-                          frameborder="0"
-                          hspace="0"
-                          marginheight="0"
-                          marginwidth="0"
-                          scrolling="no"
-                          style={{}}
-                          tabindex="0"
-                          vspace="0"
-                          width="100%"
-                          id="I1_1442048406020"
-                          name="I1_1442048406020"
-                          src="https://web.archive.org/web/20150912090005if_/https://apis.google.com/se/0/_/+1/fastbutton?usegapi=1&amp;source=blogger%3Ablog%3Aplusone&amp;size=medium&amp;width=300&amp;annotation=inline&amp;hl=en&amp;origin=http%3A%2F%2Fmichael-goes-to-germany.blogspot.com&amp;url=http%3A%2F%2Fmichael-goes-to-germany.blogspot.com%2F2011%2F07%2Fswimming-through-month-of-june.html&amp;gsrc=3p&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en_US.EDsVhF0HdB4.O%2Fm%3D__features__%2Fam%3DAQ%2Frt%3Dj%2Fd%3D1%2Ft%3Dzcms%2Frs%3DAGLTcCOdhdZCMI-bFdxJTKANQpsOZVWhZQ#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh&amp;id=I1_1442048406020&amp;parent=http%3A%2F%2Fmichael-goes-to-germany.blogspot.com&amp;pfname=&amp;rpctoken=31420389"
-                          allow="autoplay 'self'; fullscreen 'self'"
-                          data-ruffle-polyfilled=""
-                          data-gapiattached="true"
-                        ></iframe>
-                      </div>
                       <Link
-                        source="blogger:blog:plusone"
                         href="http://michael-goes-to-germany.blogspot.com/2011/07/swimming-through-month-of-june.html"
-                        size="medium"
-                        width="300"
-                        annotation="inline"
                         data-gapiscan="true"
                         data-onload="true"
                         data-gapistub="true"
@@ -852,18 +778,17 @@ export default function GermanyBlogRoot() {
           <div className="post-outer">
             <div
               className="post hentry"
-              itemprop="blogPost"
-              itemscope="itemscope"
-              itemtype="http://schema.org/BlogPosting"
+              itemProp="blogPost"
+              itemType="http://schema.org/BlogPosting"
             >
               <meta
                 content="http://4.bp.blogspot.com/-050v2hi7uAM/TfljiJSn-JI/AAAAAAAADr0/rgmsbHX1-uA/s200/latte-macchiato.jpg"
-                itemprop="image_url"
+                itemProp="image_url"
               />
-              <meta content="5080106610184894814" itemprop="blogId" />
-              <meta content="8421426090360901819" itemprop="postId" />
-              <a name="8421426090360901819"></a>
-              <h3 className="post-title entry-title" itemprop="name">
+              <meta content="5080106610184894814" itemProp="blogId" />
+              <meta content="8421426090360901819" itemProp="postId" />
+              <a id="8421426090360901819"></a>
+              <h3 className="post-title entry-title" itemProp="name">
                 <a href="https://web.archive.org/web/20150912090005/http://michael-goes-to-germany.blogspot.com/2011/06/cooking-dahl-new-friends-and-nuclear-no.html">
                   Cooking dahl, new friends and "Nuclear - No thank you!"
                 </a>
@@ -874,7 +799,7 @@ export default function GermanyBlogRoot() {
               <div
                 className="post-body entry-content"
                 id="post-body-8421426090360901819"
-                itemprop="description articleBody"
+                itemProp="description articleBody"
               >
                 I've been itching for a while to meet an Australian. Yes, true
                 there's not many aussies here in nuremberg, but i was lucky to
@@ -885,8 +810,8 @@ export default function GermanyBlogRoot() {
                 <div className="separator" style={{}}></div>
                 <br />
                 <table
-                  cellpadding="0"
-                  cellspacing="0"
+                  cellPadding="0"
+                  cellSpacing="0"
                   className="tr-caption-container"
                   style={{}}
                 >
@@ -895,11 +820,10 @@ export default function GermanyBlogRoot() {
                       <td style={{}}>
                         <a
                           href="https://web.archive.org/web/20150912090005/http://4.bp.blogspot.com/-050v2hi7uAM/TfljiJSn-JI/AAAAAAAADr0/rgmsbHX1-uA/s1600/latte-macchiato.jpg"
-                          imageanchor="1"
                           style={{}}
                         >
                           <Image
-                            border="0"
+                            alt=""
                             height="200"
                             src={latte_macchiato}
                             width="181"
@@ -916,15 +840,9 @@ export default function GermanyBlogRoot() {
                 </table>
                 <a
                   href="https://web.archive.org/web/20150912090005/http://2.bp.blogspot.com/-K2xPAId7Xug/Te0uyhO9JuI/AAAAAAAADro/cAvKZLeQOIM/s1600/DSCF4951.JPG"
-                  imageanchor="1"
                   style={{}}
                 >
-                  <Image
-                    border="0"
-                    height="240"
-                    src="DSCF4951.JPG"
-                    width="320"
-                  />
+                  <Image alt="" height="240" src={DSCF4951} width="320" />
                 </a>
                 <br />
                 <br />
@@ -945,17 +863,15 @@ export default function GermanyBlogRoot() {
                 <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://3.bp.blogspot.com/-ph_5gKmKLFw/Te0unuXD7yI/AAAAAAAADrk/J9BzPQ44ERo/s1600/CIMG7393.JPG"
-                    imageanchor="1"
                     style={{}}
                   >
-                    <Image border="0" height="320" src={CIMG7393} width="240" />
+                    <Image alt="" height="320" src={CIMG7393} width="240" />
                   </a>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://2.bp.blogspot.com/-JhKh9-Vjeyw/Te0ujF50JtI/AAAAAAAADrg/d6m0-pONwhM/s1600/CIMG7377.JPG"
-                    imageanchor="1"
                     style={{}}
                   >
-                    <Image border="0" height="240" src={CIMG7377} width="320" />
+                    <Image alt="" height="240" src={CIMG7377} width="320" />
                   </a>
                 </div>
                 <br />
@@ -982,8 +898,8 @@ export default function GermanyBlogRoot() {
                 <br />
                 <table
                   align="center"
-                  cellpadding="0"
-                  cellspacing="0"
+                  cellPadding="0"
+                  cellSpacing="0"
                   className="tr-caption-container"
                   style={{}}
                 >
@@ -992,11 +908,10 @@ export default function GermanyBlogRoot() {
                       <td style={{}}>
                         <a
                           href="https://web.archive.org/web/20150912090005/http://2.bp.blogspot.com/-FXRE93mmAvY/Te0u_WPFo7I/AAAAAAAADrw/3QRwJJxFf34/s1600/greenpeace.jpg"
-                          imageanchor="1"
                           style={{}}
                         >
                           <Image
-                            border="0"
+                            alt=""
                             height="213"
                             src={greenpeace}
                             width="320"
@@ -1033,10 +948,9 @@ export default function GermanyBlogRoot() {
                 <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://2.bp.blogspot.com/--sL_Jl0SqMA/Te0u-PQ2VuI/AAAAAAAADrs/5yEZgpx2BW4/s1600/DSCF4953.JPG"
-                    imageanchor="1"
                     style={{}}
                   >
-                    <Image border="0" height="240" src={DSCF4953} width="320" />
+                    <Image alt="" height="240" src={DSCF4953} width="320" />
                   </a>
                 </div>
                 <br />
@@ -1069,13 +983,12 @@ export default function GermanyBlogRoot() {
                     Posted by
                     <span
                       className="fn"
-                      itemprop="author"
-                      itemscope="itemscope"
-                      itemtype="http://schema.org/Person"
+                      itemProp="author"
+                      itemType="http://schema.org/Person"
                     >
                       <meta
                         content="https://web.archive.org/web/20150912090005/https://www.blogger.com/profile/10626167252079488413"
-                        itemprop="url"
+                        itemProp="url"
                       />
                       <a
                         className="g-profile"
@@ -1086,7 +999,7 @@ export default function GermanyBlogRoot() {
                         data-onload="true"
                         data-gapiattached="true"
                       >
-                        <span itemprop="name">Michael Lisitsa</span>
+                        <span itemProp="name">Michael Lisitsa</span>
                       </a>
                     </span>
                   </span>
@@ -1094,7 +1007,7 @@ export default function GermanyBlogRoot() {
                     at
                     <meta
                       content="https://web.archive.org/web/20150912090005/http://michael-goes-to-germany.blogspot.com/2011/06/cooking-dahl-new-friends-and-nuclear-no.html"
-                      itemprop="url"
+                      itemProp="url"
                     />
                     <a
                       className="timestamp-link"
@@ -1104,7 +1017,7 @@ export default function GermanyBlogRoot() {
                     >
                       <abbr
                         className="published"
-                        itemprop="datePublished"
+                        itemProp="datePublished"
                         title="2011-06-06T13:47:00-07:00"
                       >
                         1:47 PM
@@ -1115,7 +1028,6 @@ export default function GermanyBlogRoot() {
                     <a
                       className="comment-link"
                       href="https://web.archive.org/web/20150912090005/http://michael-goes-to-germany.blogspot.com/2011/06/cooking-dahl-new-friends-and-nuclear-no.html#comment-form"
-                      onclick=""
                     >
                       1 comment:
                     </a>
@@ -1148,7 +1060,6 @@ export default function GermanyBlogRoot() {
                     <a
                       className="goog-inline-block share-button sb-blog"
                       href="https://web.archive.org/web/20150912090005/https://www.blogger.com/share-post.g?blogID=5080106610184894814&amp;postID=8421426090360901819&amp;target=blog"
-                      onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;'
                       target="_blank"
                       title="BlogThis!"
                     >
@@ -1167,7 +1078,6 @@ export default function GermanyBlogRoot() {
                     <a
                       className="goog-inline-block share-button sb-facebook"
                       href="https://web.archive.org/web/20150912090005/https://www.blogger.com/share-post.g?blogID=5080106610184894814&amp;postID=8421426090360901819&amp;target=facebook"
-                      onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;'
                       target="_blank"
                       title="Share to Facebook"
                     >
@@ -1186,31 +1096,8 @@ export default function GermanyBlogRoot() {
                       </span>
                     </a>
                     <div className="goog-inline-block dummy-container">
-                      <div style={{}} id="___plusone_2">
-                        <iframe
-                          frameborder="0"
-                          hspace="0"
-                          marginheight="0"
-                          marginwidth="0"
-                          scrolling="no"
-                          style={{}}
-                          tabindex="0"
-                          vspace="0"
-                          width="100%"
-                          id="I2_1442048406021"
-                          name="I2_1442048406021"
-                          src="https://web.archive.org/web/20150912090005if_/https://apis.google.com/se/0/_/+1/fastbutton?usegapi=1&amp;source=blogger%3Ablog%3Aplusone&amp;size=medium&amp;width=300&amp;annotation=inline&amp;hl=en&amp;origin=http%3A%2F%2Fmichael-goes-to-germany.blogspot.com&amp;url=http%3A%2F%2Fmichael-goes-to-germany.blogspot.com%2F2011%2F06%2Fcooking-dahl-new-friends-and-nuclear-no.html&amp;gsrc=3p&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en_US.EDsVhF0HdB4.O%2Fm%3D__features__%2Fam%3DAQ%2Frt%3Dj%2Fd%3D1%2Ft%3Dzcms%2Frs%3DAGLTcCOdhdZCMI-bFdxJTKANQpsOZVWhZQ#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh&amp;id=I2_1442048406021&amp;parent=http%3A%2F%2Fmichael-goes-to-germany.blogspot.com&amp;pfname=&amp;rpctoken=20535128"
-                          allow="autoplay 'self'; fullscreen 'self'"
-                          data-ruffle-polyfilled=""
-                          data-gapiattached="true"
-                        ></iframe>
-                      </div>
                       <Link
-                        source="blogger:blog:plusone"
                         href="http://michael-goes-to-germany.blogspot.com/2011/06/cooking-dahl-new-friends-and-nuclear-no.html"
-                        size="medium"
-                        width="300"
-                        annotation="inline"
                         data-gapiscan="true"
                         data-onload="true"
                         data-gapistub="true"
@@ -1239,18 +1126,17 @@ export default function GermanyBlogRoot() {
           <div className="post-outer">
             <div
               className="post hentry"
-              itemprop="blogPost"
-              itemscope="itemscope"
-              itemtype="http://schema.org/BlogPosting"
+              itemProp="blogPost"
+              itemType="http://schema.org/BlogPosting"
             >
               <meta
                 content="http://2.bp.blogspot.com/-hVs8Lk9cng4/TdAjB3bRKPI/AAAAAAAADmQ/zBoXyKl-XYU/s320/DSCF4862.JPG"
-                itemprop="image_url"
+                itemProp="image_url"
               />
-              <meta content="5080106610184894814" itemprop="blogId" />
-              <meta content="2204064564192524757" itemprop="postId" />
-              <a name="2204064564192524757"></a>
-              <h3 className="post-title entry-title" itemprop="name">
+              <meta content="5080106610184894814" itemProp="blogId" />
+              <meta content="2204064564192524757" itemProp="postId" />
+              <a id="2204064564192524757"></a>
+              <h3 className="post-title entry-title" itemProp="name">
                 <a href="https://web.archive.org/web/20150912090005/http://michael-goes-to-germany.blogspot.com/2011/05/fashion-in-berlin-ramblings-of-homesick.html">
                   Fashion in Berlin &amp; the ramblings of a homesick Australian
                 </a>
@@ -1261,7 +1147,7 @@ export default function GermanyBlogRoot() {
               <div
                 className="post-body entry-content"
                 id="post-body-2204064564192524757"
-                itemprop="description articleBody"
+                itemProp="description articleBody"
               >
                 Hey,
                 <br />
@@ -1282,24 +1168,21 @@ export default function GermanyBlogRoot() {
                 <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://2.bp.blogspot.com/-hVs8Lk9cng4/TdAjB3bRKPI/AAAAAAAADmQ/zBoXyKl-XYU/s1600/DSCF4862.JPG"
-                    imageanchor="1"
                     style={{}}
                   >
-                    <Image border="0" height="320" src={DSCF4862} width="158" />
+                    <Image alt="" height="320" src={DSCF4862} width="158" />
                   </a>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://4.bp.blogspot.com/-zmlyLNzdMfA/TdAjQBUOj1I/AAAAAAAADmY/-VLyAK07r_c/s1600/DSCF4880.JPG"
-                    imageanchor="1"
                     style={{}}
                   >
-                    <Image border="0" height="320" src={DSCF4880} width="133" />
+                    <Image alt="" height="320" src={DSCF4880} width="133" />
                   </a>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://2.bp.blogspot.com/-5A4EMUVoAKc/TdAjJXWyMZI/AAAAAAAADmU/4vJU-uGAeI4/s1600/DSCF4869.JPG"
-                    imageanchor="1"
                     style={{}}
                   >
-                    <Image border="0" height="320" src={DSCF4869} width="222" />
+                    <Image alt="" height="320" src={DSCF4869} width="222" />
                   </a>
                 </div>
                 <br />
@@ -1334,10 +1217,9 @@ export default function GermanyBlogRoot() {
                 <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://4.bp.blogspot.com/-PXWWYClHytc/TdAqrwOStlI/AAAAAAAADmg/pfYaQ4M5h-g/s1600/DSCF4940.JPG"
-                    imageanchor="1"
                     style={{}}
                   >
-                    <Image border="0" height="240" src={DSCF4940} width="320" />
+                    <Image alt="" height="240" src={DSCF4940} width="320" />
                     &nbsp;
                   </a>
                 </div>
@@ -1365,17 +1247,16 @@ export default function GermanyBlogRoot() {
                 <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://3.bp.blogspot.com/-EeHYmWDrWKg/TdAtP3MBHyI/AAAAAAAADmk/PHqRdPHaKKI/s1600/DSCF4950.JPG"
-                    imageanchor="1"
                     style={{}}
                   >
-                    <Image border="0" height="300" src={DSCF4950} width="400" />
+                    <Image alt="" height="300" src={DSCF4950} width="400" />
                   </a>
                 </div>
                 <blockquote>
                   <table
                     align="center"
-                    cellpadding="0"
-                    cellspacing="0"
+                    cellPadding="0"
+                    cellSpacing="0"
                     className="tr-caption-container"
                     style={{}}
                   >
@@ -1384,11 +1265,10 @@ export default function GermanyBlogRoot() {
                         <td style={{}}>
                           <a
                             href="https://web.archive.org/web/20150912090005/http://1.bp.blogspot.com/-qzGOamaosT4/TdAtUI1H3mI/AAAAAAAADmo/uTFzDDaG6GI/s1600/309395039_87f9f9212a.jpg"
-                            imageanchor="1"
                             style={{}}
                           >
                             <Image
-                              border="0"
+                              alt=""
                               height="200"
                               src={gps_etrex}
                               width="150"
@@ -1439,13 +1319,12 @@ export default function GermanyBlogRoot() {
                     Posted by
                     <span
                       className="fn"
-                      itemprop="author"
-                      itemscope="itemscope"
-                      itemtype="http://schema.org/Person"
+                      itemProp="author"
+                      itemType="http://schema.org/Person"
                     >
                       <meta
                         content="https://web.archive.org/web/20150912090005/https://www.blogger.com/profile/10626167252079488413"
-                        itemprop="url"
+                        itemProp="url"
                       />
                       <a
                         className="g-profile"
@@ -1456,7 +1335,7 @@ export default function GermanyBlogRoot() {
                         data-onload="true"
                         data-gapiattached="true"
                       >
-                        <span itemprop="name">Michael Lisitsa</span>
+                        <span itemProp="name">Michael Lisitsa</span>
                       </a>
                     </span>
                   </span>
@@ -1464,7 +1343,7 @@ export default function GermanyBlogRoot() {
                     at
                     <meta
                       content="https://web.archive.org/web/20150912090005/http://michael-goes-to-germany.blogspot.com/2011/05/fashion-in-berlin-ramblings-of-homesick.html"
-                      itemprop="url"
+                      itemProp="url"
                     />
                     <a
                       className="timestamp-link"
@@ -1474,7 +1353,7 @@ export default function GermanyBlogRoot() {
                     >
                       <abbr
                         className="published"
-                        itemprop="datePublished"
+                        itemProp="datePublished"
                         title="2011-05-15T12:57:00-07:00"
                       >
                         12:57 PM
@@ -1485,7 +1364,6 @@ export default function GermanyBlogRoot() {
                     <a
                       className="comment-link"
                       href="https://web.archive.org/web/20150912090005/http://michael-goes-to-germany.blogspot.com/2011/05/fashion-in-berlin-ramblings-of-homesick.html#comment-form"
-                      onclick=""
                     >
                       No comments:
                     </a>
@@ -1518,7 +1396,6 @@ export default function GermanyBlogRoot() {
                     <a
                       className="goog-inline-block share-button sb-blog"
                       href="https://web.archive.org/web/20150912090005/https://www.blogger.com/share-post.g?blogID=5080106610184894814&amp;postID=2204064564192524757&amp;target=blog"
-                      onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;'
                       target="_blank"
                       title="BlogThis!"
                     >
@@ -1537,7 +1414,6 @@ export default function GermanyBlogRoot() {
                     <a
                       className="goog-inline-block share-button sb-facebook"
                       href="https://web.archive.org/web/20150912090005/https://www.blogger.com/share-post.g?blogID=5080106610184894814&amp;postID=2204064564192524757&amp;target=facebook"
-                      onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;'
                       target="_blank"
                       title="Share to Facebook"
                     >
@@ -1556,31 +1432,8 @@ export default function GermanyBlogRoot() {
                       </span>
                     </a>
                     <div className="goog-inline-block dummy-container">
-                      <div style={{}} id="___plusone_3">
-                        <iframe
-                          frameborder="0"
-                          hspace="0"
-                          marginheight="0"
-                          marginwidth="0"
-                          scrolling="no"
-                          style={{}}
-                          tabindex="0"
-                          vspace="0"
-                          width="100%"
-                          id="I3_1442048406023"
-                          name="I3_1442048406023"
-                          src="https://web.archive.org/web/20150912090005if_/https://apis.google.com/se/0/_/+1/fastbutton?usegapi=1&amp;source=blogger%3Ablog%3Aplusone&amp;size=medium&amp;width=300&amp;annotation=inline&amp;hl=en&amp;origin=http%3A%2F%2Fmichael-goes-to-germany.blogspot.com&amp;url=http%3A%2F%2Fmichael-goes-to-germany.blogspot.com%2F2011%2F05%2Ffashion-in-berlin-ramblings-of-homesick.html&amp;gsrc=3p&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en_US.EDsVhF0HdB4.O%2Fm%3D__features__%2Fam%3DAQ%2Frt%3Dj%2Fd%3D1%2Ft%3Dzcms%2Frs%3DAGLTcCOdhdZCMI-bFdxJTKANQpsOZVWhZQ#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh&amp;id=I3_1442048406023&amp;parent=http%3A%2F%2Fmichael-goes-to-germany.blogspot.com&amp;pfname=&amp;rpctoken=91085784"
-                          allow="autoplay 'self'; fullscreen 'self'"
-                          data-ruffle-polyfilled=""
-                          data-gapiattached="true"
-                        ></iframe>
-                      </div>
                       <Link
-                        source="blogger:blog:plusone"
                         href="http://michael-goes-to-germany.blogspot.com/2011/05/fashion-in-berlin-ramblings-of-homesick.html"
-                        size="medium"
-                        width="300"
-                        annotation="inline"
                         data-gapiscan="true"
                         data-onload="true"
                         data-gapistub="true"
@@ -1609,18 +1462,17 @@ export default function GermanyBlogRoot() {
           <div className="post-outer">
             <div
               className="post hentry"
-              itemprop="blogPost"
-              itemscope="itemscope"
-              itemtype="http://schema.org/BlogPosting"
+              itemProp="blogPost"
+              itemType="http://schema.org/BlogPosting"
             >
               <meta
                 content="http://1.bp.blogspot.com/-Q6iiOnhzRo4/TarhgxAlMKI/AAAAAAAADfI/lzWu-Feyn_A/s320/Sunday+Picnic.JPG"
-                itemprop="image_url"
+                itemProp="image_url"
               />
-              <meta content="5080106610184894814" itemprop="blogId" />
-              <meta content="1132070132490502322" itemprop="postId" />
-              <a name="1132070132490502322"></a>
-              <h3 className="post-title entry-title" itemprop="name">
+              <meta content="5080106610184894814" itemProp="blogId" />
+              <meta content="1132070132490502322" itemProp="postId" />
+              <a id="1132070132490502322"></a>
+              <h3 className="post-title entry-title" itemProp="name">
                 <a href="https://web.archive.org/web/20150912090005/http://michael-goes-to-germany.blogspot.com/2011/04/uni-blues-heidelberg-and-picnic.html">
                   uni, blues, heidelberg and picnic
                 </a>
@@ -1631,7 +1483,7 @@ export default function GermanyBlogRoot() {
               <div
                 className="post-body entry-content"
                 id="post-body-1132070132490502322"
-                itemprop="description articleBody"
+                itemProp="description articleBody"
               >
                 Hey,
                 <br />
@@ -1642,11 +1494,10 @@ export default function GermanyBlogRoot() {
                 <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://1.bp.blogspot.com/-Q6iiOnhzRo4/TarhgxAlMKI/AAAAAAAADfI/lzWu-Feyn_A/s1600/Sunday+Picnic.JPG"
-                    imageanchor="1"
                     style={{}}
                   >
                     <Image
-                      border="0"
+                      alt=""
                       height="240"
                       src={Sunday_Picnic}
                       width="320"
@@ -1675,10 +1526,9 @@ export default function GermanyBlogRoot() {
                 <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://2.bp.blogspot.com/-mFYy7vV4zrs/TarjhZoumgI/AAAAAAAADfM/yaYz2m8K59g/s1600/DSCF4815.JPG"
-                    imageanchor="1"
                     style={{}}
                   >
-                    <Image border="0" height="240" src={DSCF4815} width="320" />
+                    <Image alt="" height="240" src={DSCF4815} width="320" />
                   </a>
                 </div>
                 <br />
@@ -1700,10 +1550,9 @@ export default function GermanyBlogRoot() {
                 <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://2.bp.blogspot.com/-Byeh99bFJGI/TarlLqhpnWI/AAAAAAAADfU/cq0yP-OwxZQ/s1600/DSCF4824.JPG"
-                    imageanchor="1"
                     style={{}}
                   >
-                    <Image border="0" height="240" src={DSCF4824} width="320" />
+                    <Image alt="" height="240" src={DSCF4824} width="320" />
                   </a>
                 </div>
                 <br />
@@ -1717,10 +1566,9 @@ export default function GermanyBlogRoot() {
                 <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://4.bp.blogspot.com/-8SDUY30drhE/TarltaYyKbI/AAAAAAAADfY/eHQyD9mHK58/s1600/DSCF4823.JPG"
-                    imageanchor="1"
                     style={{}}
                   >
-                    <Image border="0" height="240" src={DSCF4823} width="320" />
+                    <Image alt="" height="240" src={DSCF4823} width="320" />
                   </a>
                 </div>
                 <br />
@@ -1733,10 +1581,9 @@ export default function GermanyBlogRoot() {
                 <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://3.bp.blogspot.com/-519VBA-yciw/TarmGQxiQvI/AAAAAAAADfc/ZaDG72oKPsk/s1600/DSCF4827.JPG"
-                    imageanchor="1"
                     style={{}}
                   >
-                    <Image border="0" height="320" src={DSCF4827} width="240" />
+                    <Image alt="" height="320" src={DSCF4827} width="240" />
                   </a>
                 </div>
                 but all was well, he only liked his boys young (don't they
@@ -1745,10 +1592,9 @@ export default function GermanyBlogRoot() {
                 <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://3.bp.blogspot.com/-MuuXnHn019g/TarmkEvrbxI/AAAAAAAADfg/aZ2x97U7PXA/s1600/DSCF4829.JPG"
-                    imageanchor="1"
                     style={{}}
                   >
-                    <Image border="0" height="240" src={DSCF4829} width="320" />
+                    <Image alt="" height="240" src={DSCF4829} width="320" />
                   </a>
                 </div>
                 <br />
@@ -1768,10 +1614,9 @@ export default function GermanyBlogRoot() {
                 <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://4.bp.blogspot.com/-56d_SjNoqI0/TaroPHNGzRI/AAAAAAAADfk/RfF2Z5htA0o/s1600/DSCF4830.JPG"
-                    imageanchor="1"
                     style={{}}
                   >
-                    <Image border="0" height="240" src={DSCF4830} width="320" />
+                    <Image alt="" height="240" src={DSCF4830} width="320" />
                   </a>
                 </div>
                 <br />
@@ -1817,13 +1662,12 @@ export default function GermanyBlogRoot() {
                     Posted by
                     <span
                       className="fn"
-                      itemprop="author"
-                      itemscope="itemscope"
-                      itemtype="http://schema.org/Person"
+                      itemProp="author"
+                      itemType="http://schema.org/Person"
                     >
                       <meta
                         content="https://web.archive.org/web/20150912090005/https://www.blogger.com/profile/10626167252079488413"
-                        itemprop="url"
+                        itemProp="url"
                       />
                       <a
                         className="g-profile"
@@ -1834,7 +1678,7 @@ export default function GermanyBlogRoot() {
                         data-onload="true"
                         data-gapiattached="true"
                       >
-                        <span itemprop="name">Michael Lisitsa</span>
+                        <span itemProp="name">Michael Lisitsa</span>
                       </a>
                     </span>
                   </span>
@@ -1842,7 +1686,7 @@ export default function GermanyBlogRoot() {
                     at
                     <meta
                       content="https://web.archive.org/web/20150912090005/http://michael-goes-to-germany.blogspot.com/2011/04/uni-blues-heidelberg-and-picnic.html"
-                      itemprop="url"
+                      itemProp="url"
                     />
                     <a
                       className="timestamp-link"
@@ -1852,7 +1696,7 @@ export default function GermanyBlogRoot() {
                     >
                       <abbr
                         className="published"
-                        itemprop="datePublished"
+                        itemProp="datePublished"
                         title="2011-04-17T06:25:00-07:00"
                       >
                         6:25 AM
@@ -1863,7 +1707,6 @@ export default function GermanyBlogRoot() {
                     <a
                       className="comment-link"
                       href="https://web.archive.org/web/20150912090005/http://michael-goes-to-germany.blogspot.com/2011/04/uni-blues-heidelberg-and-picnic.html#comment-form"
-                      onclick=""
                     >
                       No comments:
                     </a>
@@ -1896,7 +1739,6 @@ export default function GermanyBlogRoot() {
                     <a
                       className="goog-inline-block share-button sb-blog"
                       href="https://web.archive.org/web/20150912090005/https://www.blogger.com/share-post.g?blogID=5080106610184894814&amp;postID=1132070132490502322&amp;target=blog"
-                      onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;'
                       target="_blank"
                       title="BlogThis!"
                     >
@@ -1915,7 +1757,6 @@ export default function GermanyBlogRoot() {
                     <a
                       className="goog-inline-block share-button sb-facebook"
                       href="https://web.archive.org/web/20150912090005/https://www.blogger.com/share-post.g?blogID=5080106610184894814&amp;postID=1132070132490502322&amp;target=facebook"
-                      onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;'
                       target="_blank"
                       title="Share to Facebook"
                     >
@@ -1934,31 +1775,8 @@ export default function GermanyBlogRoot() {
                       </span>
                     </a>
                     <div className="goog-inline-block dummy-container">
-                      <div style={{}} id="___plusone_4">
-                        <iframe
-                          frameborder="0"
-                          hspace="0"
-                          marginheight="0"
-                          marginwidth="0"
-                          scrolling="no"
-                          style={{}}
-                          tabindex="0"
-                          vspace="0"
-                          width="100%"
-                          id="I4_1442048406024"
-                          name="I4_1442048406024"
-                          src="https://web.archive.org/web/20150912090005if_/https://apis.google.com/se/0/_/+1/fastbutton?usegapi=1&amp;source=blogger%3Ablog%3Aplusone&amp;size=medium&amp;width=300&amp;annotation=inline&amp;hl=en&amp;origin=http%3A%2F%2Fmichael-goes-to-germany.blogspot.com&amp;url=http%3A%2F%2Fmichael-goes-to-germany.blogspot.com%2F2011%2F04%2Funi-blues-heidelberg-and-picnic.html&amp;gsrc=3p&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en_US.EDsVhF0HdB4.O%2Fm%3D__features__%2Fam%3DAQ%2Frt%3Dj%2Fd%3D1%2Ft%3Dzcms%2Frs%3DAGLTcCOdhdZCMI-bFdxJTKANQpsOZVWhZQ#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh&amp;id=I4_1442048406024&amp;parent=http%3A%2F%2Fmichael-goes-to-germany.blogspot.com&amp;pfname=&amp;rpctoken=31208844"
-                          allow="autoplay 'self'; fullscreen 'self'"
-                          data-ruffle-polyfilled=""
-                          data-gapiattached="true"
-                        ></iframe>
-                      </div>
                       <Link
-                        source="blogger:blog:plusone"
                         href="http://michael-goes-to-germany.blogspot.com/2011/04/uni-blues-heidelberg-and-picnic.html"
-                        size="medium"
-                        width="300"
-                        annotation="inline"
                         data-gapiscan="true"
                         data-onload="true"
                         data-gapistub="true"
@@ -1987,18 +1805,17 @@ export default function GermanyBlogRoot() {
           <div className="post-outer">
             <div
               className="post hentry"
-              itemprop="blogPost"
-              itemscope="itemscope"
-              itemtype="http://schema.org/BlogPosting"
+              itemProp="blogPost"
+              itemType="http://schema.org/BlogPosting"
             >
               <meta
                 content="https://lh6.googleusercontent.com/-tMR5WG4UEng/TYXdqB_8PGI/AAAAAAAADeY/qYXRJxGxoLg/s320/DSCF4770.JPG"
-                itemprop="image_url"
+                itemProp="image_url"
               />
-              <meta content="5080106610184894814" itemprop="blogId" />
-              <meta content="6988702251404724673" itemprop="postId" />
-              <a name="6988702251404724673"></a>
-              <h3 className="post-title entry-title" itemprop="name">
+              <meta content="5080106610184894814" itemProp="blogId" />
+              <meta content="6988702251404724673" itemProp="postId" />
+              <a id="6988702251404724673"></a>
+              <h3 className="post-title entry-title" itemProp="name">
                 <a href="https://web.archive.org/web/20150912090005/http://michael-goes-to-germany.blogspot.com/2011/03/good-vibrations.html">
                   Good Vibrations
                 </a>
@@ -2009,7 +1826,7 @@ export default function GermanyBlogRoot() {
               <div
                 className="post-body entry-content"
                 id="post-body-6988702251404724673"
-                itemprop="description articleBody"
+                itemProp="description articleBody"
               >
                 Hey. I wanted to update you on Germany and the friends I've met
                 and places I've been. Germany has been good and like everywhere
@@ -2021,10 +1838,9 @@ export default function GermanyBlogRoot() {
                 <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/https://lh6.googleusercontent.com/-tMR5WG4UEng/TYXdqB_8PGI/AAAAAAAADeY/qYXRJxGxoLg/s1600/DSCF4770.JPG"
-                    imageanchor="1"
                     style={{}}
                   >
-                    <Image border="0" height="240" src={DSCF4770} width="320" />
+                    <Image alt="" height="240" src={DSCF4770} width="320" />
                   </a>
                 </div>
                 or go to a bar...
@@ -2032,24 +1848,17 @@ export default function GermanyBlogRoot() {
                 <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/https://lh6.googleusercontent.com/-2X2TvA8R8BA/TYXeaJCo6kI/AAAAAAAADeg/EIsvbhBoSeI/s1600/DSCF4780.JPG"
-                    imageanchor="1"
                     style={{}}
                   >
-                    <Image border="0" height="240" src={DSCF4780} width="320" />
+                    <Image alt="" height="240" src={DSCF4780} width="320" />
                   </a>
                 </div>
                 <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/https://lh4.googleusercontent.com/-byMN2kvHlVE/TYXeTJE6KRI/AAAAAAAADec/LazWFigCsDc/s1600/Zwinger+Bar.JPG"
-                    imageanchor="1"
                     style={{}}
                   >
-                    <Image
-                      border="0"
-                      height="240"
-                      src={Zwinger_Bar}
-                      width="320"
-                    />
+                    <Image alt="" height="240" src={Zwinger_Bar} width="320" />
                   </a>
                 </div>
                 <br />
@@ -2073,11 +1882,10 @@ export default function GermanyBlogRoot() {
                 <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/https://lh6.googleusercontent.com/-5W2HIjuBYBw/TYXhKQdfTwI/AAAAAAAADek/C43fBgVAC9c/s1600/Ich+und+Dries+Olympisches+Stadion.jpg"
-                    imageanchor="1"
                     style={{}}
                   >
                     <Image
-                      border="0"
+                      alt=""
                       height="240"
                       src={Ich_und_Dries_Olympisches_Stadion}
                       width="320"
@@ -2107,11 +1915,10 @@ export default function GermanyBlogRoot() {
                 <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/https://lh4.googleusercontent.com/-sVn8LVNJAgs/TYXjPm44QOI/AAAAAAAADeo/SCWZ0eWuTS0/s1600/Radweg+Pegnitz.JPG"
-                    imageanchor="1"
                     style={{}}
                   >
                     <Image
-                      border="0"
+                      alt=""
                       height="240"
                       src={Radweg_Pegnitz}
                       width="320"
@@ -2122,11 +1929,10 @@ export default function GermanyBlogRoot() {
                 <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/https://lh5.googleusercontent.com/-0_P7NF4ZnmI/TYXjdl8xbEI/AAAAAAAADes/I2c8btoJgEQ/s1600/Bridge+sheep+Pegnitz+River.JPG"
-                    imageanchor="1"
                     style={{}}
                   >
                     <Image
-                      border="0"
+                      alt=""
                       height="240"
                       src={Bridge_sheep_Pegnitz_River}
                       width="320"
@@ -2142,13 +1948,12 @@ export default function GermanyBlogRoot() {
                     Posted by
                     <span
                       className="fn"
-                      itemprop="author"
-                      itemscope="itemscope"
-                      itemtype="http://schema.org/Person"
+                      itemProp="author"
+                      itemType="http://schema.org/Person"
                     >
                       <meta
                         content="https://web.archive.org/web/20150912090005/https://www.blogger.com/profile/10626167252079488413"
-                        itemprop="url"
+                        itemProp="url"
                       />
                       <a
                         className="g-profile"
@@ -2159,7 +1964,7 @@ export default function GermanyBlogRoot() {
                         data-onload="true"
                         data-gapiattached="true"
                       >
-                        <span itemprop="name">Michael Lisitsa</span>
+                        <span itemProp="name">Michael Lisitsa</span>
                       </a>
                     </span>
                   </span>
@@ -2167,7 +1972,7 @@ export default function GermanyBlogRoot() {
                     at
                     <meta
                       content="https://web.archive.org/web/20150912090005/http://michael-goes-to-germany.blogspot.com/2011/03/good-vibrations.html"
-                      itemprop="url"
+                      itemProp="url"
                     />
                     <a
                       className="timestamp-link"
@@ -2177,7 +1982,7 @@ export default function GermanyBlogRoot() {
                     >
                       <abbr
                         className="published"
-                        itemprop="datePublished"
+                        itemProp="datePublished"
                         title="2011-03-20T04:24:00-07:00"
                       >
                         4:24 AM
@@ -2188,7 +1993,6 @@ export default function GermanyBlogRoot() {
                     <a
                       className="comment-link"
                       href="https://web.archive.org/web/20150912090005/http://michael-goes-to-germany.blogspot.com/2011/03/good-vibrations.html#comment-form"
-                      onclick=""
                     >
                       No comments:
                     </a>
@@ -2221,7 +2025,6 @@ export default function GermanyBlogRoot() {
                     <a
                       className="goog-inline-block share-button sb-blog"
                       href="https://web.archive.org/web/20150912090005/https://www.blogger.com/share-post.g?blogID=5080106610184894814&amp;postID=6988702251404724673&amp;target=blog"
-                      onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;'
                       target="_blank"
                       title="BlogThis!"
                     >
@@ -2240,7 +2043,6 @@ export default function GermanyBlogRoot() {
                     <a
                       className="goog-inline-block share-button sb-facebook"
                       href="https://web.archive.org/web/20150912090005/https://www.blogger.com/share-post.g?blogID=5080106610184894814&amp;postID=6988702251404724673&amp;target=facebook"
-                      onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;'
                       target="_blank"
                       title="Share to Facebook"
                     >
@@ -2259,31 +2061,8 @@ export default function GermanyBlogRoot() {
                       </span>
                     </a>
                     <div className="goog-inline-block dummy-container">
-                      <div style={{}} id="___plusone_5">
-                        <iframe
-                          frameborder="0"
-                          hspace="0"
-                          marginheight="0"
-                          marginwidth="0"
-                          scrolling="no"
-                          style={{}}
-                          tabindex="0"
-                          vspace="0"
-                          width="100%"
-                          id="I5_1442048406025"
-                          name="I5_1442048406025"
-                          src="https://web.archive.org/web/20150912090005if_/https://apis.google.com/se/0/_/+1/fastbutton?usegapi=1&amp;source=blogger%3Ablog%3Aplusone&amp;size=medium&amp;width=300&amp;annotation=inline&amp;hl=en&amp;origin=http%3A%2F%2Fmichael-goes-to-germany.blogspot.com&amp;url=http%3A%2F%2Fmichael-goes-to-germany.blogspot.com%2F2011%2F03%2Fgood-vibrations.html&amp;gsrc=3p&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en_US.EDsVhF0HdB4.O%2Fm%3D__features__%2Fam%3DAQ%2Frt%3Dj%2Fd%3D1%2Ft%3Dzcms%2Frs%3DAGLTcCOdhdZCMI-bFdxJTKANQpsOZVWhZQ#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh&amp;id=I5_1442048406025&amp;parent=http%3A%2F%2Fmichael-goes-to-germany.blogspot.com&amp;pfname=&amp;rpctoken=28641769"
-                          allow="autoplay 'self'; fullscreen 'self'"
-                          data-ruffle-polyfilled=""
-                          data-gapiattached="true"
-                        ></iframe>
-                      </div>
                       <Link
-                        source="blogger:blog:plusone"
                         href="http://michael-goes-to-germany.blogspot.com/2011/03/good-vibrations.html"
-                        size="medium"
-                        width="300"
-                        annotation="inline"
                         data-gapiscan="true"
                         data-onload="true"
                         data-gapistub="true"
@@ -2312,18 +2091,17 @@ export default function GermanyBlogRoot() {
           <div className="post-outer">
             <div
               className="post hentry"
-              itemprop="blogPost"
-              itemscope="itemscope"
-              itemtype="http://schema.org/BlogPosting"
+              itemProp="blogPost"
+              itemType="http://schema.org/BlogPosting"
             >
               <meta
                 content="https://lh4.googleusercontent.com/-opKNGt-NVUQ/TXYRBEyxw4I/AAAAAAAADeI/MhuVNUahj3s/s400/DSCF4761.JPG"
-                itemprop="image_url"
+                itemProp="image_url"
               />
-              <meta content="5080106610184894814" itemprop="blogId" />
-              <meta content="1295821072245321432" itemprop="postId" />
-              <a name="1295821072245321432"></a>
-              <h3 className="post-title entry-title" itemprop="name">
+              <meta content="5080106610184894814" itemProp="blogId" />
+              <meta content="1295821072245321432" itemProp="postId" />
+              <a id="1295821072245321432"></a>
+              <h3 className="post-title entry-title" itemProp="name">
                 <a href="https://web.archive.org/web/20150912090005/http://michael-goes-to-germany.blogspot.com/2011/03/first-week-in-germany.html">
                   First week in Germany
                 </a>
@@ -2334,7 +2112,7 @@ export default function GermanyBlogRoot() {
               <div
                 className="post-body entry-content"
                 id="post-body-1295821072245321432"
-                itemprop="description articleBody"
+                itemProp="description articleBody"
               >
                 So...
                 <br />
@@ -2349,10 +2127,9 @@ export default function GermanyBlogRoot() {
                 <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/https://lh4.googleusercontent.com/-opKNGt-NVUQ/TXYRBEyxw4I/AAAAAAAADeI/MhuVNUahj3s/s1600/DSCF4761.JPG"
-                    imageanchor="1"
                     style={{}}
                   >
-                    <Image border="0" height="400" src={DSCF4761} width="298" />
+                    <Image alt="" height="400" src={DSCF4761} width="298" />
                   </a>
                 </div>
                 <br />
@@ -2377,10 +2154,9 @@ export default function GermanyBlogRoot() {
                 <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/https://lh4.googleusercontent.com/-_vQrOo2RRfw/TXYS5PLhKzI/AAAAAAAADeM/t9fkOEW8iJ0/s1600/DSCF4758.JPG"
-                    imageanchor="1"
                     style={{}}
                   >
-                    <Image border="0" height="300" src={DSCF4758} width="400" />
+                    <Image alt="" height="300" src={DSCF4758} width="400" />
                   </a>
                 </div>
                 <br />
@@ -2404,15 +2180,9 @@ export default function GermanyBlogRoot() {
                 <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/http://2.bp.blogspot.com/-aAmL2Tgb8DM/TdUIek7kzFI/AAAAAAAADms/w0MKk4_8Vyc/s1600/Tiergarten.JPG"
-                    imageanchor="1"
                     style={{}}
                   >
-                    <Image
-                      border="0"
-                      height="240"
-                      src={Tiergarten}
-                      width="320"
-                    />
+                    <Image alt="" height="240" src={Tiergarten} width="320" />
                   </a>
                 </div>
                 <div className="separator" style={{}}>
@@ -2433,10 +2203,9 @@ export default function GermanyBlogRoot() {
                 <div className="separator" style={{}}>
                   <a
                     href="https://web.archive.org/web/20150912090005/https://lh6.googleusercontent.com/-vkNv_ieJvMM/TXYUzS-yqOI/AAAAAAAADeU/TJD-WQUHN30/s1600/DSCF4762.JPG"
-                    imageanchor="1"
                     style={{}}
                   >
-                    <Image border="0" height="300" src={DSCF4762} width="400" />
+                    <Image alt="" height="300" src={DSCF4762} width="400" />
                   </a>
                 </div>
                 Auf Wiedersehen!
@@ -2448,13 +2217,12 @@ export default function GermanyBlogRoot() {
                     Posted by
                     <span
                       className="fn"
-                      itemprop="author"
-                      itemscope="itemscope"
-                      itemtype="http://schema.org/Person"
+                      itemProp="author"
+                      itemType="http://schema.org/Person"
                     >
                       <meta
                         content="https://web.archive.org/web/20150912090005/https://www.blogger.com/profile/10626167252079488413"
-                        itemprop="url"
+                        itemProp="url"
                       />
                       <a
                         className="g-profile"
@@ -2465,7 +2233,7 @@ export default function GermanyBlogRoot() {
                         data-onload="true"
                         data-gapiattached="true"
                       >
-                        <span itemprop="name">Michael Lisitsa</span>
+                        <span itemProp="name">Michael Lisitsa</span>
                       </a>
                     </span>
                   </span>
@@ -2473,7 +2241,7 @@ export default function GermanyBlogRoot() {
                     at
                     <meta
                       content="https://web.archive.org/web/20150912090005/http://michael-goes-to-germany.blogspot.com/2011/03/first-week-in-germany.html"
-                      itemprop="url"
+                      itemProp="url"
                     />
                     <a
                       className="timestamp-link"
@@ -2483,7 +2251,7 @@ export default function GermanyBlogRoot() {
                     >
                       <abbr
                         className="published"
-                        itemprop="datePublished"
+                        itemProp="datePublished"
                         title="2011-03-08T03:40:00-08:00"
                       >
                         3:40 AM
@@ -2494,7 +2262,6 @@ export default function GermanyBlogRoot() {
                     <a
                       className="comment-link"
                       href="https://web.archive.org/web/20150912090005/http://michael-goes-to-germany.blogspot.com/2011/03/first-week-in-germany.html#comment-form"
-                      onclick=""
                     >
                       No comments:
                     </a>
@@ -2527,7 +2294,6 @@ export default function GermanyBlogRoot() {
                     <a
                       className="goog-inline-block share-button sb-blog"
                       href="https://web.archive.org/web/20150912090005/https://www.blogger.com/share-post.g?blogID=5080106610184894814&amp;postID=1295821072245321432&amp;target=blog"
-                      onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;'
                       target="_blank"
                       title="BlogThis!"
                     >
@@ -2546,7 +2312,6 @@ export default function GermanyBlogRoot() {
                     <a
                       className="goog-inline-block share-button sb-facebook"
                       href="https://web.archive.org/web/20150912090005/https://www.blogger.com/share-post.g?blogID=5080106610184894814&amp;postID=1295821072245321432&amp;target=facebook"
-                      onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;'
                       target="_blank"
                       title="Share to Facebook"
                     >
@@ -2565,31 +2330,8 @@ export default function GermanyBlogRoot() {
                       </span>
                     </a>
                     <div className="goog-inline-block dummy-container">
-                      <div style={{}} id="___plusone_6">
-                        <iframe
-                          frameborder="0"
-                          hspace="0"
-                          marginheight="0"
-                          marginwidth="0"
-                          scrolling="no"
-                          style={{}}
-                          tabindex="0"
-                          vspace="0"
-                          width="100%"
-                          id="I6_1442048406027"
-                          name="I6_1442048406027"
-                          src="https://web.archive.org/web/20150912090005if_/https://apis.google.com/se/0/_/+1/fastbutton?usegapi=1&amp;source=blogger%3Ablog%3Aplusone&amp;size=medium&amp;width=300&amp;annotation=inline&amp;hl=en&amp;origin=http%3A%2F%2Fmichael-goes-to-germany.blogspot.com&amp;url=http%3A%2F%2Fmichael-goes-to-germany.blogspot.com%2F2011%2F03%2Ffirst-week-in-germany.html&amp;gsrc=3p&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en_US.EDsVhF0HdB4.O%2Fm%3D__features__%2Fam%3DAQ%2Frt%3Dj%2Fd%3D1%2Ft%3Dzcms%2Frs%3DAGLTcCOdhdZCMI-bFdxJTKANQpsOZVWhZQ#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh&amp;id=I6_1442048406027&amp;parent=http%3A%2F%2Fmichael-goes-to-germany.blogspot.com&amp;pfname=&amp;rpctoken=32294000"
-                          allow="autoplay 'self'; fullscreen 'self'"
-                          data-ruffle-polyfilled=""
-                          data-gapiattached="true"
-                        ></iframe>
-                      </div>
                       <Link
-                        source="blogger:blog:plusone"
                         href="http://michael-goes-to-germany.blogspot.com/2011/03/first-week-in-germany.html"
-                        size="medium"
-                        width="300"
-                        annotation="inline"
                         data-gapiscan="true"
                         data-onload="true"
                         data-gapistub="true"
