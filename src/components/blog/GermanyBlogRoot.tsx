@@ -41,6 +41,7 @@ import DSC04426 from "@/assets/germany/DSC04426.jpg";
 import Fahrt_Suedbayern_130 from "@/assets/germany/Fahrt_Suedbayern_130.jpg";
 import DSC04332 from "@/assets/germany/DSC04332.jpg";
 import DSCF4951 from "@/assets/germany/DSCF4951.jpg";
+import styles from "./GermanyBlogRoot.module.css";
 
 // Markup imported from https://web.archive.org/web/20150912090005/http://michael-goes-to-germany.blogspot.com/
 // with some modifications to make it work with Next.js
@@ -68,9 +69,11 @@ export default function GermanyBlogRoot() {
               />
               <meta content="5080106610184894814" itemProp="blogId" />
               <meta content="7217063188421251176" itemProp="postId" />
-              <a id="7217063188421251176"></a>
+              <div id="7217063188421251176"></div>
               <h3 className="post-title entry-title" itemProp="name">
-                <a href="#">Bavarian Bike Tour, Prague and Goodbye</a>
+                <div className={styles["legacy-link"]}>
+                  Bavarian Bike Tour, Prague and Goodbye
+                </div>
               </h3>
               <div className="post-header">
                 <div className="post-header-line-1"></div>
@@ -93,15 +96,15 @@ export default function GermanyBlogRoot() {
                 Franz Kafka.
                 <br />
                 <div className="separator" style={{}}>
-                  <a href="#" style={{}}>
+                  <div className={styles["legacy-link"]} style={{}}>
                     <Image alt="" src={DSCF4991} height="240" width="320" />
-                  </a>
-                  <a href="#" style={{}}>
+                  </div>
+                  <div className={styles["legacy-link"]} style={{}}>
                     <Image alt="" height="320" src={DSCF4993} width="240" />
-                  </a>
-                  <a href="#" style={{}}>
+                  </div>
+                  <div className={styles["legacy-link"]} style={{}}>
                     <Image alt="" height="240" src={DSCF5001} width="320" />
-                  </a>
+                  </div>
                 </div>
                 <br />
                 &nbsp;A little challenge: What are the three styles/periods of
@@ -120,9 +123,9 @@ export default function GermanyBlogRoot() {
                 <br />
                 <br />
                 <div className="separator" style={{}}>
-                  <a href="#" style={{}}>
+                  <div className={styles["legacy-link"]} style={{}}>
                     <Image alt="" height="240" src={DSCF5017} width="320" />
-                  </a>
+                  </div>
                 </div>
                 <br />
                 As luck would have it, the weather on launch day was remarkably
@@ -132,10 +135,10 @@ export default function GermanyBlogRoot() {
                 lake:
                 <br />
                 <br />
-                <a href="#" style={{}}>
+                <div className={styles["legacy-link"]} style={{}}>
                   <Image alt="" height="240" src={DSCF5047} width="320" />
-                </a>
-                <a href="#" style={{}}></a>
+                </div>
+                <div className={styles["legacy-link"]} style={{}}></div>
                 That night it rained cats, dogs and I'm pretty sure a few cows.
                 I was accordingly soaked, not helped by my lazy tent set-up
                 skills. It eventually got better though. On Day 2, I was pushing
@@ -157,9 +160,9 @@ export default function GermanyBlogRoot() {
                 <br />
                 <br />
                 <div className="separator" style={{}}>
-                  <a href="#" style={{}}>
+                  <div className={styles["legacy-link"]} style={{}}>
                     <Image alt="" height="480" src={DSCF5052} width="640" />
-                  </a>
+                  </div>
                 </div>
                 <br />
                 On the last night, I camped behind the sheds at a soccer oval. I
@@ -207,10 +210,10 @@ export default function GermanyBlogRoot() {
                       </td>
                       <td align="left">
                         &nbsp;
-                        <a href="#"></a>
-                        <a href="#">
+                        <div className={styles["legacy-link"]}></div>
+                        <div className={styles["legacy-link"]}>
                           <br />
-                        </a>
+                        </div>
                       </td>
                     </tr>
                     <tr className="highlighted">
@@ -305,9 +308,8 @@ export default function GermanyBlogRoot() {
                         content="https://web.archive.org/web/20150912090005/https://www.blogger.com/profile/10626167252079488413"
                         itemProp="url"
                       />
-                      <a
-                        className="g-profile"
-                        href="#"
+                      <div
+                        className={styles["legacy-link"]}
                         rel="author"
                         title="author profile"
                         data-gapiscan="true"
@@ -315,7 +317,7 @@ export default function GermanyBlogRoot() {
                         data-gapiattached="true"
                       >
                         <span itemProp="name">Michael Lisitsa</span>
-                      </a>
+                      </div>
                     </span>
                   </span>
                   <span className="post-timestamp">
@@ -324,9 +326,8 @@ export default function GermanyBlogRoot() {
                       content="https://web.archive.org/web/20150912090005/http://michael-goes-to-germany.blogspot.com/2011/07/bavarian-bike-tour-prague-and-goodbye.html"
                       itemProp="url"
                     />
-                    <a
-                      className="timestamp-link"
-                      href="#"
+                    <div
+                      className={styles["legacy-link"]}
                       rel="bookmark"
                       title="permanent link"
                     >
@@ -337,16 +338,14 @@ export default function GermanyBlogRoot() {
                       >
                         3:32 AM
                       </abbr>
-                    </a>
+                    </div>
                   </span>
                   <span className="post-comment-link">
-                    <a className="comment-link" href="#">
-                      No comments:
-                    </a>
+                    <div className={styles["legacy-link"]}>No comments:</div>
                   </span>
                   <span className="post-icons">
                     <span className="item-control blog-admin pid-1014897193">
-                      <a href="#" title="Edit Post">
+                      <div className={styles["legacy-link"]} title="Edit Post">
                         <Image
                           alt=""
                           className="icon-action"
@@ -354,63 +353,39 @@ export default function GermanyBlogRoot() {
                           src="//web.archive.org/web/20150912090005im_/http://img2.blogblog.com/img/icon18_edit_allbkg.gif"
                           width="18"
                         />
-                      </a>
+                      </div>
                     </span>
                   </span>
                   <div className="post-share-buttons goog-inline-block">
-                    <a
-                      className="goog-inline-block share-button sb-email"
-                      href="#"
-                      target="_blank"
-                      title="Email This"
-                    >
+                    <div className={styles["legacy-link"]} title="Email This">
                       <span className="share-button-link-text">Email This</span>
-                    </a>
-                    <a
-                      className="goog-inline-block share-button sb-blog"
-                      href="#"
-                      target="_blank"
-                      title="BlogThis!"
-                    >
+                    </div>
+                    <div className={styles["legacy-link"]} title="BlogThis!">
                       <span className="share-button-link-text">BlogThis!</span>
-                    </a>
-                    <a
-                      className="goog-inline-block share-button sb-twitter"
-                      href="#"
-                      target="_blank"
+                    </div>
+                    <div
+                      className={styles["legacy-link"]}
                       title="Share to Twitter"
                     >
                       <span className="share-button-link-text">
                         Share to Twitter
                       </span>
-                    </a>
-                    <a
-                      className="goog-inline-block share-button sb-facebook"
-                      href="#"
-                      target="_blank"
+                    </div>
+                    <div
+                      className={styles["legacy-link"]}
                       title="Share to Facebook"
                     >
                       <span className="share-button-link-text">
                         Share to Facebook
                       </span>
-                    </a>
-                    <a
-                      className="goog-inline-block share-button sb-pinterest"
-                      href="#"
-                      target="_blank"
+                    </div>
+                    <div
+                      className={styles["legacy-link"]}
                       title="Share to Pinterest"
                     >
                       <span className="share-button-link-text">
                         Share to Pinterest
                       </span>
-                    </a>
-                    <div className="goog-inline-block dummy-container">
-                      <Link
-                        href="http://michael-goes-to-germany.blogspot.com/2011/07/bavarian-bike-tour-prague-and-goodbye.html"
-                        data-gapiscan="true"
-                        data-onload="true"
-                        data-gapistub="true"
-                      ></Link>
                     </div>
                   </div>
                 </div>
@@ -444,9 +419,11 @@ export default function GermanyBlogRoot() {
               />
               <meta content="5080106610184894814" itemProp="blogId" />
               <meta content="3222043699094469806" itemProp="postId" />
-              <a id="3222043699094469806"></a>
+              <div id="3222043699094469806"></div>
               <h3 className="post-title entry-title" itemProp="name">
-                <a href="#">Swimming through the month of June</a>
+                <div className={styles["legacy-link"]}>
+                  Swimming through the month of June
+                </div>
               </h3>
               <div className="post-header">
                 <div className="post-header-line-1"></div>
@@ -462,9 +439,9 @@ export default function GermanyBlogRoot() {
                 nice weekends and stuff and will share a few pictures as well:
                 <br />
                 <br />
-                <a href="#" style={{}}>
+                <div className={styles["legacy-link"]} style={{}}>
                   <Image alt="" height="131" src={DSC04426} width="200" />
-                </a>
+                </div>
                 Well first the group of exchange students went to visit some
                 castles in southern bavaria. The most famous, and supposedly an
                 inspiration for the sleeping beauty castle was Neuschwanstein
@@ -478,20 +455,20 @@ export default function GermanyBlogRoot() {
                 <br />
                 <div className="separator" style={{}}></div>
                 <div className="separator" style={{}}>
-                  <a href="#" style={{}}>
+                  <div className={styles["legacy-link"]} style={{}}>
                     <Image
                       alt=""
                       height="240"
                       src={Fahrt_Suedbayern_130}
                       width="320"
                     />
-                  </a>
+                  </div>
                 </div>
                 <br />
                 <div className="separator" style={{}}></div>
-                <a href="#" style={{}}>
+                <div className={styles["legacy-link"]} style={{}}>
                   <Image alt="" height="132" src={DSC04332} width="200" />
-                </a>
+                </div>
                 That weekend we also went to a typical bavarian restaurants,
                 they love their beer so much they even made a beer liquor served
                 warm, was pretty tasty. There was dancing and heaps of chants
@@ -515,9 +492,9 @@ export default function GermanyBlogRoot() {
                 top heaps when first poured. Quite good actually:
                 <br />
                 <div className="separator" style={{}}>
-                  <a href="#" style={{}}>
+                  <div className={styles["legacy-link"]} style={{}}>
                     <Image alt="" height="240" src={DSCF4957} width="320" />
-                  </a>
+                  </div>
                 </div>
                 <br />
                 We went to the Documentation Centre which is a museum of nazi
@@ -526,9 +503,9 @@ export default function GermanyBlogRoot() {
                 extermination camps, the other ones are labour camps:
                 <br />
                 <div className="separator" style={{}}>
-                  <a href="#" style={{}}>
+                  <div className={styles["legacy-link"]} style={{}}>
                     <Image alt="" height="240" src={DSCF4958} width="320" />
-                  </a>
+                  </div>
                 </div>
                 <br />
                 It's upside down, but you can see that Germany only really had
@@ -547,9 +524,9 @@ export default function GermanyBlogRoot() {
                 <div className="separator" style={{}}></div>
                 <div className="separator" style={{}}></div>
                 <div className="separator" style={{}}>
-                  <a href="#" style={{}}>
+                  <div className={styles["legacy-link"]} style={{}}>
                     <Image alt="" height="320" src={Ian_Thorpe} width="220" />
-                  </a>
+                  </div>
                 </div>
                 Actually, mine's better ;).
                 <br />
@@ -597,9 +574,8 @@ export default function GermanyBlogRoot() {
                         content="https://web.archive.org/web/20150912090005/https://www.blogger.com/profile/10626167252079488413"
                         itemProp="url"
                       />
-                      <a
-                        className="g-profile"
-                        href="#"
+                      <div
+                        className={styles["legacy-link"]}
                         rel="author"
                         title="author profile"
                         data-gapiscan="true"
@@ -607,7 +583,7 @@ export default function GermanyBlogRoot() {
                         data-gapiattached="true"
                       >
                         <span itemProp="name">Michael Lisitsa</span>
-                      </a>
+                      </div>
                     </span>
                   </span>
                   <span className="post-timestamp">
@@ -616,9 +592,8 @@ export default function GermanyBlogRoot() {
                       content="https://web.archive.org/web/20150912090005/http://michael-goes-to-germany.blogspot.com/2011/07/swimming-through-month-of-june.html"
                       itemProp="url"
                     />
-                    <a
-                      className="timestamp-link"
-                      href="#"
+                    <div
+                      className={styles["legacy-link"]}
                       rel="bookmark"
                       title="permanent link"
                     >
@@ -629,16 +604,14 @@ export default function GermanyBlogRoot() {
                       >
                         6:58 AM
                       </abbr>
-                    </a>
+                    </div>
                   </span>
                   <span className="post-comment-link">
-                    <a className="comment-link" href="#">
-                      No comments:
-                    </a>
+                    <div className={styles["legacy-link"]}>No comments:</div>
                   </span>
                   <span className="post-icons">
                     <span className="item-control blog-admin pid-1014897193">
-                      <a href="#" title="Edit Post">
+                      <div className={styles["legacy-link"]} title="Edit Post">
                         <Image
                           alt=""
                           className="icon-action"
@@ -646,63 +619,39 @@ export default function GermanyBlogRoot() {
                           src="//web.archive.org/web/20150912090005im_/http://img2.blogblog.com/img/icon18_edit_allbkg.gif"
                           width="18"
                         />
-                      </a>
+                      </div>
                     </span>
                   </span>
                   <div className="post-share-buttons goog-inline-block">
-                    <a
-                      className="goog-inline-block share-button sb-email"
-                      href="#"
-                      target="_blank"
-                      title="Email This"
-                    >
+                    <div className={styles["legacy-link"]} title="Email This">
                       <span className="share-button-link-text">Email This</span>
-                    </a>
-                    <a
-                      className="goog-inline-block share-button sb-blog"
-                      href="#"
-                      target="_blank"
-                      title="BlogThis!"
-                    >
+                    </div>
+                    <div className={styles["legacy-link"]} title="BlogThis!">
                       <span className="share-button-link-text">BlogThis!</span>
-                    </a>
-                    <a
-                      className="goog-inline-block share-button sb-twitter"
-                      href="#"
-                      target="_blank"
+                    </div>
+                    <div
+                      className={styles["legacy-link"]}
                       title="Share to Twitter"
                     >
                       <span className="share-button-link-text">
                         Share to Twitter
                       </span>
-                    </a>
-                    <a
-                      className="goog-inline-block share-button sb-facebook"
-                      href="#"
-                      target="_blank"
+                    </div>
+                    <div
+                      className={styles["legacy-link"]}
                       title="Share to Facebook"
                     >
                       <span className="share-button-link-text">
                         Share to Facebook
                       </span>
-                    </a>
-                    <a
-                      className="goog-inline-block share-button sb-pinterest"
-                      href="#"
-                      target="_blank"
+                    </div>
+                    <div
+                      className={styles["legacy-link"]}
                       title="Share to Pinterest"
                     >
                       <span className="share-button-link-text">
                         Share to Pinterest
                       </span>
-                    </a>
-                    <div className="goog-inline-block dummy-container">
-                      <Link
-                        href="http://michael-goes-to-germany.blogspot.com/2011/07/swimming-through-month-of-june.html"
-                        data-gapiscan="true"
-                        data-onload="true"
-                        data-gapistub="true"
-                      ></Link>
                     </div>
                   </div>
                 </div>
@@ -736,11 +685,11 @@ export default function GermanyBlogRoot() {
               />
               <meta content="5080106610184894814" itemProp="blogId" />
               <meta content="8421426090360901819" itemProp="postId" />
-              <a id="8421426090360901819"></a>
+              <div id="8421426090360901819"></div>
               <h3 className="post-title entry-title" itemProp="name">
-                <a href="#">
+                <div className={styles["legacy-link"]}>
                   Cooking dahl, new friends and "Nuclear - No thank you!"
-                </a>
+                </div>
               </h3>
               <div className="post-header">
                 <div className="post-header-line-1"></div>
@@ -767,14 +716,14 @@ export default function GermanyBlogRoot() {
                   <tbody>
                     <tr>
                       <td style={{}}>
-                        <a href="#" style={{}}>
+                        <div className={styles["legacy-link"]} style={{}}>
                           <Image
                             alt=""
                             height="200"
                             src={latte_macchiato}
                             width="181"
                           />
-                        </a>
+                        </div>
                       </td>
                     </tr>
                     <tr>
@@ -784,9 +733,9 @@ export default function GermanyBlogRoot() {
                     </tr>
                   </tbody>
                 </table>
-                <a href="#" style={{}}>
+                <div className={styles["legacy-link"]} style={{}}>
                   <Image alt="" height="240" src={DSCF4951} width="320" />
-                </a>
+                </div>
                 <br />
                 <br />
                 We had a nice talk about aussie politics and the differences
@@ -804,12 +753,12 @@ export default function GermanyBlogRoot() {
                 wonderful! Really a city that is open to different people,
                 different cultures. some pics: <br />
                 <div className="separator" style={{}}>
-                  <a href="#" style={{}}>
+                  <div className={styles["legacy-link"]} style={{}}>
                     <Image alt="" height="320" src={CIMG7393} width="240" />
-                  </a>
-                  <a href="#" style={{}}>
+                  </div>
+                  <div className={styles["legacy-link"]} style={{}}>
                     <Image alt="" height="240" src={CIMG7377} width="320" />
-                  </a>
+                  </div>
                 </div>
                 <br />
                 <br />
@@ -843,14 +792,14 @@ export default function GermanyBlogRoot() {
                   <tbody>
                     <tr>
                       <td style={{}}>
-                        <a href="#" style={{}}>
+                        <div className={styles["legacy-link"]} style={{}}>
                           <Image
                             alt=""
                             height="213"
                             src={greenpeace}
                             width="320"
                           />
-                        </a>
+                        </div>
                       </td>
                     </tr>
                     <tr>
@@ -880,9 +829,9 @@ export default function GermanyBlogRoot() {
                 Here was my first attempt at making Dal:
                 <br />
                 <div className="separator" style={{}}>
-                  <a href="#" style={{}}>
+                  <div className={styles["legacy-link"]} style={{}}>
                     <Image alt="" height="240" src={DSCF4953} width="320" />
-                  </a>
+                  </div>
                 </div>
                 <br />
                 Mmmm... appetising. No actually it's supposed to be a little
@@ -921,9 +870,8 @@ export default function GermanyBlogRoot() {
                         content="https://web.archive.org/web/20150912090005/https://www.blogger.com/profile/10626167252079488413"
                         itemProp="url"
                       />
-                      <a
-                        className="g-profile"
-                        href="#"
+                      <div
+                        className={styles["legacy-link"]}
                         rel="author"
                         title="author profile"
                         data-gapiscan="true"
@@ -931,7 +879,7 @@ export default function GermanyBlogRoot() {
                         data-gapiattached="true"
                       >
                         <span itemProp="name">Michael Lisitsa</span>
-                      </a>
+                      </div>
                     </span>
                   </span>
                   <span className="post-timestamp">
@@ -940,9 +888,8 @@ export default function GermanyBlogRoot() {
                       content="https://web.archive.org/web/20150912090005/http://michael-goes-to-germany.blogspot.com/2011/06/cooking-dahl-new-friends-and-nuclear-no.html"
                       itemProp="url"
                     />
-                    <a
-                      className="timestamp-link"
-                      href="#"
+                    <div
+                      className={styles["legacy-link"]}
                       rel="bookmark"
                       title="permanent link"
                     >
@@ -953,16 +900,14 @@ export default function GermanyBlogRoot() {
                       >
                         1:47 PM
                       </abbr>
-                    </a>
+                    </div>
                   </span>
                   <span className="post-comment-link">
-                    <a className="comment-link" href="#">
-                      1 comment:
-                    </a>
+                    <div className={styles["legacy-link"]}>1 comment:</div>
                   </span>
                   <span className="post-icons">
                     <span className="item-control blog-admin pid-1014897193">
-                      <a href="#" title="Edit Post">
+                      <div className={styles["legacy-link"]} title="Edit Post">
                         <Image
                           alt=""
                           className="icon-action"
@@ -970,63 +915,39 @@ export default function GermanyBlogRoot() {
                           src="//web.archive.org/web/20150912090005im_/http://img2.blogblog.com/img/icon18_edit_allbkg.gif"
                           width="18"
                         />
-                      </a>
+                      </div>
                     </span>
                   </span>
                   <div className="post-share-buttons goog-inline-block">
-                    <a
-                      className="goog-inline-block share-button sb-email"
-                      href="#"
-                      target="_blank"
-                      title="Email This"
-                    >
+                    <div className={styles["legacy-link"]} title="Email This">
                       <span className="share-button-link-text">Email This</span>
-                    </a>
-                    <a
-                      className="goog-inline-block share-button sb-blog"
-                      href="#"
-                      target="_blank"
-                      title="BlogThis!"
-                    >
+                    </div>
+                    <div className={styles["legacy-link"]} title="BlogThis!">
                       <span className="share-button-link-text">BlogThis!</span>
-                    </a>
-                    <a
-                      className="goog-inline-block share-button sb-twitter"
-                      href="#"
-                      target="_blank"
+                    </div>
+                    <div
+                      className={styles["legacy-link"]}
                       title="Share to Twitter"
                     >
                       <span className="share-button-link-text">
                         Share to Twitter
                       </span>
-                    </a>
-                    <a
-                      className="goog-inline-block share-button sb-facebook"
-                      href="#"
-                      target="_blank"
+                    </div>
+                    <div
+                      className={styles["legacy-link"]}
                       title="Share to Facebook"
                     >
                       <span className="share-button-link-text">
                         Share to Facebook
                       </span>
-                    </a>
-                    <a
-                      className="goog-inline-block share-button sb-pinterest"
-                      href="#"
-                      target="_blank"
+                    </div>
+                    <div
+                      className={styles["legacy-link"]}
                       title="Share to Pinterest"
                     >
                       <span className="share-button-link-text">
                         Share to Pinterest
                       </span>
-                    </a>
-                    <div className="goog-inline-block dummy-container">
-                      <Link
-                        href="http://michael-goes-to-germany.blogspot.com/2011/06/cooking-dahl-new-friends-and-nuclear-no.html"
-                        data-gapiscan="true"
-                        data-onload="true"
-                        data-gapistub="true"
-                      ></Link>
                     </div>
                   </div>
                 </div>
@@ -1060,11 +981,11 @@ export default function GermanyBlogRoot() {
               />
               <meta content="5080106610184894814" itemProp="blogId" />
               <meta content="2204064564192524757" itemProp="postId" />
-              <a id="2204064564192524757"></a>
+              <div id="2204064564192524757"></div>
               <h3 className="post-title entry-title" itemProp="name">
-                <a href="#">
+                <div className={styles["legacy-link"]}>
                   Fashion in Berlin &amp; the ramblings of a homesick Australian
-                </a>
+                </div>
               </h3>
               <div className="post-header">
                 <div className="post-header-line-1"></div>
@@ -1091,15 +1012,15 @@ export default function GermanyBlogRoot() {
                 <br />
                 <br />
                 <div className="separator" style={{}}>
-                  <a href="#" style={{}}>
+                  <div className={styles["legacy-link"]} style={{}}>
                     <Image alt="" height="320" src={DSCF4862} width="158" />
-                  </a>
-                  <a href="#" style={{}}>
+                  </div>
+                  <div className={styles["legacy-link"]} style={{}}>
                     <Image alt="" height="320" src={DSCF4880} width="133" />
-                  </a>
-                  <a href="#" style={{}}>
+                  </div>
+                  <div className={styles["legacy-link"]} style={{}}>
                     <Image alt="" height="320" src={DSCF4869} width="222" />
-                  </a>
+                  </div>
                 </div>
                 <br />
                 <br />
@@ -1131,10 +1052,10 @@ export default function GermanyBlogRoot() {
                 though and died while in captivity <br />
                 <br />
                 <div className="separator" style={{}}>
-                  <a href="#" style={{}}>
+                  <div className={styles["legacy-link"]} style={{}}>
                     <Image alt="" height="240" src={DSCF4940} width="320" />
                     &nbsp;
-                  </a>
+                  </div>
                 </div>
                 <div className="separator" style={{}}>
                   <br />
@@ -1147,7 +1068,7 @@ export default function GermanyBlogRoot() {
                   out of the really dense scrub. I also learned a cool trick
                   where you can use the sun and your watch as an analogue
                   compass. It actually works!
-                  <a href="#">How to use..</a>
+                  <div className={styles["legacy-link"]}>How to use..</div>
                   It's actually really easy to lose orientation in a forest,
                   first time I tried walking consistently north and unknowingly
                   did a 180 after around 10 minutes. How crazy is that!
@@ -1156,9 +1077,9 @@ export default function GermanyBlogRoot() {
                   <br />
                 </div>
                 <div className="separator" style={{}}>
-                  <a href="#" style={{}}>
+                  <div className={styles["legacy-link"]} style={{}}>
                     <Image alt="" height="300" src={DSCF4950} width="400" />
-                  </a>
+                  </div>
                 </div>
                 <blockquote>
                   <table
@@ -1171,14 +1092,14 @@ export default function GermanyBlogRoot() {
                     <tbody>
                       <tr>
                         <td style={{}}>
-                          <a href="#" style={{}}>
+                          <div className={styles["legacy-link"]} style={{}}>
                             <Image
                               alt=""
                               height="200"
                               src={gps_etrex}
                               width="150"
                             />
-                          </a>
+                          </div>
                         </td>
                       </tr>
                       <tr>
@@ -1231,9 +1152,8 @@ export default function GermanyBlogRoot() {
                         content="https://web.archive.org/web/20150912090005/https://www.blogger.com/profile/10626167252079488413"
                         itemProp="url"
                       />
-                      <a
-                        className="g-profile"
-                        href="#"
+                      <div
+                        className={styles["legacy-link"]}
                         rel="author"
                         title="author profile"
                         data-gapiscan="true"
@@ -1241,7 +1161,7 @@ export default function GermanyBlogRoot() {
                         data-gapiattached="true"
                       >
                         <span itemProp="name">Michael Lisitsa</span>
-                      </a>
+                      </div>
                     </span>
                   </span>
                   <span className="post-timestamp">
@@ -1250,9 +1170,8 @@ export default function GermanyBlogRoot() {
                       content="https://web.archive.org/web/20150912090005/http://michael-goes-to-germany.blogspot.com/2011/05/fashion-in-berlin-ramblings-of-homesick.html"
                       itemProp="url"
                     />
-                    <a
-                      className="timestamp-link"
-                      href="#"
+                    <div
+                      className={styles["legacy-link"]}
                       rel="bookmark"
                       title="permanent link"
                     >
@@ -1263,16 +1182,14 @@ export default function GermanyBlogRoot() {
                       >
                         12:57 PM
                       </abbr>
-                    </a>
+                    </div>
                   </span>
                   <span className="post-comment-link">
-                    <a className="comment-link" href="#">
-                      No comments:
-                    </a>
+                    <div className={styles["legacy-link"]}>No comments:</div>
                   </span>
                   <span className="post-icons">
                     <span className="item-control blog-admin pid-1014897193">
-                      <a href="#" title="Edit Post">
+                      <div className={styles["legacy-link"]} title="Edit Post">
                         <Image
                           alt=""
                           className="icon-action"
@@ -1280,63 +1197,39 @@ export default function GermanyBlogRoot() {
                           src="//web.archive.org/web/20150912090005im_/http://img2.blogblog.com/img/icon18_edit_allbkg.gif"
                           width="18"
                         />
-                      </a>
+                      </div>
                     </span>
                   </span>
                   <div className="post-share-buttons goog-inline-block">
-                    <a
-                      className="goog-inline-block share-button sb-email"
-                      href="#"
-                      target="_blank"
-                      title="Email This"
-                    >
+                    <div className={styles["legacy-link"]} title="Email This">
                       <span className="share-button-link-text">Email This</span>
-                    </a>
-                    <a
-                      className="goog-inline-block share-button sb-blog"
-                      href="#"
-                      target="_blank"
-                      title="BlogThis!"
-                    >
+                    </div>
+                    <div className={styles["legacy-link"]} title="BlogThis!">
                       <span className="share-button-link-text">BlogThis!</span>
-                    </a>
-                    <a
-                      className="goog-inline-block share-button sb-twitter"
-                      href="#"
-                      target="_blank"
+                    </div>
+                    <div
+                      className={styles["legacy-link"]}
                       title="Share to Twitter"
                     >
                       <span className="share-button-link-text">
                         Share to Twitter
                       </span>
-                    </a>
-                    <a
-                      className="goog-inline-block share-button sb-facebook"
-                      href="#"
-                      target="_blank"
+                    </div>
+                    <div
+                      className={styles["legacy-link"]}
                       title="Share to Facebook"
                     >
                       <span className="share-button-link-text">
                         Share to Facebook
                       </span>
-                    </a>
-                    <a
-                      className="goog-inline-block share-button sb-pinterest"
-                      href="#"
-                      target="_blank"
+                    </div>
+                    <div
+                      className={styles["legacy-link"]}
                       title="Share to Pinterest"
                     >
                       <span className="share-button-link-text">
                         Share to Pinterest
                       </span>
-                    </a>
-                    <div className="goog-inline-block dummy-container">
-                      <Link
-                        href="http://michael-goes-to-germany.blogspot.com/2011/05/fashion-in-berlin-ramblings-of-homesick.html"
-                        data-gapiscan="true"
-                        data-onload="true"
-                        data-gapistub="true"
-                      ></Link>
                     </div>
                   </div>
                 </div>
@@ -1370,9 +1263,11 @@ export default function GermanyBlogRoot() {
               />
               <meta content="5080106610184894814" itemProp="blogId" />
               <meta content="1132070132490502322" itemProp="postId" />
-              <a id="1132070132490502322"></a>
+              <div id="1132070132490502322"></div>
               <h3 className="post-title entry-title" itemProp="name">
-                <a href="#">uni, blues, heidelberg and picnic</a>
+                <div className={styles["legacy-link"]}>
+                  uni, blues, heidelberg and picnic
+                </div>
               </h3>
               <div className="post-header">
                 <div className="post-header-line-1"></div>
@@ -1389,14 +1284,14 @@ export default function GermanyBlogRoot() {
                 That means... picnic!
                 <br />
                 <div className="separator" style={{}}>
-                  <a href="#" style={{}}>
+                  <div className={styles["legacy-link"]} style={{}}>
                     <Image
                       alt=""
                       height="240"
                       src={Sunday_Picnic}
                       width="320"
                     />
-                  </a>
+                  </div>
                 </div>
                 So that's me on the Wöhrder Wiese near uni. Basically a really
                 huge green field full of people playing soccer (rudely right
@@ -1418,9 +1313,9 @@ export default function GermanyBlogRoot() {
                 Me and Edmund !!! met in Heidelberg, Germany:
                 <br />
                 <div className="separator" style={{}}>
-                  <a href="#" style={{}}>
+                  <div className={styles["legacy-link"]} style={{}}>
                     <Image alt="" height="240" src={DSCF4815} width="320" />
-                  </a>
+                  </div>
                 </div>
                 <br />
                 <div className="separator" style={{}}></div>
@@ -1439,9 +1334,9 @@ export default function GermanyBlogRoot() {
                 like Night-Owls:
                 <br />
                 <div className="separator" style={{}}>
-                  <a href="#" style={{}}>
+                  <div className={styles["legacy-link"]} style={{}}>
                     <Image alt="" height="240" src={DSCF4824} width="320" />
-                  </a>
+                  </div>
                 </div>
                 <br />
                 <br />
@@ -1452,9 +1347,9 @@ export default function GermanyBlogRoot() {
                 I went to a church...
                 <br />
                 <div className="separator" style={{}}>
-                  <a href="#" style={{}}>
+                  <div className={styles["legacy-link"]} style={{}}>
                     <Image alt="" height="240" src={DSCF4823} width="320" />
-                  </a>
+                  </div>
                 </div>
                 <br />
                 <br />
@@ -1464,17 +1359,17 @@ export default function GermanyBlogRoot() {
                 <br />
                 <div className="separator" style={{}}></div>
                 <div className="separator" style={{}}>
-                  <a href="#" style={{}}>
+                  <div className={styles["legacy-link"]} style={{}}>
                     <Image alt="" height="320" src={DSCF4827} width="240" />
-                  </a>
+                  </div>
                 </div>
                 but all was well, he only liked his boys young (don't they
                 all!). Freedom...
                 <br />
                 <div className="separator" style={{}}>
-                  <a href="#" style={{}}>
+                  <div className={styles["legacy-link"]} style={{}}>
                     <Image alt="" height="240" src={DSCF4829} width="320" />
-                  </a>
+                  </div>
                 </div>
                 <br />
                 <br />
@@ -1491,9 +1386,9 @@ export default function GermanyBlogRoot() {
                 ...
                 <br />
                 <div className="separator" style={{}}>
-                  <a href="#" style={{}}>
+                  <div className={styles["legacy-link"]} style={{}}>
                     <Image alt="" height="240" src={DSCF4830} width="320" />
-                  </a>
+                  </div>
                 </div>
                 <br />
                 My new music cds:
@@ -1545,9 +1440,8 @@ export default function GermanyBlogRoot() {
                         content="https://web.archive.org/web/20150912090005/https://www.blogger.com/profile/10626167252079488413"
                         itemProp="url"
                       />
-                      <a
-                        className="g-profile"
-                        href="#"
+                      <div
+                        className={styles["legacy-link"]}
                         rel="author"
                         title="author profile"
                         data-gapiscan="true"
@@ -1555,7 +1449,7 @@ export default function GermanyBlogRoot() {
                         data-gapiattached="true"
                       >
                         <span itemProp="name">Michael Lisitsa</span>
-                      </a>
+                      </div>
                     </span>
                   </span>
                   <span className="post-timestamp">
@@ -1564,9 +1458,8 @@ export default function GermanyBlogRoot() {
                       content="https://web.archive.org/web/20150912090005/http://michael-goes-to-germany.blogspot.com/2011/04/uni-blues-heidelberg-and-picnic.html"
                       itemProp="url"
                     />
-                    <a
-                      className="timestamp-link"
-                      href="#"
+                    <div
+                      className={styles["legacy-link"]}
                       rel="bookmark"
                       title="permanent link"
                     >
@@ -1577,16 +1470,14 @@ export default function GermanyBlogRoot() {
                       >
                         6:25 AM
                       </abbr>
-                    </a>
+                    </div>
                   </span>
                   <span className="post-comment-link">
-                    <a className="comment-link" href="#">
-                      No comments:
-                    </a>
+                    <div className={styles["legacy-link"]}>No comments:</div>
                   </span>
                   <span className="post-icons">
                     <span className="item-control blog-admin pid-1014897193">
-                      <a href="#" title="Edit Post">
+                      <div className={styles["legacy-link"]} title="Edit Post">
                         <Image
                           alt=""
                           className="icon-action"
@@ -1594,63 +1485,39 @@ export default function GermanyBlogRoot() {
                           src="//web.archive.org/web/20150912090005im_/http://img2.blogblog.com/img/icon18_edit_allbkg.gif"
                           width="18"
                         />
-                      </a>
+                      </div>
                     </span>
                   </span>
                   <div className="post-share-buttons goog-inline-block">
-                    <a
-                      className="goog-inline-block share-button sb-email"
-                      href="#"
-                      target="_blank"
-                      title="Email This"
-                    >
+                    <div className={styles["legacy-link"]} title="Email This">
                       <span className="share-button-link-text">Email This</span>
-                    </a>
-                    <a
-                      className="goog-inline-block share-button sb-blog"
-                      href="#"
-                      target="_blank"
-                      title="BlogThis!"
-                    >
+                    </div>
+                    <div className={styles["legacy-link"]} title="BlogThis!">
                       <span className="share-button-link-text">BlogThis!</span>
-                    </a>
-                    <a
-                      className="goog-inline-block share-button sb-twitter"
-                      href="#"
-                      target="_blank"
+                    </div>
+                    <div
+                      className={styles["legacy-link"]}
                       title="Share to Twitter"
                     >
                       <span className="share-button-link-text">
                         Share to Twitter
                       </span>
-                    </a>
-                    <a
-                      className="goog-inline-block share-button sb-facebook"
-                      href="#"
-                      target="_blank"
+                    </div>
+                    <div
+                      className={styles["legacy-link"]}
                       title="Share to Facebook"
                     >
                       <span className="share-button-link-text">
                         Share to Facebook
                       </span>
-                    </a>
-                    <a
-                      className="goog-inline-block share-button sb-pinterest"
-                      href="#"
-                      target="_blank"
+                    </div>
+                    <div
+                      className={styles["legacy-link"]}
                       title="Share to Pinterest"
                     >
                       <span className="share-button-link-text">
                         Share to Pinterest
                       </span>
-                    </a>
-                    <div className="goog-inline-block dummy-container">
-                      <Link
-                        href="http://michael-goes-to-germany.blogspot.com/2011/04/uni-blues-heidelberg-and-picnic.html"
-                        data-gapiscan="true"
-                        data-onload="true"
-                        data-gapistub="true"
-                      ></Link>
                     </div>
                   </div>
                 </div>
@@ -1684,9 +1551,9 @@ export default function GermanyBlogRoot() {
               />
               <meta content="5080106610184894814" itemProp="blogId" />
               <meta content="6988702251404724673" itemProp="postId" />
-              <a id="6988702251404724673"></a>
+              <div id="6988702251404724673"></div>
               <h3 className="post-title entry-title" itemProp="name">
-                <a href="#">Good Vibrations</a>
+                <div className={styles["legacy-link"]}>Good Vibrations</div>
               </h3>
               <div className="post-header">
                 <div className="post-header-line-1"></div>
@@ -1704,21 +1571,21 @@ export default function GermanyBlogRoot() {
                 <br />
                 Like... the BMW exhibition <br />
                 <div className="separator" style={{}}>
-                  <a href="#" style={{}}>
+                  <div className={styles["legacy-link"]} style={{}}>
                     <Image alt="" height="240" src={DSCF4770} width="320" />
-                  </a>
+                  </div>
                 </div>
                 or go to a bar...
                 <br />
                 <div className="separator" style={{}}>
-                  <a href="#" style={{}}>
+                  <div className={styles["legacy-link"]} style={{}}>
                     <Image alt="" height="240" src={DSCF4780} width="320" />
-                  </a>
+                  </div>
                 </div>
                 <div className="separator" style={{}}>
-                  <a href="#" style={{}}>
+                  <div className={styles["legacy-link"]} style={{}}>
                     <Image alt="" height="240" src={Zwinger_Bar} width="320" />
-                  </a>
+                  </div>
                 </div>
                 <br />
                 FYI the bar is a little cool place nestled in the city wall
@@ -1739,14 +1606,14 @@ export default function GermanyBlogRoot() {
                 What else... Munich
                 <br />
                 <div className="separator" style={{}}>
-                  <a href="#" style={{}}>
+                  <div className={styles["legacy-link"]} style={{}}>
                     <Image
                       alt=""
                       height="240"
                       src={Ich_und_Dries_Olympisches_Stadion}
                       width="320"
                     />
-                  </a>
+                  </div>
                 </div>
                 <br />
                 <br />
@@ -1769,25 +1636,25 @@ export default function GermanyBlogRoot() {
                 bike path:
                 <br />
                 <div className="separator" style={{}}>
-                  <a href="#" style={{}}>
+                  <div className={styles["legacy-link"]} style={{}}>
                     <Image
                       alt=""
                       height="240"
                       src={Radweg_Pegnitz}
                       width="320"
                     />
-                  </a>
+                  </div>
                 </div>
                 <br />
                 <div className="separator" style={{}}>
-                  <a href="#" style={{}}>
+                  <div className={styles["legacy-link"]} style={{}}>
                     <Image
                       alt=""
                       height="240"
                       src={Bridge_sheep_Pegnitz_River}
                       width="320"
                     />
-                  </a>
+                  </div>
                 </div>
                 Ok, well good wishes for everyone in australia.
                 <div style={{}}></div>
@@ -1805,9 +1672,8 @@ export default function GermanyBlogRoot() {
                         content="https://web.archive.org/web/20150912090005/https://www.blogger.com/profile/10626167252079488413"
                         itemProp="url"
                       />
-                      <a
-                        className="g-profile"
-                        href="#"
+                      <div
+                        className={styles["legacy-link"]}
                         rel="author"
                         title="author profile"
                         data-gapiscan="true"
@@ -1815,7 +1681,7 @@ export default function GermanyBlogRoot() {
                         data-gapiattached="true"
                       >
                         <span itemProp="name">Michael Lisitsa</span>
-                      </a>
+                      </div>
                     </span>
                   </span>
                   <span className="post-timestamp">
@@ -1824,9 +1690,8 @@ export default function GermanyBlogRoot() {
                       content="https://web.archive.org/web/20150912090005/http://michael-goes-to-germany.blogspot.com/2011/03/good-vibrations.html"
                       itemProp="url"
                     />
-                    <a
-                      className="timestamp-link"
-                      href="#"
+                    <div
+                      className={styles["legacy-link"]}
                       rel="bookmark"
                       title="permanent link"
                     >
@@ -1837,16 +1702,14 @@ export default function GermanyBlogRoot() {
                       >
                         4:24 AM
                       </abbr>
-                    </a>
+                    </div>
                   </span>
                   <span className="post-comment-link">
-                    <a className="comment-link" href="#">
-                      No comments:
-                    </a>
+                    <div className={styles["legacy-link"]}>No comments:</div>
                   </span>
                   <span className="post-icons">
                     <span className="item-control blog-admin pid-1014897193">
-                      <a href="#" title="Edit Post">
+                      <div className={styles["legacy-link"]} title="Edit Post">
                         <Image
                           alt=""
                           className="icon-action"
@@ -1854,63 +1717,39 @@ export default function GermanyBlogRoot() {
                           src="//web.archive.org/web/20150912090005im_/http://img2.blogblog.com/img/icon18_edit_allbkg.gif"
                           width="18"
                         />
-                      </a>
+                      </div>
                     </span>
                   </span>
                   <div className="post-share-buttons goog-inline-block">
-                    <a
-                      className="goog-inline-block share-button sb-email"
-                      href="#"
-                      target="_blank"
-                      title="Email This"
-                    >
+                    <div className={styles["legacy-link"]} title="Email This">
                       <span className="share-button-link-text">Email This</span>
-                    </a>
-                    <a
-                      className="goog-inline-block share-button sb-blog"
-                      href="#"
-                      target="_blank"
-                      title="BlogThis!"
-                    >
+                    </div>
+                    <div className={styles["legacy-link"]} title="BlogThis!">
                       <span className="share-button-link-text">BlogThis!</span>
-                    </a>
-                    <a
-                      className="goog-inline-block share-button sb-twitter"
-                      href="#"
-                      target="_blank"
+                    </div>
+                    <div
+                      className={styles["legacy-link"]}
                       title="Share to Twitter"
                     >
                       <span className="share-button-link-text">
                         Share to Twitter
                       </span>
-                    </a>
-                    <a
-                      className="goog-inline-block share-button sb-facebook"
-                      href="#"
-                      target="_blank"
+                    </div>
+                    <div
+                      className={styles["legacy-link"]}
                       title="Share to Facebook"
                     >
                       <span className="share-button-link-text">
                         Share to Facebook
                       </span>
-                    </a>
-                    <a
-                      className="goog-inline-block share-button sb-pinterest"
-                      href="#"
-                      target="_blank"
+                    </div>
+                    <div
+                      className={styles["legacy-link"]}
                       title="Share to Pinterest"
                     >
                       <span className="share-button-link-text">
                         Share to Pinterest
                       </span>
-                    </a>
-                    <div className="goog-inline-block dummy-container">
-                      <Link
-                        href="http://michael-goes-to-germany.blogspot.com/2011/03/good-vibrations.html"
-                        data-gapiscan="true"
-                        data-onload="true"
-                        data-gapistub="true"
-                      ></Link>
                     </div>
                   </div>
                 </div>
@@ -1944,9 +1783,11 @@ export default function GermanyBlogRoot() {
               />
               <meta content="5080106610184894814" itemProp="blogId" />
               <meta content="1295821072245321432" itemProp="postId" />
-              <a id="1295821072245321432"></a>
+              <div id="1295821072245321432"></div>
               <h3 className="post-title entry-title" itemProp="name">
-                <a href="#">First week in Germany</a>
+                <div className={styles["legacy-link"]}>
+                  First week in Germany
+                </div>
               </h3>
               <div className="post-header">
                 <div className="post-header-line-1"></div>
@@ -1967,9 +1808,9 @@ export default function GermanyBlogRoot() {
                 <br />
                 <br />
                 <div className="separator" style={{}}>
-                  <a href="#" style={{}}>
+                  <div className={styles["legacy-link"]} style={{}}>
                     <Image alt="" height="400" src={DSCF4761} width="298" />
-                  </a>
+                  </div>
                 </div>
                 <br />
                 <br />
@@ -1991,9 +1832,9 @@ export default function GermanyBlogRoot() {
                 heaps of people hanging out in parks and on the streets:
                 <br />
                 <div className="separator" style={{}}>
-                  <a href="#" style={{}}>
+                  <div className={styles["legacy-link"]} style={{}}>
                     <Image alt="" height="300" src={DSCF4758} width="400" />
-                  </a>
+                  </div>
                 </div>
                 <br />
                 <br />
@@ -2014,9 +1855,9 @@ export default function GermanyBlogRoot() {
                   <br />
                 </div>
                 <div className="separator" style={{}}>
-                  <a href="#" style={{}}>
+                  <div className={styles["legacy-link"]} style={{}}>
                     <Image alt="" height="240" src={Tiergarten} width="320" />
-                  </a>
+                  </div>
                 </div>
                 <div className="separator" style={{}}>
                   <br />
@@ -2034,9 +1875,9 @@ export default function GermanyBlogRoot() {
                 home and feel free to ask any q's per facebook or otherwise{" "}
                 <br />
                 <div className="separator" style={{}}>
-                  <a href="#" style={{}}>
+                  <div className={styles["legacy-link"]} style={{}}>
                     <Image alt="" height="300" src={DSCF4762} width="400" />
-                  </a>
+                  </div>
                 </div>
                 Auf Wiedersehen!
                 <div style={{}}></div>
@@ -2054,9 +1895,8 @@ export default function GermanyBlogRoot() {
                         content="https://web.archive.org/web/20150912090005/https://www.blogger.com/profile/10626167252079488413"
                         itemProp="url"
                       />
-                      <a
-                        className="g-profile"
-                        href="#"
+                      <div
+                        className={styles["legacy-link"]}
                         rel="author"
                         title="author profile"
                         data-gapiscan="true"
@@ -2064,7 +1904,7 @@ export default function GermanyBlogRoot() {
                         data-gapiattached="true"
                       >
                         <span itemProp="name">Michael Lisitsa</span>
-                      </a>
+                      </div>
                     </span>
                   </span>
                   <span className="post-timestamp">
@@ -2073,9 +1913,8 @@ export default function GermanyBlogRoot() {
                       content="https://web.archive.org/web/20150912090005/http://michael-goes-to-germany.blogspot.com/2011/03/first-week-in-germany.html"
                       itemProp="url"
                     />
-                    <a
-                      className="timestamp-link"
-                      href="#"
+                    <div
+                      className={styles["legacy-link"]}
                       rel="bookmark"
                       title="permanent link"
                     >
@@ -2086,16 +1925,14 @@ export default function GermanyBlogRoot() {
                       >
                         3:40 AM
                       </abbr>
-                    </a>
+                    </div>
                   </span>
                   <span className="post-comment-link">
-                    <a className="comment-link" href="#">
-                      No comments:
-                    </a>
+                    <div className={styles["legacy-link"]}>No comments:</div>
                   </span>
                   <span className="post-icons">
                     <span className="item-control blog-admin pid-1014897193">
-                      <a href="#" title="Edit Post">
+                      <div className={styles["legacy-link"]} title="Edit Post">
                         <Image
                           alt=""
                           className="icon-action"
@@ -2103,63 +1940,39 @@ export default function GermanyBlogRoot() {
                           src="//web.archive.org/web/20150912090005im_/http://img2.blogblog.com/img/icon18_edit_allbkg.gif"
                           width="18"
                         />
-                      </a>
+                      </div>
                     </span>
                   </span>
                   <div className="post-share-buttons goog-inline-block">
-                    <a
-                      className="goog-inline-block share-button sb-email"
-                      href="#"
-                      target="_blank"
-                      title="Email This"
-                    >
+                    <div className={styles["legacy-link"]} title="Email This">
                       <span className="share-button-link-text">Email This</span>
-                    </a>
-                    <a
-                      className="goog-inline-block share-button sb-blog"
-                      href="#"
-                      target="_blank"
-                      title="BlogThis!"
-                    >
+                    </div>
+                    <div className={styles["legacy-link"]} title="BlogThis!">
                       <span className="share-button-link-text">BlogThis!</span>
-                    </a>
-                    <a
-                      className="goog-inline-block share-button sb-twitter"
-                      href="#"
-                      target="_blank"
+                    </div>
+                    <div
+                      className={styles["legacy-link"]}
                       title="Share to Twitter"
                     >
                       <span className="share-button-link-text">
                         Share to Twitter
                       </span>
-                    </a>
-                    <a
-                      className="goog-inline-block share-button sb-facebook"
-                      href="#"
-                      target="_blank"
+                    </div>
+                    <div
+                      className={styles["legacy-link"]}
                       title="Share to Facebook"
                     >
                       <span className="share-button-link-text">
                         Share to Facebook
                       </span>
-                    </a>
-                    <a
-                      className="goog-inline-block share-button sb-pinterest"
-                      href="#"
-                      target="_blank"
+                    </div>
+                    <div
+                      className={styles["legacy-link"]}
                       title="Share to Pinterest"
                     >
                       <span className="share-button-link-text">
                         Share to Pinterest
                       </span>
-                    </a>
-                    <div className="goog-inline-block dummy-container">
-                      <Link
-                        href="http://michael-goes-to-germany.blogspot.com/2011/03/first-week-in-germany.html"
-                        data-gapiscan="true"
-                        data-onload="true"
-                        data-gapistub="true"
-                      ></Link>
                     </div>
                   </div>
                 </div>
