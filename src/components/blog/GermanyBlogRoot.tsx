@@ -58,7 +58,7 @@ export default function GermanyBlogRoot() {
                     <img
                       border="0"
                       height="240"
-                      src="https://web.archive.org/web/20150912090005im_/http://4.bp.blogspot.com/-s-bqS-1FZ60/Tivs6fd6zHI/AAAAAAAAD1M/3Sj7U9_eN1E/s320/DSCF4991.JPG"
+                      src="DSCF4991.JPG"
                       width="320"
                     />
                   </a>
@@ -70,7 +70,7 @@ export default function GermanyBlogRoot() {
                     <img
                       border="0"
                       height="320"
-                      src="https://web.archive.org/web/20150912090005im_/http://2.bp.blogspot.com/-q0tCOywLFdE/TivtLIYS1DI/AAAAAAAAD1U/o_1N72Lu_o4/s320/DSCF4993.JPG"
+                      src="DSCF4993.JPG"
                       width="240"
                     />
                   </a>
@@ -82,7 +82,7 @@ export default function GermanyBlogRoot() {
                     <img
                       border="0"
                       height="240"
-                      src="https://web.archive.org/web/20150912090005im_/http://2.bp.blogspot.com/-VZg3p3RG_Yw/TivtMe6oZoI/AAAAAAAAD1Y/tNJLZ9damhg/s320/DSCF5001.JPG"
+                      src="DSCF5001.JPG"
                       width="320"
                     />
                   </a>
@@ -112,7 +112,7 @@ export default function GermanyBlogRoot() {
                     <img
                       border="0"
                       height="240"
-                      src="https://web.archive.org/web/20150912090005im_/http://2.bp.blogspot.com/-TwK-okci_n8/TivvWc83A-I/AAAAAAAAD1c/Uj-SBzAjWDE/s320/DSCF5017.JPG"
+                      src="DSCF5017.JPG"
                       width="320"
                     />
                   </a>
@@ -130,12 +130,7 @@ export default function GermanyBlogRoot() {
                   imageanchor="1"
                   style={{}}
                 >
-                  <img
-                    border="0"
-                    height="240"
-                    src="https://web.archive.org/web/20150912090005im_/http://2.bp.blogspot.com/-oJY6BuXnjmk/TivxUJigC3I/AAAAAAAAD1k/KZTha3cOfXI/s320/DSCF5047.JPG"
-                    width="320"
-                  />
+                  <img border="0" height="240" src="DSCF5047.JPG" width="320" />
                 </a>
                 <a
                   href="https://web.archive.org/web/20150912090005/http://1.bp.blogspot.com/-SfVvJZAcAF0/TivwPRHA5wI/AAAAAAAAD1g/jRTtDwOO3PY/s1600/DSCF5031.JPG"
@@ -171,7 +166,7 @@ export default function GermanyBlogRoot() {
                     <img
                       border="0"
                       height="480"
-                      src="https://web.archive.org/web/20150912090005im_/http://1.bp.blogspot.com/-uVsOXvW7PAw/TivyfGkrLFI/AAAAAAAAD1o/k5r9Kyt5FIw/s640/DSCF5052.JPG"
+                      src="DSCF5052.JPG"
                       width="640"
                     />
                   </a>
@@ -519,12 +514,7 @@ export default function GermanyBlogRoot() {
                   imageanchor="1"
                   style={{}}
                 >
-                  <img
-                    border="0"
-                    height="131"
-                    src="https://web.archive.org/web/20150912090005im_/http://1.bp.blogspot.com/-Jn4al5pxfcY/Tg8bIdbXgHI/AAAAAAAADyU/7OBcnTxse1I/s200/DSC04426.JPG"
-                    width="200"
-                  />
+                  <img border="0" height="131" src="DSC04426.JPG" width="200" />
                 </a>
                 Well first the group of exchange students went to visit some
                 castles in southern bavaria. The most famous, and supposedly an
@@ -547,7 +537,7 @@ export default function GermanyBlogRoot() {
                     <img
                       border="0"
                       height="240"
-                      src="https://web.archive.org/web/20150912090005im_/http://1.bp.blogspot.com/-CQq_D8vGcL4/Tg8bGaWu8II/AAAAAAAADyQ/8crql-oADvw/s320/2011_06_18-19+Fahrt+S%25C3%25BCdbayern_130.JPG"
+                      src="2011_06_18-19+Fahrt+S%25C3%25BCdbayern_130.JPG"
                       width="320"
                     />
                   </a>
@@ -559,12 +549,7 @@ export default function GermanyBlogRoot() {
                   imageanchor="1"
                   style={{}}
                 >
-                  <img
-                    border="0"
-                    height="132"
-                    src="https://web.archive.org/web/20150912090005im_/http://2.bp.blogspot.com/-eZcUkWc1Ug4/Tg8bj-QilvI/AAAAAAAADyY/ewDoZ_UbsVg/s200/DSC04332.JPG"
-                    width="200"
-                  />
+                  <img border="0" height="132" src="DSC04332.JPG" width="200" />
                 </a>
                 That weekend we also went to a typical bavarian restaurants,
                 they love their beer so much they even made a beer liquor served
@@ -597,7 +582,7 @@ export default function GermanyBlogRoot() {
                     <img
                       border="0"
                       height="240"
-                      src="https://web.archive.org/web/20150912090005im_/http://3.bp.blogspot.com/-xzG6TAOeHMI/Tg8dJRdVqDI/AAAAAAAADyc/FcSR-2FjzWc/s320/DSCF4957.JPG"
+                      src="DSCF4957.JPG"
                       width="320"
                     />
                   </a>
@@ -617,7 +602,7 @@ export default function GermanyBlogRoot() {
                     <img
                       border="0"
                       height="240"
-                      src="https://web.archive.org/web/20150912090005im_/http://1.bp.blogspot.com/-CniX4oXA9Fw/Tg8fuTtBv5I/AAAAAAAADyg/PuvPnpdhgLc/s320/DSCF4958.JPG"
+                      src="DSCF4958.JPG"
                       width="320"
                     />
                   </a>
@@ -647,7 +632,7 @@ export default function GermanyBlogRoot() {
                     <img
                       border="0"
                       height="320"
-                      src="https://web.archive.org/web/20150912090005im_/http://3.bp.blogspot.com/-DAyubHO41rY/Tg8hEDddn4I/AAAAAAAADyk/6cJzSKkj9e4/s320/Ian_Thorpe.jpg"
+                      src="Ian_Thorpe.jpg"
                       width="220"
                     />
                   </a>
@@ -910,7 +895,7 @@ export default function GermanyBlogRoot() {
                           <img
                             border="0"
                             height="200"
-                            src="https://web.archive.org/web/20150912090005im_/http://4.bp.blogspot.com/-050v2hi7uAM/TfljiJSn-JI/AAAAAAAADr0/rgmsbHX1-uA/s200/latte-macchiato.jpg"
+                            src="latte-macchiato.jpg"
                             width="181"
                           />
                         </a>
@@ -928,12 +913,7 @@ export default function GermanyBlogRoot() {
                   imageanchor="1"
                   style={{}}
                 >
-                  <img
-                    border="0"
-                    height="240"
-                    src="https://web.archive.org/web/20150912090005im_/http://2.bp.blogspot.com/-K2xPAId7Xug/Te0uyhO9JuI/AAAAAAAADro/cAvKZLeQOIM/s320/DSCF4951.JPG"
-                    width="320"
-                  />
+                  <img border="0" height="240" src="DSCF4951.JPG" width="320" />
                 </a>
                 <br />
                 <br />
@@ -960,7 +940,7 @@ export default function GermanyBlogRoot() {
                     <img
                       border="0"
                       height="320"
-                      src="https://web.archive.org/web/20150912090005im_/http://3.bp.blogspot.com/-ph_5gKmKLFw/Te0unuXD7yI/AAAAAAAADrk/J9BzPQ44ERo/s320/CIMG7393.JPG"
+                      src="CIMG7393.JPG"
                       width="240"
                     />
                   </a>
@@ -972,7 +952,7 @@ export default function GermanyBlogRoot() {
                     <img
                       border="0"
                       height="240"
-                      src="https://web.archive.org/web/20150912090005im_/http://2.bp.blogspot.com/-JhKh9-Vjeyw/Te0ujF50JtI/AAAAAAAADrg/d6m0-pONwhM/s320/CIMG7377.JPG"
+                      src="CIMG7377.JPG"
                       width="320"
                     />
                   </a>
@@ -1017,7 +997,7 @@ export default function GermanyBlogRoot() {
                           <img
                             border="0"
                             height="213"
-                            src="https://web.archive.org/web/20150912090005im_/http://2.bp.blogspot.com/-FXRE93mmAvY/Te0u_WPFo7I/AAAAAAAADrw/3QRwJJxFf34/s320/greenpeace.jpg"
+                            src="greenpeace.jpg"
                             width="320"
                           />
                         </a>
@@ -1058,7 +1038,7 @@ export default function GermanyBlogRoot() {
                     <img
                       border="0"
                       height="240"
-                      src="https://web.archive.org/web/20150912090005im_/http://2.bp.blogspot.com/--sL_Jl0SqMA/Te0u-PQ2VuI/AAAAAAAADrs/5yEZgpx2BW4/s320/DSCF4953.JPG"
+                      src="DSCF4953.JPG"
                       width="320"
                     />
                   </a>
@@ -1312,7 +1292,7 @@ export default function GermanyBlogRoot() {
                     <img
                       border="0"
                       height="320"
-                      src="https://web.archive.org/web/20150912090005im_/http://2.bp.blogspot.com/-hVs8Lk9cng4/TdAjB3bRKPI/AAAAAAAADmQ/zBoXyKl-XYU/s320/DSCF4862.JPG"
+                      src="DSCF4862.JPG"
                       width="158"
                     />
                   </a>
@@ -1324,7 +1304,7 @@ export default function GermanyBlogRoot() {
                     <img
                       border="0"
                       height="320"
-                      src="https://web.archive.org/web/20150912090005im_/http://4.bp.blogspot.com/-zmlyLNzdMfA/TdAjQBUOj1I/AAAAAAAADmY/-VLyAK07r_c/s320/DSCF4880.JPG"
+                      src="DSCF4880.JPG"
                       width="133"
                     />
                   </a>
@@ -1336,7 +1316,7 @@ export default function GermanyBlogRoot() {
                     <img
                       border="0"
                       height="320"
-                      src="https://web.archive.org/web/20150912090005im_/http://2.bp.blogspot.com/-5A4EMUVoAKc/TdAjJXWyMZI/AAAAAAAADmU/4vJU-uGAeI4/s320/DSCF4869.JPG"
+                      src="DSCF4869.JPG"
                       width="222"
                     />
                   </a>
@@ -1379,7 +1359,7 @@ export default function GermanyBlogRoot() {
                     <img
                       border="0"
                       height="240"
-                      src="https://web.archive.org/web/20150912090005im_/http://4.bp.blogspot.com/-PXWWYClHytc/TdAqrwOStlI/AAAAAAAADmg/pfYaQ4M5h-g/s320/DSCF4940.JPG"
+                      src="DSCF4940.JPG"
                       width="320"
                     />
                     &nbsp;
@@ -1415,7 +1395,7 @@ export default function GermanyBlogRoot() {
                     <img
                       border="0"
                       height="300"
-                      src="https://web.archive.org/web/20150912090005im_/http://3.bp.blogspot.com/-EeHYmWDrWKg/TdAtP3MBHyI/AAAAAAAADmk/PHqRdPHaKKI/s400/DSCF4950.JPG"
+                      src="DSCF4950.JPG"
                       width="400"
                     />
                   </a>
@@ -1439,7 +1419,7 @@ export default function GermanyBlogRoot() {
                             <img
                               border="0"
                               height="200"
-                              src="https://web.archive.org/web/20150912090005im_/http://1.bp.blogspot.com/-qzGOamaosT4/TdAtUI1H3mI/AAAAAAAADmo/uTFzDDaG6GI/s200/309395039_87f9f9212a.jpg"
+                              src="309395039_87f9f9212a.jpg"
                               width="150"
                             />
                           </a>
@@ -1697,7 +1677,7 @@ export default function GermanyBlogRoot() {
                     <img
                       border="0"
                       height="240"
-                      src="https://web.archive.org/web/20150912090005im_/http://1.bp.blogspot.com/-Q6iiOnhzRo4/TarhgxAlMKI/AAAAAAAADfI/lzWu-Feyn_A/s320/Sunday+Picnic.JPG"
+                      src="Sunday+Picnic.JPG"
                       width="320"
                     />
                   </a>
@@ -1730,7 +1710,7 @@ export default function GermanyBlogRoot() {
                     <img
                       border="0"
                       height="240"
-                      src="https://web.archive.org/web/20150912090005im_/http://2.bp.blogspot.com/-mFYy7vV4zrs/TarjhZoumgI/AAAAAAAADfM/yaYz2m8K59g/s320/DSCF4815.JPG"
+                      src="DSCF4815.JPG"
                       width="320"
                     />
                   </a>
@@ -1760,7 +1740,7 @@ export default function GermanyBlogRoot() {
                     <img
                       border="0"
                       height="240"
-                      src="https://web.archive.org/web/20150912090005im_/http://2.bp.blogspot.com/-Byeh99bFJGI/TarlLqhpnWI/AAAAAAAADfU/cq0yP-OwxZQ/s320/DSCF4824.JPG"
+                      src="DSCF4824.JPG"
                       width="320"
                     />
                   </a>
@@ -1782,7 +1762,7 @@ export default function GermanyBlogRoot() {
                     <img
                       border="0"
                       height="240"
-                      src="https://web.archive.org/web/20150912090005im_/http://4.bp.blogspot.com/-8SDUY30drhE/TarltaYyKbI/AAAAAAAADfY/eHQyD9mHK58/s320/DSCF4823.JPG"
+                      src="DSCF4823.JPG"
                       width="320"
                     />
                   </a>
@@ -1803,7 +1783,7 @@ export default function GermanyBlogRoot() {
                     <img
                       border="0"
                       height="320"
-                      src="https://web.archive.org/web/20150912090005im_/http://3.bp.blogspot.com/-519VBA-yciw/TarmGQxiQvI/AAAAAAAADfc/ZaDG72oKPsk/s320/DSCF4827.JPG"
+                      src="DSCF4827.JPG"
                       width="240"
                     />
                   </a>
@@ -1820,7 +1800,7 @@ export default function GermanyBlogRoot() {
                     <img
                       border="0"
                       height="240"
-                      src="https://web.archive.org/web/20150912090005im_/http://3.bp.blogspot.com/-MuuXnHn019g/TarmkEvrbxI/AAAAAAAADfg/aZ2x97U7PXA/s320/DSCF4829.JPG"
+                      src="DSCF4829.JPG"
                       width="320"
                     />
                   </a>
@@ -1848,7 +1828,7 @@ export default function GermanyBlogRoot() {
                     <img
                       border="0"
                       height="240"
-                      src="https://web.archive.org/web/20150912090005im_/http://4.bp.blogspot.com/-56d_SjNoqI0/TaroPHNGzRI/AAAAAAAADfk/RfF2Z5htA0o/s320/DSCF4830.JPG"
+                      src="DSCF4830.JPG"
                       width="320"
                     />
                   </a>
@@ -2106,7 +2086,7 @@ export default function GermanyBlogRoot() {
                     <img
                       border="0"
                       height="240"
-                      src="https://web.archive.org/web/20150912090005im_/https://lh6.googleusercontent.com/-tMR5WG4UEng/TYXdqB_8PGI/AAAAAAAADeY/qYXRJxGxoLg/s320/DSCF4770.JPG"
+                      src="DSCF4770.JPG"
                       width="320"
                     />
                   </a>
@@ -2122,7 +2102,7 @@ export default function GermanyBlogRoot() {
                     <img
                       border="0"
                       height="240"
-                      src="https://web.archive.org/web/20150912090005im_/https://lh6.googleusercontent.com/-2X2TvA8R8BA/TYXeaJCo6kI/AAAAAAAADeg/EIsvbhBoSeI/s320/DSCF4780.JPG"
+                      src="DSCF4780.JPG"
                       width="320"
                     />
                   </a>
@@ -2136,7 +2116,7 @@ export default function GermanyBlogRoot() {
                     <img
                       border="0"
                       height="240"
-                      src="https://web.archive.org/web/20150912090005im_/https://lh4.googleusercontent.com/-byMN2kvHlVE/TYXeTJE6KRI/AAAAAAAADec/LazWFigCsDc/s320/Zwinger+Bar.JPG"
+                      src="Zwinger+Bar.JPG"
                       width="320"
                     />
                   </a>
@@ -2168,7 +2148,7 @@ export default function GermanyBlogRoot() {
                     <img
                       border="0"
                       height="240"
-                      src="https://web.archive.org/web/20150912090005im_/https://lh6.googleusercontent.com/-5W2HIjuBYBw/TYXhKQdfTwI/AAAAAAAADek/C43fBgVAC9c/s320/Ich+und+Dries+Olympisches+Stadion.jpg"
+                      src="Ich+und+Dries+Olympisches+Stadion.jpg"
                       width="320"
                     />
                   </a>
@@ -2202,7 +2182,7 @@ export default function GermanyBlogRoot() {
                     <img
                       border="0"
                       height="240"
-                      src="https://web.archive.org/web/20150912090005im_/https://lh4.googleusercontent.com/-sVn8LVNJAgs/TYXjPm44QOI/AAAAAAAADeo/SCWZ0eWuTS0/s320/Radweg+Pegnitz.JPG"
+                      src="Radweg+Pegnitz.JPG"
                       width="320"
                     />
                   </a>
@@ -2217,7 +2197,7 @@ export default function GermanyBlogRoot() {
                     <img
                       border="0"
                       height="240"
-                      src="https://web.archive.org/web/20150912090005im_/https://lh5.googleusercontent.com/-0_P7NF4ZnmI/TYXjdl8xbEI/AAAAAAAADes/I2c8btoJgEQ/s320/Bridge+sheep+Pegnitz+River.JPG"
+                      src="Bridge+sheep+Pegnitz+River.JPG"
                       width="320"
                     />
                   </a>
@@ -2444,7 +2424,7 @@ export default function GermanyBlogRoot() {
                     <img
                       border="0"
                       height="400"
-                      src="https://web.archive.org/web/20150912090005im_/https://lh4.googleusercontent.com/-opKNGt-NVUQ/TXYRBEyxw4I/AAAAAAAADeI/MhuVNUahj3s/s400/DSCF4761.JPG"
+                      src="DSCF4761.JPG"
                       width="298"
                     />
                   </a>
@@ -2477,7 +2457,7 @@ export default function GermanyBlogRoot() {
                     <img
                       border="0"
                       height="300"
-                      src="https://web.archive.org/web/20150912090005im_/https://lh4.googleusercontent.com/-_vQrOo2RRfw/TXYS5PLhKzI/AAAAAAAADeM/t9fkOEW8iJ0/s400/DSCF4758.JPG"
+                      src="DSCF4758.JPG"
                       width="400"
                     />
                   </a>
@@ -2509,7 +2489,7 @@ export default function GermanyBlogRoot() {
                     <img
                       border="0"
                       height="240"
-                      src="https://web.archive.org/web/20150912090005im_/http://2.bp.blogspot.com/-aAmL2Tgb8DM/TdUIek7kzFI/AAAAAAAADms/w0MKk4_8Vyc/s320/Tiergarten.JPG"
+                      src="Tiergarten.JPG"
                       width="320"
                     />
                   </a>
@@ -2538,7 +2518,7 @@ export default function GermanyBlogRoot() {
                     <img
                       border="0"
                       height="300"
-                      src="https://web.archive.org/web/20150912090005im_/https://lh6.googleusercontent.com/-vkNv_ieJvMM/TXYUzS-yqOI/AAAAAAAADeU/TJD-WQUHN30/s400/DSCF4762.JPG"
+                      src="DSCF4762.JPG"
                       width="400"
                     />
                   </a>
