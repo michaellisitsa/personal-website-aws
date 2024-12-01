@@ -160,7 +160,7 @@ export default function GermanyBlogRoot() {
                 <br />
                 <div className="separator" style={{}}>
                   <div className={styles["legacy-link"]} style={{}}>
-                    <Image alt="" height="480" src={DSCF5052} width="640" />
+                    <Image alt="" height="240" src={DSCF5052} width="320" />
                   </div>
                 </div>
                 <br />
