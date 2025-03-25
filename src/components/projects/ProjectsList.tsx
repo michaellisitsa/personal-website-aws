@@ -6,6 +6,7 @@ import serverlessPrintScreenshot from "@/assets/serverless-print-screenshot.png"
 import personalWebsiteScreenshot from "@/assets/personal-website-screenshot.png";
 import algoChallengesScreenshot from "@/assets/algo-challenges-screenshot.png";
 import expenseTrackerScreenshot from "@/assets/expense-tracker-screenshot.jpg";
+import flydarScreenshot from "@/assets/flydar-screenshot.png";
 
 export default function ProjectsList() {
   return (
@@ -27,18 +28,25 @@ export default function ProjectsList() {
         heroImage={customDiagramScreenshot}
       />
       <ProjectItem
-        title="Serverless Print"
+        title="Serverless & React Motivational Poster Generator"
         description="A serverless print job submission system using AWS API Gateway web sockets, Lambda, S3, and DynamoDB"
         primaryLink="/projects/print"
         githubLink="https://github.com/michaellisitsa/serverless-print-job"
         heroImage={serverlessPrintScreenshot}
       />
       <ProjectItem
-        title="Personal Website"
-        description="The website you're on now, hosted on AWS S3 and Cloudfront bootstrapped using Cloudfront Hosting Toolkit"
-        githubLink="https://github.com/michaellisitsa/personal-website-aws"
-        primaryLink="/"
-        heroImage={personalWebsiteScreenshot}
+        title="GovHack 2022: Django and React Fruit Fly Outbreak Tracker"
+        description="A hackathon group event with 3 other members to ideate and develop a full working backend and frontend app to track the outbreak of fruit flys in South Australian farms"
+        githubLink="https://github.com/michaellisitsa/flydar"
+        primaryLink="https://github.com/michaellisitsa/flydar"
+        heroImage={flydarScreenshot}
+      />
+      <ProjectItem
+        title="Django and React Expense Tracker"
+        description="A full Django backend and React Frontend web app to manage personal expenses"
+        githubLink="https://github.com/michaellisitsa/expense_tracker"
+        primaryLink="https://github.com/michaellisitsa/expense_tracker"
+        heroImage={expenseTrackerScreenshot}
       />
       <ProjectItem
         title="Algorithm Challenges"
@@ -48,11 +56,11 @@ export default function ProjectsList() {
         heroImage={algoChallengesScreenshot}
       />
       <ProjectItem
-        title="Django and React Expense Tracker"
-        description="A full Django backend and React Frontend web app to manage personal expenses"
-        githubLink="https://github.com/michaellisitsa/expense_tracker"
-        primaryLink="https://github.com/michaellisitsa/expense_tracker"
-        heroImage={expenseTrackerScreenshot}
+        title="Personal Website"
+        description="The website you're on now, using NextJS App Route and React, hosted on AWS S3 and Cloudfront bootstrapped using Cloudfront Hosting Toolkit"
+        githubLink="https://github.com/michaellisitsa/personal-website-aws"
+        primaryLink="/"
+        heroImage={personalWebsiteScreenshot}
       />
     </div>
   );
